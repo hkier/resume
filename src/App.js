@@ -7,6 +7,7 @@ import  Box  from '@mui/material/Box';
 import NavCol from './components/NavCol';
 import About from './components/About';
 import Intro from './components/Intro';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Education from './components/Education';
@@ -27,6 +28,7 @@ function App() {
         <Grid xs='90%' sm='80%'>
           <Intro />
           <About />
+          <Experience />
           <Projects />
           <Skills />
           <Education />

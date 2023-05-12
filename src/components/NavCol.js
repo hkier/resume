@@ -23,7 +23,16 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 //import Typography from '@mui/material/Typography';
 
 //get all colors from material ui
-import { red, pink, purple, indigo, blue, green, lime, orange } from '@mui/material/colors';
+//import { red, pink, purple, indigo, blue, green, lime, orange } from '@mui/material/colors';
+const red = '#ff0000';
+const pink = '#ee82ee';
+const purple = '#4b0082';
+const indigo = '#0000ff';
+const blue = '#0000ff';
+const green = '#008000';
+const lime = '#00ff00';
+const orange = '#ffa500';
+
 
 
 
@@ -32,58 +41,58 @@ const NavCol = () => (
     <MenuList>
         <MenuItem>
             <ListItemIcon>
-                <AboutIcon sx={{ color: red[500] }} fontSize="small" />
+                <AboutIcon sx={{ color: red }} fontSize="small" />
             </ListItemIcon>
-            <ListItemText >About</ListItemText>
+            <ListItemText sx={{ color: red }}>About</ListItemText>
+        </MenuItem>
+
+        <MenuItem >
+            <ListItemIcon>
+                <ExperienceIcon  sx={{ color: lime  }} fontSize="small" />
+            </ListItemIcon>
+            <ListItemText sx={{ color: lime  }}>Experience</ListItemText>
         </MenuItem>
 
         <MenuItem>
             <ListItemIcon>
-                <ExperienceIcon sx={{ color: lime[700]  }} fontSize="small" />
+                <ProjectsIcon sx={{ color: indigo }} fontSize="small" />
             </ListItemIcon>
-            <ListItemText >Experience</ListItemText>
+            <ListItemText sx={{ color: indigo }}>Projects</ListItemText>
         </MenuItem>
 
         <MenuItem>
             <ListItemIcon>
-                <ProjectsIcon sx={{ color: indigo['A700'] }} fontSize="small" />
+                <SkillsIcon sx={{ color: pink }} fontSize="small" />
             </ListItemIcon>
-            <ListItemText >Projects</ListItemText>
+            <ListItemText sx={{ color: pink }}>Skills</ListItemText>
         </MenuItem>
 
         <MenuItem>
             <ListItemIcon>
-                <SkillsIcon sx={{ color: pink[500] }} fontSize="small" />
+                <EducationIcon sx={{ color: green }} fontSize="small" />
             </ListItemIcon>
-            <ListItemText >Skills</ListItemText>
+            <ListItemText sx={{ color: green }}>Education</ListItemText>
         </MenuItem>
 
         <MenuItem>
             <ListItemIcon>
-                <EducationIcon sx={{ color: green[500] }} fontSize="small" />
+                <InterestsIcon sx={{ color: blue }} fontSize="small" />
             </ListItemIcon>
-            <ListItemText >Education</ListItemText>
+            <ListItemText sx={{ color: blue }}>Interests</ListItemText>
         </MenuItem>
 
         <MenuItem>
             <ListItemIcon>
-                <InterestsIcon sx={{ color: blue[500] }} fontSize="small" />
+                <ContactMailIcon sx={{ color: purple }} fontSize="small" />
             </ListItemIcon>
-            <ListItemText >Interests</ListItemText>
+            <ListItemText sx={{ color: purple }}>Contact</ListItemText>
         </MenuItem>
 
         <MenuItem>
             <ListItemIcon>
-                <ContactMailIcon sx={{ color: purple[500] }} fontSize="small" />
+                <ResumeIcon sx={{ color: orange }} fontSize="small" />
             </ListItemIcon>
-            <ListItemText >Contact</ListItemText>
-        </MenuItem>
-
-        <MenuItem>
-            <ListItemIcon>
-                <ResumeIcon sx={{ color: orange[500] }} fontSize="small" />
-            </ListItemIcon>
-            <ListItemText >Resume</ListItemText>
+            <ListItemText sx={{ color: orange }}>Resume</ListItemText>
         </MenuItem>
     </MenuList>
 );

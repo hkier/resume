@@ -20,10 +20,8 @@ import MenuList from '@mui/material/MenuList';
 import MenuItem from '@mui/material/MenuItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemIcon from '@mui/material/ListItemIcon';
-//import Typography from '@mui/material/Typography';
 
-//get all colors from material ui
-//import { red, pink, purple, indigo, blue, green, lime, orange } from '@mui/material/colors';
+
 const red = '#ff0000';
 const pink = '#ee82ee';
 const purple = '#4b0082';

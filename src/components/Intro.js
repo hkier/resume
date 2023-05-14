@@ -1,15 +1,15 @@
 import React from 'react'
 import Intropic from '../images/Intropic.jpg'
-import AppBar from '@mui/material/AppBar';
+import Navbar from 'react-bootstrap/Navbar';
+import Image from 'react-bootstrap/Image';
 
-const appBarColor = '#A334B6';
+
 const Intro = () => {
     return (
         <div>
-            <AppBar position="sticky" sx={{ background: appBarColor }}><h1>Howard Kier</h1></AppBar>
-            <h1>Intro</h1>
-            <p>photo here</p>
-            <img src={Intropic} alt="Howard and Zazu" />
+            <Navbar className="bar" sticky="top" ><h1>Howard Kier</h1></Navbar>
+
+            <Image src={Intropic} alt="Howard and Zazu" fluid="true"/>
             </div>
     )
 }

@@ -20,15 +20,13 @@ import Resume from './components/Resume';
 
 function App() {
   return (
-    <div >
-      <Container>
+      <Container className='wrapper'>
         <Row>
-          <Col>
-
+          <Col className='sidebar' xs={2}>
             <NavCol />
           </Col>
 
-          <Col>
+          <Col className='main' xs={10}>
             <Intro />
             <About />
             <Experience />
@@ -41,8 +39,6 @@ function App() {
           </Col>
         </Row>
       </Container>
-    </div>
-
   );
 }
 

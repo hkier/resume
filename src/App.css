@@ -1,5 +1,11 @@
 
 /* The asterisk (*) is a wildcard selector. It selects all elements. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
 
 .bar {
   display: flex;
@@ -12,9 +18,18 @@
   z-index: 1;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+.wrapper {
+  display: flex;
 }
+
+.sidebar {
+  height: 100vh;
+}
+
+.main {
+  height: 100vh;
+  overflow: scroll;
+}
+
+
+

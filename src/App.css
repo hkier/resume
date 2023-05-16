@@ -7,7 +7,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-.bar {
+.titlebar {
   display: flex;
   color: white;
   background-color: #A334B6;
@@ -16,6 +16,8 @@
   right: 0;
   width: 100%;
   z-index: 1;
+
+  
 }
 
 .wrapper {
@@ -31,5 +33,51 @@
   overflow: scroll;
 }
 
+.aboutStyle {
+ color: #ff0000;
+}
+
+.skillsStyle {
+ color: #ee82ee;  
+
+}
+
+.projectsStyle {
+ color: #4b0082;  
+
+}
+
+.educationStyle {
+ color: #0000ff;  
+
+}
+
+.interestsStyle {
+ color: #5009f7;  
+
+}
+
+.contactStyle {
+ color: #008000;  
+
+}
+
+.experienceStyle {
+ color: #00ff00;  
+
+}
+
+.resumeStyle {
+ color: #ffa500;  
+
+}
+
+.navStyle{
+  flex-direction: column;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  background-color: white;
+}
 
 

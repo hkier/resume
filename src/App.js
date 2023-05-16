@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import NavCol from './components/NavCol';
+import Sidebar from './components/Sidebar'; 
 import About from './components/About';
 import Intro from './components/Intro';
 import Experience from './components/Experience';
@@ -24,6 +25,7 @@ function App() {
         <Row>
           <Col className='sidebar' xs={2}>
             <NavCol />
+            <Sidebar />
           </Col>
 
           <Col className='main' xs={10}>
@@ -36,6 +38,7 @@ function App() {
             <Interests />
             <Contact />
             <Resume />
+            <Sidebar />
           </Col>
         </Row>
       </Container>

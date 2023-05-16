@@ -10,7 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Experience = () => {
     return (
         <div>
-<Navbar className="bar" sticky="top"><h1>Experience </h1></Navbar>
+<Navbar className="titlebar" sticky="top"><h1>Experience </h1></Navbar>
                 </div>
     )
 }

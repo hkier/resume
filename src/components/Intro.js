@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image';
 const Intro = () => {
     return (
         <div>
-            <Navbar className="bar" sticky="top" ><h1>Howard Kier</h1></Navbar>
+            <Navbar className="titlebar" sticky="top" ><h1>Howard Kier</h1></Navbar>
 
             <Image src={Intropic} alt="Howard and Zazu" fluid="true"/>
             </div>

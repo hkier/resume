@@ -22,14 +22,14 @@ import ListItemText from '@mui/material/ListItemText';
 import ListItemIcon from '@mui/material/ListItemIcon';
 
 
-const red = '#ff0000';
-const pink = '#ee82ee';
-const purple = '#4b0082';
-const indigo = '#0000ff';
-const blue = '#0000ff';
-const green = '#008000';
-const lime = '#00ff00';
-const orange = '#ffa500';
+const red = '#ff0000';  //about
+const pink = '#ee82ee'; //skills
+const purple = '#4b0082'; //projects
+const indigo = '#0000ff'; //education
+const blue = '#0000ff'; //interests
+const green = '#008000'; //contact
+const lime = '#00ff00'; //experience
+const orange = '#ffa500'; //resume
 
 
 

@@ -5,6 +5,7 @@
 
 import React from 'react';
 //import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
@@ -19,65 +20,50 @@ import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ResumeIcon from '@mui/icons-material/Description';
 
 
-const red = '#ff0000';  //about
-const pink = '#ee82ee'; //skills
-const purple = '#4b0082'; //projects
-const indigo = '#0000ff'; //education
-const blue = '#0000ff'; //interests
-const green = '#008000'; //contact
-const lime = '#00ff00'; //experience
-const orange = '#ffa500'; //resume
-
-
-
-
-
-
 
 const Sidebar = () => {
     return (
-        <div>
-            <Navbar className="navStyle" sticky="top">
-                <div>
-                    <Navbar.Brand href="#home">Home</Navbar.Brand>
-                </div>
-                <Nav >
-                    <div>
-                        <AboutIcon sx={{ color: red }} fontSize="small" />
-                        <Nav.Link href="#about" className='aboutStyle' >About</Nav.Link>
-                    </div>
-                    <div>
-                        <ExperienceIcon sx={{ color: lime }} fontSize="small" />
-                        <Nav.Link href="#experience" className='experienceStyle'>Experience</Nav.Link>
-                    </div>
-                    <div>
-                        <ProjectsIcon sx={{ color: indigo }} fontSize="small" />
-                        <Nav.Link href="#projects" className='projectsStyle'>Projects</Nav.Link>
-                    </div>
-                    <div>
-                        <SkillsIcon sx={{ color: pink }} fontSize="small" />
-                        <Nav.Link href="#skills" className='skillsStyle'>Skills</Nav.Link>
-                    </div>
-                    <div>
-                        <EducationIcon sx={{ color: green }} fontSize="small" />
-                        <Nav.Link href="#education" className='educationStyle'>Education</Nav.Link>
-                    </div>
-                    <div>
-                        <InterestsIcon sx={{ color: blue }} fontSize="small" />
-                        <Nav.Link href="#interests" className='interestsStyle'>Interests</Nav.Link>
-                    </div>
-                    <div>
-                        <ContactMailIcon sx={{ color: purple }} fontSize="small" />
-                        <Nav.Link href="#contact" className='contactStyle'>Contact Me</Nav.Link>
-                    </div>
-                    <div>
-                        <ResumeIcon sx={{ color: orange }} fontSize="small" />
-                        <Nav.Link href="#resume" className='resumeStyle'>Resume</Nav.Link>
-                    </div>
+        <div className="navStyle" sticky="top">
+
+            <div>
+                <Navbar.Brand href="#home">Howard Kier</Navbar.Brand>
+            </div>
+
+            <div className='aboutStyle'>
+                <Nav.Link href="#about" ><AboutIcon fontSize="small" /> About</Nav.Link>
+            </div>
+
+            <div className='experienceStyle'>
+                <Nav.Link href="#experience" ><ExperienceIcon fontSize="small" /> Experience</Nav.Link>
+            </div>
+
+            <div className='projectsStyle'>
+                <Nav.Link href="#projects"><ProjectsIcon fontSize="small" /> Projects</Nav.Link>
+            </div>
+
+            <div className='skillsStyle'>
+                <Nav.Link href="#skills"> <SkillsIcon fontSize="small" /> Skills</Nav.Link>
+            </div>
+
+            <div className='educationStyle'>
+                <Nav.Link href="#education"><EducationIcon fontSize="small" /> Education</Nav.Link>
+            </div>
+
+            <div className='interestsStyle'>
+                <Nav.Link href="#interests"><InterestsIcon fontSize="small" /> Interests</Nav.Link>
+            </div>
+
+            <div className='contactStyle'>
+                <Nav.Link href="#contact"><ContactMailIcon fontSize="small" /> Contact Me</Nav.Link>
+            </div>
+
+            <div className='resumeStyle'>
+                <Nav.Link href="#resume"> <ResumeIcon fontSize="small" /> Resume</Nav.Link>
+            </div>
 
 
-                </Nav>
-            </Navbar>
+
+
 
 
         </div >

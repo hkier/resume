@@ -2,8 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div>
-            #about
+        <div id="about">
             <p>
                 Who am I?  Well, I can tell you I am not 24601, nor am I Jean Val
                 Jean, I’m Howard Kier. But who is Howard?  Simple words such as

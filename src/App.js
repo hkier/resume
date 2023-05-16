@@ -38,7 +38,6 @@ function App() {
             <Interests />
             <Contact />
             <Resume />
-            <Sidebar />
           </Col>
         </Row>
       </Container>

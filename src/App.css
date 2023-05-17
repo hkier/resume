@@ -37,55 +37,63 @@
 .aboutStyle  {  
   padding: 10px;
  color: #ff0000 !important;
+ text-decoration: none;
 }
 
 .skillsStyle {
   padding: 10px;
  color: #ee82ee !important;  
+ text-decoration: none;
 
 }
 
 .projectsStyle {
   padding: 10px;
- color: #4b0082 !important;  
+ color: #4b0082 !important; 
+ text-decoration: none; 
 
 }
 
 .educationStyle {
   padding: 10px;
- color: #008100 !important;  
+ color: #008100 !important; 
+  text-decoration: none; 
 
 }
 
 .interestsStyle {
   padding: 10px;
  color: #5009f7 !important;  
+ text-decoration: none;
 
 }
 
 .contactStyle {
   padding: 10px;
  color: #ff00ff !important;  
+  text-decoration: none;
 
 }
 
 .experienceStyle {
   padding: 10px;
- color: #00ff00 !important;  
+ color: #00ff00 !important; 
+  text-decoration: none; 
 
 }
 
 .resumeStyle {
   padding: 10px;
  color: #ffa500 !important;  
+  text-decoration: none;
 
 }
 
 .navStyle{
   flex-direction: column;
   text-decoration: none;
-  padding: 24px 1px;
-  font-size: 17px;
+  padding: 10px 0px;
+  font-size: 20px;
   background-color: white;
 }
 

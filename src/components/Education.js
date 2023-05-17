@@ -10,7 +10,7 @@ import Mustang from '../images/Mustang.png'
 
 const Education = () => {
     return (
-        <div>
+        <div id='education'>
             <Navbar className="titlebar" sticky="top"><h1>Education</h1></Navbar>
             <Container >
                 <Row>

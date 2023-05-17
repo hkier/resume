@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import NavCol from './components/NavCol';
+
 import Sidebar from './components/Sidebar'; 
 import About from './components/About';
 import Intro from './components/Intro';
@@ -24,7 +24,6 @@ function App() {
       <Container className='wrapper'>
         <Row>
           <Col className='sidebar' xs={2}>
-            <NavCol />
             <Sidebar />
           </Col>
 

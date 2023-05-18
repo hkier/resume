@@ -6,7 +6,6 @@
 import React from 'react';
 //import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Navbar from 'react-bootstrap/Navbar';
 
 
 // using material ui for the icons
@@ -21,44 +20,63 @@ import ResumeIcon from '@mui/icons-material/Description';
 
 
 
+
 const Sidebar = () => {
     return (
         <div className="navStyle" sticky="top">
 
             <div>
-                <Navbar.Brand smooth to="#home">Howard Kier</Navbar.Brand>
+                <h2>
+                    <HashLink smooth to="#home" className='howardStyle'>Howard Kier</HashLink>
+                </h2>
             </div>
 
             <div className='navStyle'>
-                <HashLink smooth to="#about" className='aboutStyle'><AboutIcon fontSize="small" /> About</HashLink>
+                <h3>
+                    <HashLink smooth to="#about" className='aboutStyle'><AboutIcon fontSize='medium' /> About</HashLink>
+                </h3>
             </div>
 
             <div className='navStyle'>
-                <HashLink smooth to="#experience" className='experienceStyle'><ExperienceIcon fontSize="small" /> Experience</HashLink>
+                <h3>
+                    <HashLink smooth to="#experience" className='experienceStyle'><ExperienceIcon fontSize='medium' /> Experience</HashLink>
+                </h3>
             </div>
 
             <div className='navStyle'>
-                <HashLink smooth to="#projects" className='projectsStyle'><ProjectsIcon fontSize="small" /> Projects</HashLink>
+                <h3>
+                    <HashLink smooth to="#projects" className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects</HashLink>
+                </h3>
             </div>
 
             <div className='navStyle'>
-                <HashLink smooth to="#skills" className='skillsStyle'> <SkillsIcon fontSize="small" /> Skills</HashLink>
+                <h3>
+                    <HashLink smooth to="#skills" className='skillsStyle'> <SkillsIcon fontSize='medium' /> Skills</HashLink>
+                </h3>
             </div>
 
             <div className='navStyle'>
-                <HashLink smooth to="#education" className='educationStyle'><EducationIcon fontSize="small" /> Education</HashLink>
+                <h3>
+                    <HashLink smooth to="#education" className='educationStyle'><EducationIcon fontSize='medium' /> Education</HashLink>
+                </h3>
             </div>
 
             <div className='navStyle'>
-                <HashLink smooth to="#interests" className='interestsStyle'><InterestsIcon fontSize="small" /> Interests</HashLink>
+                <h3>
+                    <HashLink smooth to="#interests" className='interestsStyle'><InterestsIcon fontSize='medium' /> Interests</HashLink>
+                </h3>
             </div>
 
             <div className='navStyle'>
-                <HashLink smooth to="#contact" className='contactStyle'><ContactMailIcon fontSize="small" /> Contact Me</HashLink>
+                <h3>
+                    <HashLink smooth to="#contact" className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact Me</HashLink>
+                </h3>
             </div>
 
             <div className='navStyle'>
-                <HashLink smooth to="#resume" className='resumeStyle'> <ResumeIcon fontSize="small" /> Resume</HashLink>
+                <h3>
+                    <HashLink smooth to="#resume" className='resumeStyle'> <ResumeIcon fontSize='medium' /> Resume</HashLink>
+                </h3>
             </div>
 
 

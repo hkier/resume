@@ -16,7 +16,9 @@ import code4Chicago from '../images/cfc_logo_2021.svg'
 const Interests = () => {
     return (
         <div id='interests'>
-            <Navbar className="titlebar" sticky="top"><h1>Interests</h1></Navbar>
+            <Navbar className="titlebar" sticky="top">
+                <h1>Interests</h1>
+            </Navbar>
             <Container >
                 <Row>
                     <Col >
@@ -40,7 +42,7 @@ const Interests = () => {
                         <h4>Attended weekly working meetings </h4>
                         <h4>Worked on projects to help the community</h4>
                         <h5>Between Friends - updated website as directed by the organization</h5>
-                        
+
                     </Col>
                     <Col >
                         <container>

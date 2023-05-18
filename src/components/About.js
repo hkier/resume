@@ -4,7 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 const About = () => {
     return (
         <div>
-            <Navbar className="titlebar" sticky="top" id="about"><h1>About Me</h1></Navbar>
+            <Navbar className="titlebar" sticky="top" id="about">
+                <h1>About Me</h1>
+            </Navbar>
 
             <p>
                 Who am I?  Well, I can tell you I am not 24601, nor am I Jean Val

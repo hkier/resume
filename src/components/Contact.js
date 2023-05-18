@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from 'react-bootstrap/Navbar';
 
 const Contact = () => {
     return (
         <div id='contact'>
-            <h1>Contact</h1>
-                </div>
+            <Navbar className="titlebar" sticky="top">
+                <h1>Contact </h1>
+            </Navbar>
+        </div>
     )
 }
 

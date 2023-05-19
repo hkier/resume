@@ -5,6 +5,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Grid from '@mui/material/Grid';
 
 
 import Sidebar from './components/Sidebar'; 
@@ -21,8 +22,9 @@ import Resume from './components/Resume';
 
 function App() {
   return (
+    <Grid fluid className='cell'>
       <Container className='wrapper'>
-        <Row>
+        <Row className='cell'>
           <Col className='sidebar' xs={2}>
             <Sidebar />
           </Col>
@@ -40,6 +42,7 @@ function App() {
           </Col>
         </Row>
       </Container>
+    </Grid>
   );
 }
 

@@ -4,8 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Syracuse from '../images/Syracuse.svg'
-import Mustang from '../images/Mustang.png'
+
+//images for education
+import Syracuse from '../images/Education/Syracuse.svg'
+import Mustang from '../images/Education/Mustang.png'
 
 
 const Education = () => {

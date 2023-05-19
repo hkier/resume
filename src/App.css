@@ -6,6 +6,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+.cell
+{
+  padding: 0px !important;
+}
+
 .titlebar {
   display: flex;
   color: white;
@@ -28,6 +33,7 @@
 
 .sidebar {
   height: 100vh;
+  padding: 0px; 
 }
 
 .main {

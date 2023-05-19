@@ -6,10 +6,11 @@ import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-import shsvip from '../images/SHSVIP.png'
-import chihack from '../images/Chihack.png'
-import boyScouts from '../images/BoyScouts.jpg'
-import code4Chicago from '../images/cfc_logo_2021.svg'
+//images for interests
+import shsvip from '../images/Interests/SHSVIP.png'
+import chihack from '../images/Interests/Chihack.png'
+import boyScouts from '../images/Interests/BoyScouts.jpg'
+import code4Chicago from '../images/Interests/cfc_logo_2021.svg'
 
 
 

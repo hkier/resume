@@ -3,7 +3,8 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card'
 
 //images for experience
 import IBM from '../images/Experience/IBM.png'
@@ -12,6 +13,23 @@ import LegacyAnalytics from '../images/Experience/LegacyAnalyticsLogo.png'
 import MMP from '../images/Experience/MMP.jpg'
 import EDS from '../images/Experience/eds-logo-png-transparent.png'
 import Hardesty from '../images/Experience/Hardesty.jpg'
+
+// function BasicExample() {
+//   return (
+//     <Card style={{ width: '18rem' }}>
+//       <Card.Img variant="top" src="holder.js/100px180" />
+//       <Card.Body>
+//         <Card.Title>Card Title</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <Button variant="primary">Go somewhere</Button>
+//       </Card.Body>
+//     </Card>
+//   );
+// }
+
 
 
 
@@ -24,39 +42,44 @@ const Experience = () => {
             <Container >
                 <Row>
 
-                    <Col elevation={3}>
-                        <img src={IBM} alt="IBM" />
-                        <h3>Programmer</h3>
-                    </Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={IBM} />
+                        <Card.Body>
+                            <Card.Text>Programmer</Card.Text>
+                        </Card.Body>
 
-                    <Col elevation={3}>
-                        <img src={EDS} alt="EDS" />
-                        <h3>Programmer/Analyst</h3>
-                    </Col>
+                    </Card>
 
-                    <Col elevation={3}>
-                        <container>
-                            <img src={Disney} alt="Disney" />
-                            <h2>Consumer Products Division</h2>
-                        </container>
-                        <h3>Cast Member</h3>
-                        <h4>Backroom Lead</h4>
-                        <h4>VoluntEars Representative</h4>
-                    </Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant='top' src={EDS} alt="EDS" />
+                        <Card.Body>
+                            <Card.Title>Programmer/Analyst</Card.Title>
+                        </Card.Body>
+                    </Card>
+
+                    <Card style={{ width: '18rem' }}>
+
+                        <Card.Img variant='top' src={Disney} alt="Disney" />
+                        <h2>Consumer Products Division</h2>
+
+                        <Card.Title>Cast Member</Card.Title>
+                        <Card.Text>Backroom Lead</Card.Text>
+                        <Card.Text>VoluntEars Representative</Card.Text>
+                    </Card>
                 </Row>
                 <Row>
-                    <Col elevation={3}>
-                        <img src={LegacyAnalytics} alt="Legacy Analytics" />
-                        <h3>Business Consultant</h3>
-                    </Col>
-                    <Col elevation={3}>
-                        <img src={MMP} alt="Magical Moments Photography" />
-                        <h3>Owner, CEO, CFO and CIO</h3>
-                    </Col>
-                    <Col elevation={3}>
-                        <img src={Hardesty} alt="Hardesty Hackett" />
-                        <h3>Consultant</h3>
-                    </Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant='top' src={LegacyAnalytics} alt="Legacy Analytics" />
+                        <Card.Title>Business Consultant</Card.Title>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant='top' src={MMP} alt="Magical Moments Photography" />
+                        <Card.Title>Owner, CEO, CFO and CIO</Card.Title>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant='top' src={Hardesty} alt="Hardesty Hackett" />
+                        <Card.Title>Consultant</Card.Title>
+                    </Card>
                 </Row>
             </Container>
         </div>

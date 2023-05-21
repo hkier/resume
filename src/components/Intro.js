@@ -11,7 +11,7 @@ const Intro = () => {
                 <h1>Howard Kier</h1>
             </Navbar>
 
-            <Image src={Intropic} alt="Howard and Zazu" fluid="true" />
+            <Image src={Intropic} className='introImg   ' alt="Howard and Zazu" fluid="true" />
         </div>
     )
 }

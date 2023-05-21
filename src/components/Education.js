@@ -3,13 +3,28 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card'
 
 //images for education
 import Syracuse from '../images/Education/Syracuse.svg'
 import Mustang from '../images/Education/Mustang.png'
 
-
+// function BasicExample() {
+//   return (
+//     <Card style={{ width: '18rem' }}>
+//       <Card.Img variant="top" src="holder.js/100px180" />
+//       <Card.Body>
+//         <Card.Title>Card Title</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <Button variant="primary">Go somewhere</Button>
+//       </Card.Body>
+//     </Card>
+//   );
+// }
 const Education = () => {
     return (
         <div id='education'>
@@ -19,26 +34,32 @@ const Education = () => {
             <Container >
                 <Row>
 
-                    <Col elevation={3}>
-                        <img src={Syracuse} alt="Syracuse University" />
-                        <h3>Master of Science, Computer Engineering</h3>
-                    </Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
+                        <Card.Body>
+                            <Card.Title>Master of Science, Computer Engineering</Card.Title >
+                        </Card.Body>
+                    </Card>
 
-                    <Col elevation={3}>
-                        <img src={Syracuse} alt="Syracuse University" />
-                        <h3>Bachelor of Science, Computer Engineering</h3>
-                    </Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
+                        <Card.Body>
+                            <Card.Title>Bachelor of Science, Computer Engineering</Card.Title >
+                        </Card.Body>
+                    </Card>
 
-                    <Col elevation={3}>
-                        <container>
-                            <img src={Mustang} alt="Southern Methodist University" />
-                            <h2>Southern Methodist University</h2>
-                        </container>
-                        <h3>Master of Business Administration</h3>
-                        <h4>Concentration in Organizational Behavior</h4>
-                        <h4>Concentration in Process Improvement</h4>
-                        <h4>Beta Gamma Sigma</h4>
-                    </Col>
+                    <Card style={{ width: '18rem' }}>
+
+                        <Card.Img variant="top" src={Mustang} alt="Southern Methodist University" />
+                        <Card.Body>
+                            <Card.Title>Southern Methodist University</Card.Title>
+
+                            <Card.Title>Master of Business Administration</Card.Title>
+                            <Card.Text>Concentration in Organizational Behavior</Card.Text>
+                            <Card.Text>Concentration in Process Improvement</Card.Text>
+                            <Card.Text>Beta Gamma Sigma</Card.Text>
+                        </Card.Body>
+                    </Card>
                 </Row>
             </Container>
         </div>

@@ -3,7 +3,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card'
 
 //images for education
@@ -33,33 +33,37 @@ const Education = () => {
             </Navbar>
             <Container >
                 <Row>
+                    <Col>
 
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
-                        <Card.Body>
-                            <Card.Title>Master of Science, Computer Engineering</Card.Title >
-                        </Card.Body>
-                    </Card>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
+                            <Card.Body>
+                                <Card.Title>Master of Science, Computer Engineering</Card.Title >
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
+                            <Card.Body>
+                                <Card.Title>Bachelor of Science, Computer Engineering</Card.Title >
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card style={{ width: '18rem' }}>
 
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
-                        <Card.Body>
-                            <Card.Title>Bachelor of Science, Computer Engineering</Card.Title >
-                        </Card.Body>
-                    </Card>
+                            <Card.Img variant="top" src={Mustang} alt="Southern Methodist University" />
+                            <Card.Body>
+                                <Card.Title>Southern Methodist University</Card.Title>
 
-                    <Card style={{ width: '18rem' }}>
-
-                        <Card.Img variant="top" src={Mustang} alt="Southern Methodist University" />
-                        <Card.Body>
-                            <Card.Title>Southern Methodist University</Card.Title>
-
-                            <Card.Title>Master of Business Administration</Card.Title>
-                            <Card.Text>Concentration in Organizational Behavior</Card.Text>
-                            <Card.Text>Concentration in Process Improvement</Card.Text>
-                            <Card.Text>Beta Gamma Sigma</Card.Text>
-                        </Card.Body>
-                    </Card>
+                                <Card.Title>Master of Business Administration</Card.Title>
+                                <Card.Text>Concentration in Organizational Behavior</Card.Text>
+                                <Card.Text>Concentration in Process Improvement</Card.Text>
+                                <Card.Text>Beta Gamma Sigma</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
             </Container>
         </div>

@@ -3,7 +3,7 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card'
 
 //images for experience
@@ -41,48 +41,64 @@ const Experience = () => {
             </Navbar>
             <Container >
                 <Row>
+                    <Col>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={IBM} />
+                            <Card.Body>
+                                <Card.Text>Programmer</Card.Text>
+                            </Card.Body>
 
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={IBM} />
-                        <Card.Body>
-                            <Card.Text>Programmer</Card.Text>
-                        </Card.Body>
+                        </Card>
 
-                    </Card>
 
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant='top' src={EDS} alt="EDS" />
-                        <Card.Body>
-                            <Card.Title>Programmer/Analyst</Card.Title>
-                        </Card.Body>
-                    </Card>
+                    </Col>
+                    <Col>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant='top' src={EDS} alt="EDS" />
+                            <Card.Body>
+                                <Card.Title>Programmer/Analyst</Card.Title>
+                            </Card.Body>
+                        </Card>
 
-                    <Card style={{ width: '18rem' }}>
 
-                        <Card.Img variant='top' src={Disney} alt="Disney" />
-                        <h2>Consumer Products Division</h2>
+                    </Col>
+                    <Col>
+                        <Card style={{ width: '18rem' }}>
 
-                        <Card.Title>Cast Member</Card.Title>
-                        <Card.Text>Backroom Lead</Card.Text>
-                        <Card.Text>VoluntEars Representative</Card.Text>
-                    </Card>
-                </Row>
-                <Row>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant='top' src={LegacyAnalytics} alt="Legacy Analytics" />
-                        <Card.Title>Business Consultant</Card.Title>
-                    </Card>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant='top' src={MMP} alt="Magical Moments Photography" />
-                        <Card.Title>Owner, CEO, CFO and CIO</Card.Title>
-                    </Card>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant='top' src={Hardesty} alt="Hardesty Hackett" />
-                        <Card.Title>Consultant</Card.Title>
-                    </Card>
+                            <Card.Img variant='top' src={Disney} alt="Disney" />
+                            <h2>Consumer Products Division</h2>
+
+                            <Card.Title>Cast Member</Card.Title>
+                            <Card.Text>Backroom Lead</Card.Text>
+                            <Card.Text>VoluntEars Representative</Card.Text>
+                        </Card>
+                    </Col>
+
+
+
+                    <Col>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant='top' src={LegacyAnalytics} alt="Legacy Analytics" />
+                            <Card.Title>Business Consultant</Card.Title>
+                        </Card>
+                    </Col>
+                    <Col>
+
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant='top' src={MMP} alt="Magical Moments Photography" />
+                            <Card.Title>Owner, CEO, CFO and CIO</Card.Title>
+                        </Card>
+                    </Col>
+                    <Col>
+
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant='top' src={Hardesty} alt="Hardesty Hackett" />
+                            <Card.Title>Consultant</Card.Title>
+                        </Card>
+                    </Col>
                 </Row>
             </Container>
-        </div>
+        </div >
 
     )
 }

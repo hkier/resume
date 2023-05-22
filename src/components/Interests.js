@@ -2,7 +2,7 @@ import React from 'react'
 //import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card'
 
@@ -15,7 +15,7 @@ import code4Chicago from '../images/Interests/cfc_logo_2021.svg'
 
 // function BasicExample() {
 //   return (
-//     <Card style={{ width: '18rem' }}>
+//<Card style={{ width: '18rem' }}>
 //       <Card.Img variant="top" src="holder.js/100px180" />
 //       <Card.Body>
 //         <Card.Title>Card Title</Card.Title>
@@ -37,6 +37,8 @@ const Interests = () => {
             </Navbar>
             <Container >
                 <Row>
+                    
+<Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={shsvip} alt="VIP" />
                         <Card.Body>
@@ -46,6 +48,8 @@ const Interests = () => {
                             <Card.Text>Helped with the recruitment of new members</Card.Text>
                         </Card.Body>.
                     </Card>
+</Col>                    
+<Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={chihack} alt="Chihacknight" />
                         < Card.Body>
@@ -56,6 +60,8 @@ const Interests = () => {
                             <p>Decarbonize My State - assisted with the design and implimention of the website</p>
                         </Card.Body>.
                     </Card>
+  </Col>                  
+<Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={code4Chicago} alt="Code for Chicago" />
                         < Card.Body>
@@ -66,6 +72,8 @@ const Interests = () => {
 
                         </Card.Body>.
                     </Card>
+ </Col>                   
+<Col>
                     <Card style={{ width: '18rem' }}>
                         <container>
                             <Card.Img variant="top" src={boyScouts} alt="Boy Scouts" />
@@ -78,6 +86,7 @@ const Interests = () => {
                             <h4>Merit Badge Counselor where I helped scouts earn merit badges</h4>
                         </Card.Body>.
                     </Card>
+                    </Col>
                 </Row>
             </Container>
 

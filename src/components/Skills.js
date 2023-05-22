@@ -1,5 +1,31 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
+import { Row, Col } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
+
+import APL from '../images/Skills/APL.png'
+import bootstrap from '../images/Skills/bootstrap.png'
+import css3 from '../images/Skills/css3.png'
+import express from '../images/Skills/express.png'
+import github from '../images/Skills/github.png'
+import html5 from '../images/Skills/html5.png'
+import javascript from '../images/Skills/javascript.png'
+import JCL from '../images/Skills/JCL.png'
+import jde from '../images/Skills/jde.webp'
+import jquery from '../images/Skills/jquery.png'
+import node from '../images/Skills/node.png'
+import office from '../images/Skills/office.png'
+import photoshop from '../images/Skills/photoshop.png'
+import postgresql from '../images/Skills/postgresql.png'
+import reactlogo from '../images/Skills/reactlogo.png'
+import rpg from '../images/Skills/rpg.png'
+import sdlc from '../images/Skills/sdlc.png'
+import sql from '../images/Skills/sql.jpg'
+import visualstudio from '../images/Skills/vsc.png'
+import webpack from '../images/Skills/webpack.png'
+import wordpress from '../images/Skills/wordpress.png'
+
+
 
 const Skills = () => {
     return (
@@ -7,6 +33,113 @@ const Skills = () => {
             <Navbar className="titlebar" sticky="top">
                 <h1>Skills</h1>
             </Navbar>
+            <Card className="skillcard">
+                <Card.Title>Web Development</Card.Title>
+                <Card.Body>
+                    <Row>
+                        <Col>
+                            <Card.Img src={html5} />
+                            <Card.Text>HTML5</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={css3} />
+                            <Card.Text>CSS3</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={javascript} />
+                            <Card.Text>JavaScript</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={jquery} />
+                            <Card.Text>jQuery</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={reactlogo} />
+                            <Card.Text>React</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={bootstrap} />
+                            <Card.Text>Bootstrap</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={webpack} />
+                            <Card.Text>Webpack</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={github} />
+                            <Card.Text>GitHub</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={node} />
+                            <Card.Text>Node.js</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={express} />
+                            <Card.Text>Express</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={postgresql} />
+                            <Card.Text>PostgreSQL</Card.Text>
+                        </Col>
+                    </Row>
+                </Card.Body>
+            </Card>
+            <Card className="skillcard">
+                <Card.Title>Legacy Systems</Card.Title>
+                <Card.Body>
+                    <Row>
+                        <Col>
+                            <Card.Img src={JCL} />
+                            <Card.Text>JCL</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={rpg} />
+                            <Card.Text>RPG</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={APL} />
+                            <Card.Text>APL</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={sdlc} />
+                            <Card.Text>SDLC</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={sql} />
+                            <Card.Text>SQL</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={jde} />
+                            <Card.Text>JDE</Card.Text>
+                        </Col>
+                    </Row>
+                </Card.Body>
+            </Card>
+            <Card className="skillcard">
+                <Card.Title>Other</Card.Title>
+                <Card.Body>
+                    <Row>
+                        <Col>
+                            <Card.Img src={office} />
+                            <Card.Text>Microsoft Office</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={visualstudio} />
+                            <Card.Text>Visual Studio Code</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={photoshop} />
+                            <Card.Text>Adobe Photoshop</Card.Text>
+                        </Col>
+                        <Col>
+                            <Card.Img src={wordpress} />
+                            <Card.Text>WordPress</Card.Text>
+                        </Col>
+                    </Row>
+                </Card.Body>
+            </Card>
+
+
         </div>
     )
 }

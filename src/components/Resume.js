@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
+import resumePdf from '../files/kier.pdf'
 
 const Resume = () => {
     return (
@@ -7,6 +8,10 @@ const Resume = () => {
             <Navbar className="titlebar" sticky="top">
                 <h1>Resume</h1>
             </Navbar>
+            <div>
+                <object data={resumePdf} type="application/pdf" width="100%" height="100%">
+                </object>
+            </div>
         </div>
     )
 }

@@ -200,3 +200,56 @@ img {
   padding-top: 0px;
 
 }
+
+
+
+.skillcard {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  background-color: #e1dede;
+  box-shadow: 6px 6px 10px -2px rgba(0,0,0,0.5);
+  font-size: 1em;
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  text-align: center;
+   text-decoration: none;
+
+}
+
+.skilltitle {
+  padding-left: 10px;
+  text-align: left !important;
+}
+
+.basiccard {
+  width: 18rem;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  background-color: #e1dede;
+  box-shadow: 6px 6px 10px -2px rgba(0,0,0,0.5);
+  font-size: 1em;
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  text-align: center;
+   text-decoration: none;
+
+}
+
+

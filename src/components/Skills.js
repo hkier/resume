@@ -34,106 +34,154 @@ const Skills = () => {
                 <h1>Skills</h1>
             </Navbar>
             <Card className="skillcard">
-                <Card.Title>Web Development</Card.Title>
+                <div className='skilltitle'>
+                    <Card.Title className='skilltitle'>Web Development</Card.Title>
+                </div>
                 <Card.Body>
                     <Row>
                         <Col>
-                            <Card.Img src={html5} />
-                            <Card.Text>HTML5</Card.Text>
+                            <div>
+                                <Card.Img src={html5} />
+                                <Card.Text>HTML5</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={css3} />
-                            <Card.Text>CSS3</Card.Text>
+                            <div>
+                                <Card.Img src={css3} />
+                                <Card.Text>CSS3</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={javascript} />
-                            <Card.Text>JavaScript</Card.Text>
+                            <div>
+                                <Card.Img src={javascript} />
+                                <Card.Text>JavaScript</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={jquery} />
-                            <Card.Text>jQuery</Card.Text>
+                            <div>
+                                <Card.Img src={jquery} />
+                                <Card.Text>jQuery</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={reactlogo} />
-                            <Card.Text>React</Card.Text>
+                            <div>
+                                <Card.Img src={reactlogo} />
+                                <Card.Text>React</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={bootstrap} />
-                            <Card.Text>Bootstrap</Card.Text>
+                            <div>
+                                <Card.Img src={bootstrap} />
+                                <Card.Text>Bootstrap</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={webpack} />
-                            <Card.Text>Webpack</Card.Text>
+                            <div>
+                                <Card.Img src={webpack} />
+                                <Card.Text>Webpack</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={github} />
-                            <Card.Text>GitHub</Card.Text>
+                            <div>
+                                <Card.Img src={github} />
+                                <Card.Text>GitHub</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={node} />
-                            <Card.Text>Node.js</Card.Text>
+                            <div>
+                                <Card.Img src={node} />
+                                <Card.Text>Node.js</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={express} />
-                            <Card.Text>Express</Card.Text>
+                            <div>
+                                <Card.Img src={express} />
+                                <Card.Text>Express</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={postgresql} />
-                            <Card.Text>PostgreSQL</Card.Text>
+                            <div>
+                                <Card.Img src={postgresql} />
+                                <Card.Text>PostgreSQL</Card.Text>
+                            </div>
                         </Col>
                     </Row>
                 </Card.Body>
             </Card>
             <Card className="skillcard">
-                <Card.Title>Legacy Systems</Card.Title>
+                <div className='skilltitle'>
+                    <Card.Title>Legacy Systems</Card.Title>
+                </div>
                 <Card.Body>
                     <Row>
                         <Col>
-                            <Card.Img src={JCL} />
-                            <Card.Text>JCL</Card.Text>
+                            <div>
+                                <Card.Img src={JCL} />
+                                <Card.Text>JCL</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={rpg} />
-                            <Card.Text>RPG</Card.Text>
+                            <div>
+                                <Card.Img src={rpg} />
+                                <Card.Text>RPG</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={APL} />
-                            <Card.Text>APL</Card.Text>
+                            <div>
+                                <Card.Img src={APL} />
+                                <Card.Text>APL</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={sdlc} />
-                            <Card.Text>SDLC</Card.Text>
+                            <div>
+                                <Card.Img src={sdlc} />
+                                <Card.Text>SDLC</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={sql} />
-                            <Card.Text>SQL</Card.Text>
+                            <div>
+                                <Card.Img src={sql} />
+                                <Card.Text>SQL</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={jde} />
-                            <Card.Text>JDE</Card.Text>
+                            <div>
+                                <Card.Img src={jde} />
+                                <Card.Text>JDE</Card.Text>
+                            </div>
                         </Col>
                     </Row>
                 </Card.Body>
             </Card>
             <Card className="skillcard">
-                <Card.Title>Other</Card.Title>
+                <div className='skilltitle'>
+                    <Card.Title>Other</Card.Title>
+                </div>
                 <Card.Body>
                     <Row>
                         <Col>
-                            <Card.Img src={office} />
-                            <Card.Text>Microsoft Office</Card.Text>
+                            <div>
+                                <Card.Img src={office} />
+                                <Card.Text>Microsoft Office</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={visualstudio} />
-                            <Card.Text>Visual Studio Code</Card.Text>
+                            <div>
+                                <Card.Img src={visualstudio} />
+                                <Card.Text>Visual Studio Code</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={photoshop} />
-                            <Card.Text>Adobe Photoshop</Card.Text>
+                            <div>
+                                <Card.Img src={photoshop} />
+                                <Card.Text>Adobe Photoshop</Card.Text>
+                            </div>
                         </Col>
                         <Col>
-                            <Card.Img src={wordpress} />
-                            <Card.Text>WordPress</Card.Text>
+                            <div>
+                                <Card.Img src={wordpress} />
+                                <Card.Text>WordPress</Card.Text>
+                            </div>
                         </Col>
                     </Row>
                 </Card.Body>

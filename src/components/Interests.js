@@ -15,7 +15,7 @@ import code4Chicago from '../images/Interests/cfc_logo_2021.svg'
 
 // function BasicExample() {
 //   return (
-//<Card style={{ width: '18rem' }}>
+//<Card className='basiccard'>
 //       <Card.Img variant="top" src="holder.js/100px180" />
 //       <Card.Body>
 //         <Card.Title>Card Title</Card.Title>
@@ -39,7 +39,7 @@ const Interests = () => {
                 <Row>
                     
 <Col>
-                    <Card style={{ width: '18rem' }}>
+                    <Card className='basiccard'>
                         <Card.Img variant="top" src={shsvip} alt="VIP" />
                         <Card.Body>
                             <Card.Title>Board Member</Card.Title>
@@ -50,7 +50,7 @@ const Interests = () => {
                     </Card>
 </Col>                    
 <Col>
-                    <Card style={{ width: '18rem' }}>
+                    <Card className='basiccard'>
                         <Card.Img variant="top" src={chihack} alt="Chihacknight" />
                         < Card.Body>
                             <Card.Title>General Member</Card.Title>
@@ -62,7 +62,7 @@ const Interests = () => {
                     </Card>
   </Col>                  
 <Col>
-                    <Card style={{ width: '18rem' }}>
+                    <Card className='basiccard'>
                         <Card.Img variant="top" src={code4Chicago} alt="Code for Chicago" />
                         < Card.Body>
                             <Card.Title>General Member</Card.Title>
@@ -74,7 +74,7 @@ const Interests = () => {
                     </Card>
  </Col>                   
 <Col>
-                    <Card style={{ width: '18rem' }}>
+                    <Card className='basiccard'>
                         <container>
                             <Card.Img variant="top" src={boyScouts} alt="Boy Scouts" />
                         </container>

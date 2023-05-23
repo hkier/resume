@@ -26,7 +26,7 @@ const Contact = () => {
             <Container >
                 <Row>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={hk} />
                             <Card.Body>
                                 <Card.Title>Howard Kier</Card.Title>
@@ -38,7 +38,7 @@ const Contact = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Body>
                                 <Card.Title>Facebook:</Card.Title>
                                 <Card.Text>
@@ -50,7 +50,7 @@ const Contact = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Body>
                                 <Card.Title>LinkedIn</Card.Title>
                                 <Card.Text>
@@ -62,7 +62,7 @@ const Contact = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Body>
                                 <Card.Title>Github</Card.Title>
                                 <Card.Text>

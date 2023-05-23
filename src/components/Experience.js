@@ -16,7 +16,7 @@ import Hardesty from '../images/Experience/Hardesty.jpg'
 
 // function BasicExample() {
 //   return (
-//     <Card style={{ width: '18rem' }}>
+//     <Card className='basiccard'>
 //       <Card.Img variant="top" src="holder.js/100px180" />
 //       <Card.Body>
 //         <Card.Title>Card Title</Card.Title>
@@ -42,7 +42,7 @@ const Experience = () => {
             <Container >
                 <Row>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={IBM} />
                             <Card.Body>
                                 <Card.Text>Programmer</Card.Text>
@@ -53,7 +53,7 @@ const Experience = () => {
 
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant='top' src={EDS} alt="EDS" />
                             <Card.Body>
                                 <Card.Title>Programmer/Analyst</Card.Title>
@@ -63,7 +63,7 @@ const Experience = () => {
 
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
 
                             <Card.Img variant='top' src={Disney} alt="Disney" />
                             <h2>Consumer Products Division</h2>
@@ -77,21 +77,21 @@ const Experience = () => {
 
 
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant='top' src={LegacyAnalytics} alt="Legacy Analytics" />
                             <Card.Title>Business Consultant</Card.Title>
                         </Card>
                     </Col>
                     <Col>
 
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant='top' src={MMP} alt="Magical Moments Photography" />
                             <Card.Title>Owner, CEO, CFO and CIO</Card.Title>
                         </Card>
                     </Col>
                     <Col>
 
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant='top' src={Hardesty} alt="Hardesty Hackett" />
                             <Card.Title>Consultant</Card.Title>
                         </Card>

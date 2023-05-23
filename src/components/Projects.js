@@ -22,7 +22,7 @@ const Projects = () => {
             <container className="project">
                 <Row>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={steve1} />
                             <Card.Body>
                                 <Card.Title>Steven Rosenblum</Card.Title>
@@ -37,7 +37,7 @@ const Projects = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={wilderness1} />
                             <Card.Body>
                                 <Card.Title>Friends of Wilderness Road</Card.Title>
@@ -49,7 +49,7 @@ const Projects = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={howard} />
                             <Card.Body>
                                 <Card.Title>Howard Kier Portfolio</Card.Title>
@@ -61,7 +61,7 @@ const Projects = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={decarb} />
                             <Card.Body>
                                 <Card.Title>Decarbonize My State</Card.Title>
@@ -76,7 +76,7 @@ const Projects = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={mmpix} />
                             <Card.Body>
                                 <Card.Title>Magical Moments Photography</Card.Title>
@@ -88,7 +88,7 @@ const Projects = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={chem} />
                             <Card.Body>
                                 <Card.Title>ChemCentral</Card.Title>
@@ -100,7 +100,7 @@ const Projects = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={cash} />
                             <Card.Body>
                                 <Card.Title>Cash Management</Card.Title>
@@ -112,7 +112,7 @@ const Projects = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={scams} />
                             <Card.Body>
                                 <Card.Title>Cyber Scams and You</Card.Title>

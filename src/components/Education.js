@@ -9,10 +9,11 @@ import Card from 'react-bootstrap/Card'
 //images for education
 import Syracuse from '../images/Education/Syracuse.svg'
 import Mustang from '../images/Education/Mustang.png'
+import fullstack from '../images/Education/fullstack.jpg'
 
 // function BasicExample() {
 //   return (
-//     <Card style={{ width: '18rem' }}>
+//     <Card className='basiccard'>
 //       <Card.Img variant="top" src="holder.js/100px180" />
 //       <Card.Body>
 //         <Card.Title>Card Title</Card.Title>
@@ -35,7 +36,7 @@ const Education = () => {
                 <Row>
                     <Col>
 
-                        <Card style={{ width: '18rem' }}>
+                        <Card className="basiccard">
                             <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
                             <Card.Body>
                                 <Card.Title>Master of Science, Computer Engineering</Card.Title >
@@ -43,7 +44,7 @@ const Education = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className="basiccard">
                             <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
                             <Card.Body>
                                 <Card.Title>Bachelor of Science, Computer Engineering</Card.Title >
@@ -51,7 +52,7 @@ const Education = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className="basiccard">
 
                             <Card.Img variant="top" src={Mustang} alt="Southern Methodist University" />
                             <Card.Body>
@@ -64,6 +65,17 @@ const Education = () => {
                             </Card.Body>
                         </Card>
                     </Col>
+                    <Col>
+                        <Card className="basiccard">
+                            <Card.Img variant="top" src={fullstack} alt="Fullstack Academy" />
+                            <Card.Body>
+                                <Card.Title>Fullstack Academy</Card.Title>
+                                <Card.Text>Software Engineering Immersive</Card.Text>
+                                <Card.Text>JavaScript, React, Redux, Node.js, Express, PostgreSQL</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
                 </Row>
             </Container>
         </div>

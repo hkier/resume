@@ -8,6 +8,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+.active-scroll-spy {
+  background-color: yellowgreen;
+  border-radius: 15px;
+}
+
 .cell
 {
   padding: 0px !important;
@@ -186,11 +191,19 @@ font-weight: 300 !important;
 line-height: 15px !important;
 }
 
-img {
-  width: 250px;
+hr {
+color: #A334B6 !important;
+font-weight: 500 !important;
+}
+
+.expimg {
+  width: 200px !important;
   height: auto;
-  padding-top: 20px;
-} 
+  margin: 0 auto;
+  display: block;
+  padding-top: 0px;
+ align-items: start !important;
+}
 
 .introImg {
   width: 100%;
@@ -201,9 +214,15 @@ img {
 
 }
 
+img {
+  width: 250px ;
+  height: auto;
+  padding-top: 20px;
+} 
 
 
-.skillcard {
+
+.widecard {
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -222,12 +241,17 @@ img {
   font-style: normal;
   text-align: center;
    text-decoration: none;
+   border-color: #A334B6 !important;
+   border-width: 2px !important;
+   border-style: solid !important;
 
 }
 
 .skilltitle {
-  padding-left: 10px;
+  padding-left: 10px !important;
   text-align: left !important;
+  border-bottom-color: #A334B6 !important;
+  border-bottom: 2px !important;
 }
 
 .basiccard {
@@ -249,7 +273,13 @@ img {
   font-style: normal;
   text-align: center;
    text-decoration: none;
+   border-color: #A334B6 !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+
 
 }
+
+
 
 

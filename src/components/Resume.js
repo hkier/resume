@@ -9,7 +9,7 @@ const Resume = () => {
                 <h1>Resume</h1>
             </Navbar>
             <div>
-                <object data={resumePdf} type="application/pdf" width="100%" height="100%">
+                <object data={resumePdf} type="application/pdf" width="100%" height="800px">
                 </object>
             </div>
         </div>

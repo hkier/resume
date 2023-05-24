@@ -16,7 +16,7 @@ import Hardesty from '../images/Experience/Hardesty.jpg'
 
 // function BasicExample() {
 //   return (
-//     <Card className='basiccard'>
+//     <Card className='widecard'>
 //       <Card.Img variant="top" src="holder.js/100px180" />
 //       <Card.Body>
 //         <Card.Title>Card Title</Card.Title>
@@ -42,8 +42,8 @@ const Experience = () => {
             <Container >
                 <Row>
                     <Col>
-                        <Card className='basiccard'>
-                            <Card.Img variant="top" src={IBM} />
+                        <Card className='widecard'>
+                            <Card.Img className='expimg' variant="top" src={IBM} />
                             <Card.Body>
                                 <Card.Text>Programmer</Card.Text>
                             </Card.Body>
@@ -52,9 +52,11 @@ const Experience = () => {
 
 
                     </Col>
+                </Row>
+                <Row>
                     <Col>
-                        <Card className='basiccard'>
-                            <Card.Img variant='top' src={EDS} alt="EDS" />
+                        <Card className='widecard'>
+                            <Card.Img className='expimg' variant='top' src={EDS} alt="EDS" />
                             <Card.Body>
                                 <Card.Title>Programmer/Analyst</Card.Title>
                             </Card.Body>
@@ -62,10 +64,12 @@ const Experience = () => {
 
 
                     </Col>
+                </Row>
+                <Row>
                     <Col>
-                        <Card className='basiccard'>
+                        <Card className='widecard'>
 
-                            <Card.Img variant='top' src={Disney} alt="Disney" />
+                            <Card.Img className='expimg' variant='top' src={Disney} alt="Disney" />
                             <h2>Consumer Products Division</h2>
 
                             <Card.Title>Cast Member</Card.Title>
@@ -73,26 +77,29 @@ const Experience = () => {
                             <Card.Text>VoluntEars Representative</Card.Text>
                         </Card>
                     </Col>
-
-
-
+                </Row>
+                <Row>
                     <Col>
-                        <Card className='basiccard'>
-                            <Card.Img variant='top' src={LegacyAnalytics} alt="Legacy Analytics" />
+                        <Card className='widecard'>
+                            <Card.Img className='expimg' variant='top' src={LegacyAnalytics} alt="Legacy Analytics" />
                             <Card.Title>Business Consultant</Card.Title>
                         </Card>
                     </Col>
+                </Row>
+                <Row>
                     <Col>
 
-                        <Card className='basiccard'>
-                            <Card.Img variant='top' src={MMP} alt="Magical Moments Photography" />
+                        <Card className='widecard'>
+                            <Card.Img className='expimg' variant='top' src={MMP} alt="Magical Moments Photography" />
                             <Card.Title>Owner, CEO, CFO and CIO</Card.Title>
                         </Card>
                     </Col>
+                </Row>
+                <Row>
                     <Col>
 
-                        <Card className='basiccard'>
-                            <Card.Img variant='top' src={Hardesty} alt="Hardesty Hackett" />
+                        <Card className='widecard'>
+                            <Card.Img className='expimg' variant='top' src={Hardesty} alt="Hardesty Hackett" />
                             <Card.Title>Consultant</Card.Title>
                         </Card>
                     </Col>

@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Grid from '@mui/material/Grid';
 
 
-import Sidebar from './components/Sidebar'; 
+import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Intro from './components/Intro';
 import Experience from './components/Experience';
@@ -18,6 +18,7 @@ import Education from './components/Education';
 import Interests from './components/Interests';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import ScrollSpy from "react-ui-scrollspy";
 
 
 function App() {
@@ -30,15 +31,17 @@ function App() {
           </Col>
 
           <Col className='main' xs={10}>
-            <Intro />
-            <About />
-            <Experience />
-            <Projects />
-            <Skills />
-            <Education />
-            <Interests />
-            <Contact />
-            <Resume />
+            <ScrollSpy>
+              <Intro />
+              <About />
+              <Experience />
+              <Projects />
+              <Skills />
+              <Education />
+              <Interests />
+              <Contact />
+              <Resume />
+            </ScrollSpy>
           </Col>
         </Row>
       </Container>

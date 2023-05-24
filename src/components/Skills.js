@@ -33,10 +33,11 @@ const Skills = () => {
             <Navbar className="titlebar" sticky="top">
                 <h1>Skills</h1>
             </Navbar>
-            <Card className="skillcard">
+            <Card className="widecard">
                 <div className='skilltitle'>
                     <Card.Title className='skilltitle'>Web Development</Card.Title>
                 </div>
+                <hr class="mx-auto" width='96%' />
                 <Card.Body>
                     <Row>
                         <Col>
@@ -108,10 +109,11 @@ const Skills = () => {
                     </Row>
                 </Card.Body>
             </Card>
-            <Card className="skillcard">
+            <Card className="widecard">
                 <div className='skilltitle'>
                     <Card.Title>Legacy Systems</Card.Title>
                 </div>
+                <hr class="mx-auto" width='96%' />
                 <Card.Body>
                     <Row>
                         <Col>
@@ -153,10 +155,11 @@ const Skills = () => {
                     </Row>
                 </Card.Body>
             </Card>
-            <Card className="skillcard">
+            <Card className="widecard">
                 <div className='skilltitle'>
                     <Card.Title>Other</Card.Title>
                 </div>
+                <hr class="mx-auto" width='96%' />
                 <Card.Body>
                     <Row>
                         <Col>

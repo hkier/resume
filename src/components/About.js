@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const About = () => {
     return (
-        <div>
+        <div id='about'>
             <Navbar className="titlebar" sticky="top" id="about">
                 <h1>About Me</h1>
             </Navbar>

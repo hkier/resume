@@ -47,6 +47,7 @@ const Experience = () => {
                             <Card.Img className='expimg' variant='top' src={MMP} alt="Magical Moments Photography" />
                             <Card.Title>Freelance</Card.Title>
                             <Card.Text>Web Developer and Consultant</Card.Text>
+
                             <Card.Body>
                                 <ul>
                                     <li>Partnered with clients to determine project requirements and delivered high-quality results on-time and within budget</li>

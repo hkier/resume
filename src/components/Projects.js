@@ -25,6 +25,8 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={decarb} />
+                            <hr />
+
                             <Card.Body>
                                 <Card.Title>Decarbonize My State</Card.Title>
                                 <Card.Text>
@@ -40,6 +42,7 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={steve1} />
+                            <hr/>
                             <Card.Body>
                                 <Card.Title>Steven Rosenblum</Card.Title>
                                 <Card.Text>
@@ -55,6 +58,7 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={betweenfriends} />
+                            <hr/>
                             <Card.Body>
                                 <Card.Title>Between Friends</Card.Title>
                                 <Card.Text>
@@ -68,6 +72,7 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={wilderness1} />
+                            <hr/>
                             <Card.Body>
                                 <Card.Title>Friends of Wilderness Road</Card.Title>
                                 <Card.Text>
@@ -82,6 +87,7 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={mmpix} />
+                            <hr/>
                             <Card.Body>
                                 <Card.Title>Magical Moments Photography</Card.Title>
                                 <Card.Text>
@@ -94,10 +100,11 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={chem} />
+                            <hr/>
                             <Card.Body>
                                 <Card.Title>ChemCentral</Card.Title>
                                 <Card.Text>
-                                    On assignment from EDS to Chemcentral, a chemical distribution company, Designed, Coded and Published ChemCentral's first website for ChemCentral.
+                                    On assignment from EDS to Chemcentral, a chemical distribution company, Designed, Coded and Published ChemCentral's first website.
                                 </Card.Text>
                                 <Card.Link href="https://web.archive.org/web/19990218105837/http://www.chemcentral.com:80/" target="_blank">Archived Site</Card.Link> <br />
                             </Card.Body>
@@ -106,6 +113,7 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={cash} />
+                            <hr/>
                             <Card.Body>
                                 <Card.Title>Cash Management</Card.Title>
                                 <Card.Text>
@@ -118,6 +126,7 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={scams} />
+                            <hr/>
                             <Card.Body>
                                 <Card.Title>Cyber Scams and You</Card.Title>
                                 <Card.Text>
@@ -131,6 +140,7 @@ const Projects = () => {
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={howard} />
+                            <hr/>
                             <Card.Body>
                                 <Card.Title>Howard Kier Portfolio</Card.Title>
                                 <Card.Text>

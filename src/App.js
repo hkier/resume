@@ -24,7 +24,7 @@ import ScrollSpy from "react-ui-scrollspy";
 function App() {
   return (
     <Grid fluid className='cell'>
-      <Container className='wrapper'>
+      <Container className='wrapper' style={{width: '100vw'}}>
         <Row className='cell'>
           <Col className='sidebar' xs={2}>
             <Sidebar />
@@ -32,7 +32,7 @@ function App() {
 
           <Col className='main' xs={10}>
             <ScrollSpy>
-              <Intro />
+              <Intro style={{width: '100vw'}}/>
               <About />
               <Experience />
               <Projects />

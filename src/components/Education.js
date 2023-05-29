@@ -35,15 +35,6 @@ const Education = () => {
             <Container >
                 <Row>
                     <Col>
-
-                        <Card className="basiccard">
-                            <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
-                            <Card.Body>
-                                <Card.Title>Master of Science, Computer Engineering</Card.Title >
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
                         <Card className="basiccard">
                             <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
                             <Card.Body>
@@ -51,6 +42,15 @@ const Education = () => {
                             </Card.Body>
                         </Card>
                     </Col>
+                    <Col>
+                        <Card className="basiccard">
+                            <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
+                            <Card.Body>
+                                <Card.Title>Master of Science, Computer Engineering</Card.Title >
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
                     <Col>
                         <Card className="basiccard">
 

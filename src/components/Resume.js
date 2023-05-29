@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import resumePdf from '../files/kier.pdf'
+import { Container } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
+import { Row, Col } from 'react-bootstrap';
 
 const Resume = () => {
     return (
@@ -8,10 +11,23 @@ const Resume = () => {
             <Navbar className="titlebar" sticky="top">
                 <h1>Resume</h1>
             </Navbar>
-            <div>
-                <object data={resumePdf} type="application/pdf" width="100%" height="800px">
-                </object>
-            </div>
+            <Container>
+                <div>
+                    <Card className="widecard">
+                        <Card.Body>
+                            <Row className='widerow'>
+                                <Col>
+                                   
+
+                    <object data={resumePdf} type="application/pdf" width="100%" height="800px">
+                    </object>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                </div>
+            </Container>
         </div>
     )
 }

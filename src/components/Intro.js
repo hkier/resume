@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 
 const Intro = () => {
     return (
-        <div>
+        <div id='home'>
             <Navbar className="titlebar" sticky="top" >
                 <h1>Howard Kier</h1>
             </Navbar>

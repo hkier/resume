@@ -6,7 +6,7 @@
 import React from 'react';
 //import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import ScrollSpy from "react-ui-scrollspy";
+// import ScrollSpy from "react-ui-scrollspy";
 
 
 // using material ui for the icons
@@ -24,7 +24,7 @@ import ResumeIcon from '@mui/icons-material/Description';
 
 const Sidebar = () => {
     return (
-        <div className="navStyle" sticky="top">
+        <div className="navStyle" >
 
             <div>
                 <h2>

@@ -27,7 +27,7 @@ const Contact = () => {
                 <Row>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={hk} />
+                            <Card.Img className='badgeimg' variant="top" src={hk} />
                             <Card.Body>
                                 <Card.Title>Howard Kier</Card.Title>
                                 <Card.Text>
@@ -39,37 +39,31 @@ const Contact = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
+                            <Card.Link href="https://www.facebook.com/hkier" target="_blank" rel="noreferrer">
+                                <Card.Img className='badgeimg' variant='top' src={facebook} alt="facebook" />
+                            </Card.Link>
                             <Card.Body>
                                 <Card.Title>Facebook:</Card.Title>
-                                <Card.Text>
-                                    <a href="https://www.facebook.com/hkier" target="_blank" rel="noreferrer">
-                                        <img src={facebook} alt="facebook" />
-                                    </a>
-                                    </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <Card className='basiccard'>
+                            <Card.Link href="https://www.linkedin.com/in/hkier/" target="_blank" rel="noreferrer">
+                                <Card.Img className='badgeimg' src={linkedin} alt="LinkedIn" />
+                            </Card.Link>
                             <Card.Body>
                                 <Card.Title>LinkedIn</Card.Title>
-                                <Card.Text>
-                                    <a href="https://www.linkedin.com/in/hkier/" target="_blank" rel="noreferrer">
-                                        <img src={linkedin} alt="LinkedIn" />
-                                    </a>
-                                    </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <Card className='basiccard'>
+                            <Card.Link href="https://github.com/hkier" target="_blank" rel="noreferrer">
+                                <Card.Img className='badgeimg' src={github} alt="Github" />
+                            </Card.Link>
                             <Card.Body>
                                 <Card.Title>Github</Card.Title>
-                                <Card.Text>
-                                    <a href="https://github.com/hkier" target="_blank" rel="noreferrer">
-                                        <img src={github} alt="Github" />
-                                    </a>
-                                    </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>

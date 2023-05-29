@@ -27,9 +27,10 @@ const Sidebar = () => {
         <div className="navStyle" >
 
             <div>
-                <h2>
+                <h2 className='howardStyle'>
                     <HashLink smooth to="#home" className='howardStyle'>Howard Kier</HashLink>
-                </h2>
+                    <h6 >Developer, Consultant, and Mentor</h6>
+                   </h2>
             </div>
 
             <div className='navStyle'>

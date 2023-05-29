@@ -24,6 +24,12 @@ import sql from '../images/Skills/sql.jpg'
 import visualstudio from '../images/Skills/vsc.png'
 import webpack from '../images/Skills/webpack.png'
 import wordpress from '../images/Skills/wordpress.png'
+import healthcare from '../images/Skills/sql.jpg'
+import insurance from '../images/Skills/sql.jpg'
+import manufacturing from '../images/Skills/sql.jpg'
+import retail from '../images/Skills/sql.jpg'
+import transportation from '../images/Skills/sql.jpg'
+import utilities from '../images/Skills/sql.jpg'
 
 
 
@@ -158,7 +164,7 @@ const Skills = () => {
                 </Card>
                 <Card className="widecard">
                     <div className='skilltitle'>
-                        <Card.Title >Other</Card.Title>
+                        <Card.Title className='skilltitle'>Other</Card.Title>
                     </div>
 
                     <Card.Body>
@@ -190,6 +196,53 @@ const Skills = () => {
                         </Row>
                     </Card.Body>
                 </Card>
+                <Card className="widecard">
+                    <div className='skilltitle'>
+                        <Card.Title className='skilltitle'>Industries</Card.Title>
+                    </div>
+                    <Card.Body>
+                        <Row className='widerow'>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={healthcare} />
+                                    <Card.Text>Healthcare</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={manufacturing} />
+                                    <Card.Text>Manufacturing</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={retail} />
+                                    <Card.Text>Retail</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={insurance} />
+                                    <Card.Text>Insurance</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={transportation} />
+                                    <Card.Text>Transportation</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={utilities} />
+                                    <Card.Text>Utilities</Card.Text>
+                                </div>
+                            </Col>
+
+                        </Row>
+                    </Card.Body>
+                </Card>
+
 
             </Container>
         </div>

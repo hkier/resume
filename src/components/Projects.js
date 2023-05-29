@@ -11,6 +11,7 @@ import mmpix from '../images/Projects/mmpix.png'
 import chem from '../images/Projects/chem.png'
 import cash from '../images/Projects/cash.png'
 import scams from '../images/Projects/scams.png'
+import betweenfriends from '../images/Projects/betweenfriends.png'
 
 
 const Projects = () => {
@@ -21,6 +22,21 @@ const Projects = () => {
             </Navbar>
             <container className="project">
                 <Row>
+                    <Col>
+                        <Card className='basiccard'>
+                            <Card.Img variant="top" src={decarb} />
+                            <Card.Body>
+                                <Card.Title>Decarbonize My State</Card.Title>
+                                <Card.Text>
+                                    Worked with a team of volunteers at ChiHack Night to build a site to help people understand the impact of various personal decisions and policy proposals on the state's carbon emissions.
+                                    I was responsible along with the rest of the team for the site's look, feel, design and implimentation.
+                                    This site was built with React, Python, Recharts, Bootstrap and more.
+                                </Card.Text>
+                                <Card.Link href="https://decarbmystate.com/" target="_blank">Live Site</Card.Link> <br />
+                                <Card.Link href="https://github.com/chihacknight/decarbonize-my-state" target="_blank">GitHub Repo</Card.Link> <br />
+                            </Card.Body>
+                        </Card>
+                    </Col>
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={steve1} />
@@ -38,6 +54,19 @@ const Projects = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
+                            <Card.Img variant="top" src={betweenfriends} />
+                            <Card.Body>
+                                <Card.Title>Between Friends</Card.Title>
+                                <Card.Text>
+                                    Working as a Code For Chicago volunteer, I assisted Between Friends, a Chicago area domestic violence agency, to update their website.
+                                    I worked with 3-5 other Code For Chicago to research the existing site, interview the client, and design and implement a new site.
+                                </Card.Text>
+                                <Card.Link href="https://betweenfriendschicago.org/" target="_blank">Live Site</Card.Link> <br />
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className='basiccard'>
                             <Card.Img variant="top" src={wilderness1} />
                             <Card.Body>
                                 <Card.Title>Friends of Wilderness Road</Card.Title>
@@ -48,33 +77,8 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card className='basiccard'>
-                            <Card.Img variant="top" src={howard} />
-                            <Card.Body>
-                                <Card.Title>Howard Kier Portfolio</Card.Title>
-                                <Card.Text>
-                                    This site was built with React and Bootstrap.
-                                </Card.Text>
-                                <Card.Link href="//github.com/hkier/resume" target="_blank">GitHub Repo</Card.Link> <br />
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card className='basiccard'>
-                            <Card.Img variant="top" src={decarb} />
-                            <Card.Body>
-                                <Card.Title>Decarbonize My State</Card.Title>
-                                <Card.Text>
-                                    Worked with a team of volunteers at ChiHack Night to build a site to help people understand the impact of various personal decisions and policy proposals on the state's carbon emissions.
-                                    I was responsible along with the rest of the team for the site's look, feel, design and implimentation.
-                                    This site was built with React, Python, Recharts, Bootstrap and more.
-                                </Card.Text>
-                                <Card.Link href="https://decarbmystate.com/" target="_blank">Live Site</Card.Link> <br />
-                                <Card.Link href="https://github.com/chihacknight/decarbonize-my-state" target="_blank">GitHub Repo</Card.Link> <br />
-                            </Card.Body>
-                        </Card>
-                    </Col>
+
+
                     <Col>
                         <Card className='basiccard'>
                             <Card.Img variant="top" src={mmpix} />
@@ -124,7 +128,18 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-
+                    <Col>
+                        <Card className='basiccard'>
+                            <Card.Img variant="top" src={howard} />
+                            <Card.Body>
+                                <Card.Title>Howard Kier Portfolio</Card.Title>
+                                <Card.Text>
+                                    This site was built with React and Bootstrap.
+                                </Card.Text>
+                                <Card.Link href="//github.com/hkier/resume" target="_blank">GitHub Repo</Card.Link> <br />
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
             </container>
         </div>

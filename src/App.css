@@ -20,7 +20,7 @@
 }
 
 .titlebar {
-  color: white;
+  color: #ffee00;
   background-color: #A334B6;
   overflow: hidden;
   top: 0;
@@ -45,6 +45,7 @@
   border-width: 2px !important;
   border-style: solid !important;
 }
+
 
 .main {
   height: 100vh;
@@ -194,14 +195,22 @@ h3 {
   line-height: 15px !important;
 }
 
+h6 {
+  font-size: .8rem !important;
+  font-weight: 300 !important;
+  line-height: 15px !important;
+  color:  #A334B6 !important;
+
+}
+
 hr {
   color: #A334B6 !important;
   font-weight: 500 !important;
 }
 
 .expimg {
-  width: 200px !important;
-  height: auto;
+  width: 150px !important;
+  height: 150px !important;
   margin: 0 auto;
   display: block;
   padding-top: 0px;
@@ -228,9 +237,9 @@ img {
   padding-bottom: 20px;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 1.5rem !important;
+  font-size: 1.68rem !important;
   font-weight: 300 !important;
-  line-height: 1.5rem !important;
+  line-height: 2.88rem !important;
   
 }
 

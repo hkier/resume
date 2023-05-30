@@ -24,13 +24,36 @@ import sql from '../images/Skills/sql.jpg'
 import visualstudio from '../images/Skills/vsc.png'
 import webpack from '../images/Skills/webpack.png'
 import wordpress from '../images/Skills/wordpress.png'
-import healthcare from '../images/Skills/sql.jpg'
-import insurance from '../images/Skills/sql.jpg'
-import manufacturing from '../images/Skills/sql.jpg'
-import retail from '../images/Skills/sql.jpg'
-import transportation from '../images/Skills/sql.jpg'
-import utilities from '../images/Skills/sql.jpg'
 
+
+//images for industry experience
+import AutomotiveIcon from '@mui/icons-material/TimeToLeave';
+import BankingIcon from '@mui/icons-material/AccountBalance';
+import ChemicalIcon from '@mui/icons-material/Science';
+import EducationIcon from '@mui/icons-material/School';
+import EventPlanningIcon from '@mui/icons-material/Event';
+import FinanceIcon from '@mui/icons-material/AttachMoney';
+import GovernmentIcon from '@mui/icons-material/Gavel';
+import HealthcareIcon from '@mui/icons-material/Vaccines';
+import HospitalityIcon from '@mui/icons-material/Hotel';
+import InformationProcessingIcon from '@mui/icons-material/Terminal';
+import InsuranceIcon from '@mui/icons-material/Paid';
+import LogisticsIcon from '@mui/icons-material/LocalShipping';
+import ManufacturingIcon from '@mui/icons-material/Factory';
+import ProfessionalServicesIcon from '@mui/icons-material/Group';
+import ProjectManagementIcon from '@mui/icons-material/AccountTree';
+import RealEstateIcon from '@mui/icons-material/Gite';
+import RestaurantIcon from '@mui/icons-material/Fastfood';
+import RetailIcon from '@mui/icons-material/Storefront';
+import TelecommunicationsIcon from '@mui/icons-material/SatelliteAltSharp';
+import TransportationIcon from '@mui/icons-material/FlightTakeoff';
+
+const blue = '#3c99d4'
+const green = "#24a148"
+const orange = "#ec971f"
+const yellow = "#f3d70c"
+const red = "#d9534f"
+const purple = "#c800ff"
 
 
 const Skills = () => {
@@ -203,41 +226,153 @@ const Skills = () => {
                     <Card.Body>
                         <Row className='widerow'>
                             <Col>
-                                <div>
-                                    <Card.Img className='badgeimg' src={healthcare} />
+                                <div className='skillicon'>
+
+                                    <AutomotiveIcon fontSize='large' sx={{ color: blue }} />
+                                    <Card.Text>Automotive</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <BankingIcon fontSize='large' sx={{ color: green }}/>
+                                    <Card.Text>Banking</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <ChemicalIcon fontSize='large' />
+                                    <Card.Text>Chemical</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <EducationIcon fontSize='large' sx={{ color: orange }}/>
+                                    <Card.Text>Education</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <EventPlanningIcon fontSize='large' sx={{ color: yellow }}/>
+                                    <Card.Text>Event Planning</Card.Text>
+                                </div>
+                            </Col>
+
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <FinanceIcon fontSize='large' sx={{ color: purple }}/>
+                                    <Card.Text>Financial</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <GovernmentIcon fontSize='large' sx={{ color: blue }} />
+                                    <Card.Text>Government</Card.Text>
+                                </div>
+                            </Col>
+
+
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <HealthcareIcon fontSize='large' sx={{ color: green }}/>
                                     <Card.Text>Healthcare</Card.Text>
                                 </div>
                             </Col>
                             <Col>
-                                <div>
-                                    <Card.Img className='badgeimg' src={manufacturing} />
-                                    <Card.Text>Manufacturing</Card.Text>
+                                <div className='skillicon'>
+
+                                    <HospitalityIcon fontSize='large' sx={{ color: orange }}/>
+                                    <Card.Text>Hospitality</Card.Text>
                                 </div>
                             </Col>
                             <Col>
-                                <div>
-                                    <Card.Img className='badgeimg' src={retail} />
-                                    <Card.Text>Retail</Card.Text>
+                                <div className='skillicon'>
+
+                                    <InformationProcessingIcon fontSize='large' sx={{ color: red }}/>
+                                    <Card.Text>Information Processing</Card.Text>
                                 </div>
                             </Col>
                             <Col>
-                                <div>
-                                    <Card.Img className='badgeimg' src={insurance} />
+                                <div className='skillicon'>
+
+                                    <InsuranceIcon fontSize='large' sx={{ color: yellow }}/>
                                     <Card.Text>Insurance</Card.Text>
                                 </div>
                             </Col>
                             <Col>
-                                <div>
-                                    <Card.Img className='badgeimg' src={transportation} />
-                                    <Card.Text>Transportation</Card.Text>
+                                <div className='skillicon'>
+
+                                    <LogisticsIcon fontSize='large' sx={{ color: purple }}/>
+                                    <Card.Text>Logistics</Card.Text>
                                 </div>
                             </Col>
                             <Col>
-                                <div>
-                                    <Card.Img className='badgeimg' src={utilities} />
-                                    <Card.Text>Utilities</Card.Text>
+                                <div className='skillicon'>
+
+                                    <ManufacturingIcon fontSize='large' sx={{ color: red }}/>
+                                    <Card.Text>Manufacturing</Card.Text>
                                 </div>
                             </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <ProfessionalServicesIcon fontSize='large' sx={{ color: blue }}/>
+                                    <Card.Text>Professional Services</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <ProjectManagementIcon fontSize='large' sx={{ color: green }}/>
+                                    <Card.Text>Project Management</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <RealEstateIcon fontSize='large' sx={{ color: orange }}/>
+                                    <Card.Text>Real Estate</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <RestaurantIcon fontSize='large' sx={{ color: yellow }}/>
+                                    <Card.Text>Restaurant</Card.Text>
+                                </div>
+                            </Col>
+
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <RetailIcon fontSize='large' sx={{ color: red }}/>
+                                    <Card.Text>Retail</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <TelecommunicationsIcon fontSize='large' />
+                                    <Card.Text>Telecommunications</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className='skillicon'>
+
+                                    <TransportationIcon fontSize='large' sx={{ color: purple }}/>
+                                    <Card.Text>Transportation</Card.Text>
+                                </div>
+                            </Col>
+
+
+
+
 
                         </Row>
                     </Card.Body>

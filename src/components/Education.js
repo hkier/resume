@@ -15,7 +15,7 @@ import Syracuse from '../images/Education/SU.jpg'
 
 // function BasicExample() {
 //   return (
-//     <Card className='educationcard'>
+//     <Card className='mediumcard'>
 //       <Card.Img variant="top" src="holder.js/100px180" />
 //       <Card.Body>
 //         <Card.Title>Card Title</Card.Title>
@@ -37,49 +37,66 @@ const Education = () => {
             <Container >
                 <Row>
                     <Col>
-                        <Card className="educationcard">
+                        <Card className="mediumcard">
                             <Row>
                                 <Col xs={2}>
-                            <Image  src={Syracuse} className='educationImg' alt="Syracuse University" />
-                            </Col>
-                            <Col xs={10} >
-                                <h2>Syracuse University</h2>
-                            </Col>
+                                    <Image src={Syracuse} className='educationImg' alt="Syracuse University" />
+                                </Col>
+                                <Col xs={10} className='edutext'>
+                                    <h2>Syracuse University</h2>
+                                </Col>
+                            </Row>
+                            <Card.Body>
+                                <Card.Title>Master of Science, Computer Engineering</Card.Title >
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className="mediumcard">
+                            <Row>
+                                <Col xs={2}>
+                                    <Image src={Syracuse} className='educationImg' alt="Syracuse University" />
+                                </Col>
+                                <Col xs={10} className='edutext'>
+                                    <h2>Syracuse University</h2>
+                                </Col>
                             </Row>
                             <Card.Body>
                                 <Card.Title>Bachelor of Science, Computer Engineering</Card.Title >
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card className="educationcard">
-                            <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
-                            <Card.Body>
-                                <Card.Title>Master of Science, Computer Engineering</Card.Title >
-                            </Card.Body>
-                        </Card>
-                    </Col>
 
                     <Col>
-                        <Card className="educationcard">
-
-                            <Card.Img variant="top" src={Mustang} alt="Southern Methodist University" />
+                        <Card className="mediumcard">
+                            <Row>
+                                <Col xs={2}>
+                                    <Image src={Mustang} className='educationImg' alt="Southern Methodist University" />
+                                </Col>
+                                <Col xs={10} className='edutext'>
+                                    <h2>Southern Methodist University</h2>
+                                </Col>
+                            </Row>
                             <Card.Body>
-                                <Card.Title>Southern Methodist University</Card.Title>
-
                                 <Card.Title>Master of Business Administration</Card.Title>
-                                <Card.Text>Concentration in Organizational Behavior</Card.Text>
-                                <Card.Text>Concentration in Process Improvement</Card.Text>
-                                <Card.Text>Beta Gamma Sigma</Card.Text>
+                                <Card.Text>Concentrations: Organizational Behavior and Process Improvement</Card.Text>
+                                <Card.Text>Inducted into Beta Gamma Sigma, National Honor Society</Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
-                        <Card className="educationcard">
-                            <Card.Img variant="top" src={fullstack} alt="Fullstack Academy" />
+                        <Card className="mediumcard">
+
+                            <Row>
+                                <Col xs={2}>
+                                    <Image src={fullstack} className='educationImg' alt="Fullstack Academ" />
+                                </Col>
+                                <Col xs={10} className='edutext'>
+                                    <h2>Fullstack Academy</h2>
+                                </Col>
+                            </Row>
                             <Card.Body>
-                                <Card.Title>Fullstack Academy</Card.Title>
-                                <Card.Text>Software Engineering Immersive</Card.Text>
+                                <Card.Title>Software Engineering Immersive</Card.Title>
                                 <Card.Text>JavaScript, React, Redux, Node.js, Express, PostgreSQL</Card.Text>
                             </Card.Body>
                         </Card>

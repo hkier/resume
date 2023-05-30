@@ -24,50 +24,50 @@ const Contact = () => {
                 <h1>Contact </h1>
             </Navbar>
             <Container >
-                <Row>
-                    <Col>
-                        <Card className='basiccard'>
-                            <Card.Img className='badgeimg' variant="top" src={hk} />
-                            <Card.Body>
+                <Card className='widecard'>
+                    <Card.Body>
+                        <Row className='widerow'>
+                            <Col>
+                                <Card.Img className='badgeimg' variant="top" src={hk} />
+
                                 <Card.Title>Howard Kier</Card.Title>
                                 <Card.Text>
                                     <p>Full Stack Web Developer</p>
                                     <p>Chicago, Il</p>
                                 </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card className='basiccard'>
-                            <Card.Link href="https://www.facebook.com/hkier" target="_blank" rel="noreferrer">
-                                <Card.Img className='badgeimg' variant='top' src={facebook} alt="facebook" />
-                            </Card.Link>
-                            <Card.Body>
-                                <Card.Title>Facebook:</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card className='basiccard'>
-                            <Card.Link href="https://www.linkedin.com/in/hkier/" target="_blank" rel="noreferrer">
-                                <Card.Img className='badgeimg' src={linkedin} alt="LinkedIn" />
-                            </Card.Link>
-                            <Card.Body>
+                            </Col>
+                            <Col>
+
+
+                                <Card.Link href="https://www.facebook.com/hkier" target="_blank" rel="noreferrer">
+                                    <Card.Img className='badgeimg' variant='top' src={facebook} alt="facebook" />
+
+                                    <Card.Title>Facebook</Card.Title>
+                                </Card.Link>
+
+                            </Col>
+                            <Col>
+
+                                <Card.Link href="https://www.linkedin.com/in/hkier/" target="_blank" rel="noreferrer">
+                                    <Card.Img className='badgeimg' src={linkedin} alt="LinkedIn" />
+                                </Card.Link>
+
                                 <Card.Title>LinkedIn</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card className='basiccard'>
-                            <Card.Link href="https://github.com/hkier" target="_blank" rel="noreferrer">
-                                <Card.Img className='badgeimg' src={github} alt="Github" />
-                            </Card.Link>
-                            <Card.Body>
+
+                            </Col>
+                            <Col>
+
+                                <Card.Link href="https://github.com/hkier" target="_blank" rel="noreferrer">
+                                    <Card.Img className='badgeimg' src={github} alt="Github" />
+                                </Card.Link>
+
                                 <Card.Title>Github</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
+
+
+                            </Col>
+                        </Row>
+                    </Card.Body>
+                </Card>
             </Container>
 
 

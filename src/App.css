@@ -288,7 +288,7 @@ img {
   border-style: solid !important;
 }
 
-.educationcard {
+.mediumcard {
   width: 30rem;
   height: auto;
   margin: 0 auto;
@@ -312,10 +312,18 @@ img {
   border-style: solid !important;
 }
 
-.educationImg{
+.edutext {
+  align-content: center;
   display: flex;
-  align-items:center;
+}
 
+.educationImg {
+	display: flex;
+  width: 5rem;
+	align-items: center;
+	align-content: center;
+	padding-top: 0px;
+  margin-left: 2rem;
 }
 
 .widerow {

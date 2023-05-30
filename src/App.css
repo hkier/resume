@@ -288,6 +288,36 @@ img {
   border-style: solid !important;
 }
 
+.educationcard {
+  width: 30rem;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #e1dede;
+  box-shadow: 6px 6px 10px -2px rgba(0, 0, 0, 0.5);
+  font-size: 1em;
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-color: #A334B6 !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+}
+
+.educationImg{
+  display: flex;
+  align-items:center;
+
+}
+
 .widerow {
   flex-flow: row wrap;
   justify-content: center

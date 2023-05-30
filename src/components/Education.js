@@ -5,15 +5,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card'
+import Image from 'react-bootstrap/Image'
 
 //images for education
-import Syracuse from '../images/Education/Syracuse.svg'
+
 import Mustang from '../images/Education/Mustang.png'
 import fullstack from '../images/Education/fullstack.jpg'
+import Syracuse from '../images/Education/SU.jpg'
 
 // function BasicExample() {
 //   return (
-//     <Card className='basiccard'>
+//     <Card className='educationcard'>
 //       <Card.Img variant="top" src="holder.js/100px180" />
 //       <Card.Body>
 //         <Card.Title>Card Title</Card.Title>
@@ -35,15 +37,22 @@ const Education = () => {
             <Container >
                 <Row>
                     <Col>
-                        <Card className="basiccard">
-                            <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
+                        <Card className="educationcard">
+                            <Row>
+                                <Col xs={2}>
+                            <Image  src={Syracuse} className='educationImg' alt="Syracuse University" />
+                            </Col>
+                            <Col xs={10} >
+                                <h2>Syracuse University</h2>
+                            </Col>
+                            </Row>
                             <Card.Body>
                                 <Card.Title>Bachelor of Science, Computer Engineering</Card.Title >
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
-                        <Card className="basiccard">
+                        <Card className="educationcard">
                             <Card.Img variant="top" src={Syracuse} alt="Syracuse University" />
                             <Card.Body>
                                 <Card.Title>Master of Science, Computer Engineering</Card.Title >
@@ -52,7 +61,7 @@ const Education = () => {
                     </Col>
 
                     <Col>
-                        <Card className="basiccard">
+                        <Card className="educationcard">
 
                             <Card.Img variant="top" src={Mustang} alt="Southern Methodist University" />
                             <Card.Body>
@@ -66,7 +75,7 @@ const Education = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className="basiccard">
+                        <Card className="educationcard">
                             <Card.Img variant="top" src={fullstack} alt="Fullstack Academy" />
                             <Card.Body>
                                 <Card.Title>Fullstack Academy</Card.Title>

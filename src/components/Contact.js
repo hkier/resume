@@ -28,7 +28,7 @@ const Contact = () => {
                     <Card.Body>
                         <Row className='widerow'>
                             <Col>
-                                <Card.Img className='badgeimg' variant="top" src={hk} />
+                                <Card.Img className='badgeimg' variant="top" src={hk} alt='HK logo'/>
 
                                 <Card.Title>Howard Kier</Card.Title>
                                 <Card.Text>

@@ -24,7 +24,7 @@ const Projects = () => {
                 <Row>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={decarb} />
+                            <Card.Img variant="top" src={decarb} alt='decarb my state'/>
                             <hr />
 
                             <Card.Body>
@@ -41,7 +41,7 @@ const Projects = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={steve1} />
+                            <Card.Img variant="top" src={steve1} alt='steven rosenblum'/>
                             <hr/>
                             <Card.Body>
                                 <Card.Title>Steven Rosenblum</Card.Title>
@@ -57,7 +57,7 @@ const Projects = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={betweenfriends} />
+                            <Card.Img variant="top" src={betweenfriends} alt='between friends'/>
                             <hr/>
                             <Card.Body>
                                 <Card.Title>Between Friends</Card.Title>
@@ -71,7 +71,7 @@ const Projects = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={wilderness1} />
+                            <Card.Img variant="top" src={wilderness1} alt='friends of wilderness road' />
                             <hr/>
                             <Card.Body>
                                 <Card.Title>Friends of Wilderness Road</Card.Title>
@@ -86,7 +86,7 @@ const Projects = () => {
 
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={mmpix} />
+                            <Card.Img variant="top" src={mmpix} alt='magical moments photography' />
                             <hr/>
                             <Card.Body>
                                 <Card.Title>Magical Moments Photography</Card.Title>
@@ -99,7 +99,7 @@ const Projects = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={chem} />
+                            <Card.Img variant="top" src={chem} alt='chemcentral '/>
                             <hr/>
                             <Card.Body>
                                 <Card.Title>ChemCentral</Card.Title>
@@ -112,7 +112,7 @@ const Projects = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={cash} />
+                            <Card.Img variant="top" src={cash} alt='cash management book' />
                             <hr/>
                             <Card.Body>
                                 <Card.Title>Cash Management</Card.Title>
@@ -125,7 +125,7 @@ const Projects = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={scams} />
+                            <Card.Img variant="top" src={scams} alt='cyber scams and you books' />
                             <hr/>
                             <Card.Body>
                                 <Card.Title>Cyber Scams and You</Card.Title>
@@ -139,7 +139,7 @@ const Projects = () => {
                     </Col>
                     <Col>
                         <Card className='basiccard'>
-                            <Card.Img variant="top" src={howard} />
+                            <Card.Img variant="top" src={howard} alt='howard kier portfolio' />
                             <hr/>
                             <Card.Body>
                                 <Card.Title>Howard Kier Portfolio</Card.Title>

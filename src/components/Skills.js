@@ -72,67 +72,67 @@ const Skills = () => {
                         <Row className='widerow'>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={html5} />
+                                    <Card.Img className='badgeimg' src={html5} alt='html' />
                                     <Card.Text>HTML5</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={css3} />
+                                    <Card.Img className='badgeimg' src={css3} alt='css'/>
                                     <Card.Text>CSS3</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={javascript} />
+                                    <Card.Img className='badgeimg' src={javascript} alt='javascript'/>
                                     <Card.Text>JavaScript</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={jquery} />
+                                    <Card.Img className='badgeimg' src={jquery} alt='jquery' />
                                     <Card.Text>jQuery</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={reactlogo} />
+                                    <Card.Img className='badgeimg' src={reactlogo} alt='react' />
                                     <Card.Text>React</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={bootstrap} />
+                                    <Card.Img className='badgeimg' src={bootstrap} alt='bootstrap'/>
                                     <Card.Text>Bootstrap</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={webpack} />
+                                    <Card.Img className='badgeimg' src={webpack} alt='webpack' />
                                     <Card.Text>Webpack</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={github} />
+                                    <Card.Img className='badgeimg' src={github} alt='github'/>
                                     <Card.Text>GitHub</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={node} />
+                                    <Card.Img className='badgeimg' src={node} alt='node'/>
                                     <Card.Text>Node.js</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={express} />
+                                    <Card.Img className='badgeimg' src={express} alt='express'/>
                                     <Card.Text>Express</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={postgresql} />
+                                    <Card.Img className='badgeimg' src={postgresql} alt='postgres' />
                                     <Card.Text>PostgreSQL</Card.Text>
                                 </div>
                             </Col>
@@ -148,37 +148,37 @@ const Skills = () => {
                         <Row className='widerow'>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={JCL} />
+                                    <Card.Img className='badgeimg' src={JCL} alt='jcl' />
                                     <Card.Text>JCL</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={rpg} />
+                                    <Card.Img className='badgeimg' src={rpg} alt='rpg'/>
                                     <Card.Text>RPG</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={APL} />
+                                    <Card.Img className='badgeimg' src={APL} alt='apl'/>
                                     <Card.Text>APL</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={sdlc} />
+                                    <Card.Img className='badgeimg' src={sdlc} alt='sdlc'/>
                                     <Card.Text>SDLC</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={sql} />
+                                    <Card.Img className='badgeimg' src={sql} alt='sql'/>
                                     <Card.Text>SQL</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={jde} />
+                                    <Card.Img className='badgeimg' src={jde} alt='jde'/>
                                     <Card.Text>JDE</Card.Text>
                                 </div>
                             </Col>
@@ -194,25 +194,25 @@ const Skills = () => {
                         <Row className='widerow'>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={office} />
+                                    <Card.Img className='badgeimg' src={office} alt='ms office'/>
                                     <Card.Text>Microsoft Office</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={visualstudio} />
+                                    <Card.Img className='badgeimg' src={visualstudio} alt='visual studio'/>
                                     <Card.Text>Visual Studio Code</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={photoshop} />
+                                    <Card.Img className='badgeimg' src={photoshop} alt='photoshop' />
                                     <Card.Text>Adobe Photoshop</Card.Text>
                                 </div>
                             </Col>
                             <Col>
                                 <div>
-                                    <Card.Img className='badgeimg' src={wordpress} />
+                                    <Card.Img className='badgeimg' src={wordpress} alt='wordpress'/>
                                     <Card.Text>WordPress</Card.Text>
                                 </div>
                             </Col>

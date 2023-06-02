@@ -25,10 +25,10 @@ const Education = () => {
                     <Col>
                         <Card className="mediumcard">
                             <Row>
-                                <Col xs={2}>
+                                <Col xs={1}>
                                     <Image src={Syracuse} className='educationImg' alt="Syracuse University" />
                                 </Col>
-                                <Col xs={10} className='edutext'>
+                                <Col xs={11} className='edutext'>
                                     <h2>Syracuse University</h2>
                                 </Col>
                             </Row>
@@ -40,10 +40,10 @@ const Education = () => {
                     <Col>
                         <Card className="mediumcard">
                             <Row>
-                                <Col xs={2}>
+                                <Col xs={1}>
                                     <Image src={Syracuse} className='educationImg' alt="Syracuse University" />
                                 </Col>
-                                <Col xs={10} className='edutext'>
+                                <Col xs={11} className='edutext'>
                                     <h2>Syracuse University</h2>
                                 </Col>
                             </Row>
@@ -56,10 +56,10 @@ const Education = () => {
                     <Col>
                         <Card className="mediumcard">
                             <Row>
-                                <Col xs={2}>
+                                <Col xs={1}>
                                     <Image src={Mustang} className='educationImg' alt="Southern Methodist University" />
                                 </Col>
-                                <Col xs={10} className='edutext'>
+                                <Col xs={11} className='edutext'>
                                     <h2>Southern Methodist University</h2>
                                 </Col>
                             </Row>
@@ -74,10 +74,10 @@ const Education = () => {
                         <Card className="mediumcard">
 
                             <Row>
-                                <Col xs={2}>
+                                <Col xs={1}>
                                     <Image src={fullstack} className='educationImg' alt="Fullstack Academ" />
                                 </Col>
-                                <Col xs={10} className='edutext'>
+                                <Col xs={11} className='edutext'>
                                     <h2>Fullstack Academy</h2>
                                 </Col>
                             </Row>

@@ -24,6 +24,13 @@ import sql from '../images/Skills/sql.jpg'
 import visualstudio from '../images/Skills/vsc.png'
 import webpack from '../images/Skills/webpack.png'
 import wordpress from '../images/Skills/wordpress.png'
+import budget from '../images/Skills/budget.jpg'
+import competitive from '../images/Skills/competitive.jpg'
+import finance from '../images/Skills/finance.jpg'
+import people from '../images/Skills/people.jpg'
+import testing from '../images/Skills/testing.jpg'
+import speaking from '../images/Skills/speaking.jpg'
+import writing from '../images/Skills/writing.jpg'
 
 
 //images for industry experience
@@ -120,6 +127,18 @@ const Skills = () => {
                             </Col>
                             <Col>
                                 <div>
+                                    <Card.Img className='badgeimg' src={sdlc} alt='sdlc'/>
+                                    <Card.Text>SDLC</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={sql} alt='sql'/>
+                                    <Card.Text>SQL</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
                                     <Card.Img className='badgeimg' src={node} alt='node'/>
                                     <Card.Text>Node.js</Card.Text>
                                 </div>
@@ -206,6 +225,12 @@ const Skills = () => {
                             </Col>
                             <Col>
                                 <div>
+                                    <Card.Img className='badgeimg' src={speaking} alt='speaking'/>
+                                    <Card.Text>Presentation</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
                                     <Card.Img className='badgeimg' src={photoshop} alt='photoshop' />
                                     <Card.Text>Adobe Photoshop</Card.Text>
                                 </div>
@@ -214,6 +239,42 @@ const Skills = () => {
                                 <div>
                                     <Card.Img className='badgeimg' src={wordpress} alt='wordpress'/>
                                     <Card.Text>WordPress</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={budget} alt='budget'/>
+                                    <Card.Text>Budgeting</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={writing} alt='writing'/>
+                                    <Card.Text>Writing</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={competitive} alt='competitive analysis'/>
+                                    <Card.Text>Competitive Analysis</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={finance} alt='finance'/>
+                                    <Card.Text>Finance</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={people} alt='people'/>
+                                    <Card.Text>People Management</Card.Text>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div>
+                                    <Card.Img className='badgeimg' src={testing} alt='testing'/>
+                                    <Card.Text>Testing</Card.Text>
                                 </div>
                             </Col>
                         </Row>

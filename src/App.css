@@ -225,6 +225,11 @@ hr {
     align-self: center !important;
   }
 
+  .bullet {
+    list-style-type: circle inside none;
+    padding-left: 0px;
+  }
+
 
 
 .expimg {
@@ -315,6 +320,8 @@ img {
 .edutext {
   align-content: center;
   display: flex;
+  padding-top: 25px;
+  padding-left: 90px !important;
 }
 
 .educationImg {

@@ -37,7 +37,7 @@ const Experience = () => {
                             <Card.Text>Web Developer and Consultant</Card.Text>
 
                             <Card.Body>
-                                <ul>
+                                <ul className='bullet'>
                                     <li>Partnered with clients to determine project requirements and delivered high-quality results on-time and within budget</li>
                                     <li>Developed stevenrosenblum.com to support a local candidate’s campaign for local Board of Education</li>
                                     <li>Created website requirements, developed database architechture and preliminary website design (currently under NDA)</li>
@@ -55,7 +55,7 @@ const Experience = () => {
                             <Card.Title>Owner, CEO, CFO and CIO</Card.Title>
                             <Card.Text>The buck stopped here!</Card.Text>
                             <Card.Body>
-                                <ul>
+                                <ul className='bullet'>
                                     <li>Performed competitor and market analysis on products, services, and pricing twice a year.to predict product sales, design product offerings and establish pricing</li>
                                     <li>Assessed financial performance of business, creating budget, balance sheets, cash flows, and P&L statements twice a year</li>
                                     <li>Worked closely with clients to clarify requirements, expectations, and offer solutions</li>
@@ -72,7 +72,7 @@ const Experience = () => {
                             <Card.Title>Programmer</Card.Title>
                             <Card.Text>Programmer/Technical Support</Card.Text>
                             <Card.Body>
-                                <ul>
+                                <ul className='bullet'>
                                     <li>Provided product support for OfficeVision/MVS by resolving technical problems and customer inquiries</li>
                                     <li>Coordinated, customized and documented the installation of APL2; analyzed system failures; interfaced with other teams when needed</li>
                                     <li>Consolidated, combined, and documented local modifications, yielding lower maintenance costs and higher reliability</li>
@@ -93,7 +93,7 @@ const Experience = () => {
 
                             <Card.Text>Business Analyst/Consultant/Programmer</Card.Text>
                             <Card.Body>
-                                <ul>
+                                <ul >
                                     <li>Proactively resolved Client’s problems (Sales order processing, Inventory, Financial, EDI and Payroll) using Life Cycle Methodologies, and continuous improvement to analyze problems, design and implement new programs and enhancements while providing programming leadership. Efficiently analyzed business problems, designed and implemented new programs and program enhancements as needed  </li>
                                     <li>Performed competitive analysis, determined costs and set prices for EDS’ data network services products. Audited invoices; reengineered manual processes to increase efficiency; installed, maintained and updated tools; and provided ad-hoc reports</li>
                                     <li>Assessed relationship between computer system and business needs identifying savings of nearly 20%  </li>
@@ -114,7 +114,7 @@ const Experience = () => {
                             <Card.Title>Business Consultant</Card.Title>
 
                             <Card.Body>
-                                <ul>
+                                <ul className='bullet'>
                                     <li>Analyzed current business status (financials, operations, personnel and systems) to identify problems, presented improvement recommendations and implemented the changes for companies in the manufacturing, restaurant, retail, logistics and trucking industries</li>
                                     <li>Determined Key Performance Indicators (KPIs) and trained client executives in the effective use of management systems, tools, and techniques to better monitor company status</li>
                                     <li>Organized employees into logical departments to improve communication, reduce errors and minimize organizational dysfunction</li>
@@ -131,7 +131,7 @@ const Experience = () => {
                             <Card.Img className='expimg' variant='top' src={Hardesty} alt="Hardesty Hackett" />
                             <Card.Title>Consultant</Card.Title>
                             <Card.Body>
-                                <ul>
+                                <ul className='bullet'>
                                     <li>Analyzed current business status (financials, operations, personnel and systems) to identify problems, presented improvement recommendations and implemented the changes for companies in the manufacturing, restaurant, retail, logistics and trucking industries</li>
                                     <li>Accurately analyzed work processes, systems, organizational function and structures using interviews, observation, data and statistical analysis studies to determine where and how to generate measurable benefits resulting in an average of $125K savings per year per client</li>
                                     <li>Prepared written and oral feedback, presentation materials, critiques, systems documentation, process descriptions, proposals, standard operating procedures, evaluations, data summaries and reports</li>
@@ -150,7 +150,7 @@ const Experience = () => {
 
                             <Card.Title>Cast Member</Card.Title>
                             <Card.Body>
-                                <ul>
+                                <ul className='bullet'>
                                     <li>Backroom Lead responsible for maintaining inventory and restocking shelves as needed</li>
                                     <li>VoluntEars Representative orgainized and participated in events to benefit various children's charities</li>
                                 </ul>

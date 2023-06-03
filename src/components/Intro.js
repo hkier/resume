@@ -1,5 +1,5 @@
 import React from 'react'
-import Intropic from '../images/howard1.jpg'
+import Intropic from '../images/howard1.webp'
 import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 

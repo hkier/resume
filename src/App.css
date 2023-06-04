@@ -25,7 +25,7 @@
   overflow: hidden;
   top: 0;
   right: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
   font-weight: 200;
   padding: 1.875rem 2.5rem;
@@ -44,12 +44,21 @@
   border-color: #A334B6 !important;
   border-width: .125rem !important;
   border-style: solid !important;
+  min-width: 12.5rem;
+}
+
+.wrapper .row{
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 0rem ;
 }
 
 
 .main {
   height: 100vh;
   overflow: scroll;
+  width: auto;
+  flex-shrink: 1;
 }
 
 .howardStyle {

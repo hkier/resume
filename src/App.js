@@ -35,7 +35,7 @@ const Resume = React.lazy(() => import('./components/Resume'));
 function App() {
   return (
     <Grid fluid className='cell'>
-      <Container className='wrapper' style={{ width: '100vw' }}>
+      <div className='wrapper' style={{ width: '100vw' }}>
         <Row className='cell'>
           <Col className='sidebar' xs={2}>
             <Sidebar />
@@ -58,7 +58,7 @@ function App() {
             </ScrollSpy>
           </Col>
         </Row>
-      </Container>
+      </div>
     </Grid>
   );
 }

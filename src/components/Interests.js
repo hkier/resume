@@ -9,9 +9,9 @@ import Image from 'react-bootstrap/Image'
 
 
 //images for interests
-import shsvip from '../images/Interests/SHSVIP.png'
-import chihack from '../images/Interests/Chihack.png'
-import boyScouts from '../images/Interests/BSA.png'
+import shsvip from '../images/Interests/SHSVIP.webp'
+import chihack from '../images/Interests/Chihack.webp'
+import boyScouts from '../images/Interests/BSA.webp'
 import code4Chicago from '../images/Interests/cfc_logo_2021.svg'
 
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import hk from '../images/Contact/hk.jpg'
-import facebook from '../images/Contact/facebook.jpg'
-import github from '../images/Contact/github.png'
-import linkedin from '../images/Contact/linkedin.jpg'
+import facebook from '../images/Contact/facebook.webp'
+import github from '../images/Contact/github.webp'
+import linkedin from '../images/Contact/linkedin.webp'
 // import email from '../images/Contact/email.png'
 // import phone from '../images/Contact/phone.png'
 import Card from 'react-bootstrap/Card'

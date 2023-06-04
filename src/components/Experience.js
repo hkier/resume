@@ -7,12 +7,12 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card'
 
 //images for experience
-import IBM from '../images/Experience/IBM.png'
-import Disney from '../images/Experience/Disney.png'
-import LegacyAnalytics from '../images/Experience/LegacyAnalyticsLogo.png'
-import MMP from '../images/Experience/MMP.jpg'
-import EDS from '../images/Experience/eds-logo-png-transparent.png'
-import Hardesty from '../images/Experience/Hardesty.jpg'
+import IBM from '../images/Experience/IBM.webp'
+import Disney from '../images/Experience/Disney.webp'
+import LegacyAnalytics from '../images/Experience/LegacyAnalyticsLogo.webp'
+import MMP from '../images/Experience/MMP.webp'
+import EDS from '../images/Experience/eds-logo-png-transparent.webp'
+import Hardesty from '../images/Experience/Hardesty.webp'
 
 
 

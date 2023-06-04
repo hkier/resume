@@ -3,15 +3,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
 import { Row, Col } from 'react-bootstrap';
 
-import steve1 from '../images/Projects/Steve1.jpg'
-import wilderness1 from '../images/Projects/Wilderness1.jpg'
-import howard from '../images/Projects/howard.jpg'
-import decarb from '../images/Projects/decarb.jpg'
-import mmpix from '../images/Projects/mmpix.jpg'
-import chem from '../images/Projects/chem.jpg'
-import cash from '../images/Projects/cash.jpg'
-import scams from '../images/Projects/scams.jpg'
-import betweenfriends from '../images/Projects/betweenfriends.jpg'
+import steve1 from '../images/Projects/Steve1.webp'
+import wilderness1 from '../images/Projects/Wilderness1.webp'
+import howard from '../images/Projects/howard.webp'
+import decarb from '../images/Projects/decarb.webp'
+import mmpix from '../images/Projects/mmpix.webp'
+import chem from '../images/Projects/chem.webp'
+import cash from '../images/Projects/cash.webp'
+import scams from '../images/Projects/scams.webp'
+import betweenfriends from '../images/Projects/betweenfriends.webp'
 
 
 const Projects = () => {

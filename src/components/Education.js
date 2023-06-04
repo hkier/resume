@@ -9,9 +9,9 @@ import Image from 'react-bootstrap/Image'
 
 //images for education
 
-import Mustang from '../images/Education/Mustang.png'
-import fullstack from '../images/Education/fullstack.jpg'
-import Syracuse from '../images/Education/SU.jpg'
+import Mustang from '../images/Education/Mustang.webp'
+import fullstack from '../images/Education/fullstack.webp'
+import Syracuse from '../images/Education/SU.webp'
 
 
 const Education = () => {

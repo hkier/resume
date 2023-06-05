@@ -13,11 +13,7 @@
   border-radius: .9375rem;
 } */
 
-.cell {
-  padding: 0rem !important;
 
-
-}
 
 .titlebar {
   color: #ffee00;
@@ -25,7 +21,7 @@
   overflow: hidden;
   top: 0;
   right: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
   font-weight: 200;
   padding: 1.875rem 2.5rem;
@@ -34,36 +30,48 @@
 
 .wrapper {
   display: flex;
-  margin: 0rem !important;
 
 }
 
 .sidebar {
   height: 100vh; ;
   box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
-  border-color: #A334B6 !important;
-  border-width: .125rem !important;
-  border-style: solid !important;
+  border-color: #A334B6 ;
+  border-width: .125rem ;
+  border-style: solid ;
+  min-width: 12.5rem;
+}
+
+.wrapper > .row{
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 0rem ;
 }
 
 
 .main {
   height: 100vh;
   overflow: scroll;
+  width: auto;
+  flex-shrink: 1;
 }
 
 .howardStyle {
-  font-size: 1.5625rem;
+  font-size: 2rem;
   font-family: Roboto;
-  font-weight: thin !important;
+  font-weight: 200;
   font-style: normal;
   padding: 0rem;
-  color: #A334B6 !important;
+  color: #A334B6;
   text-decoration: none;
 }
 
+a:hover {
+  color: #A334B6;
+}
+
 .howardStyle:hover {
-  background-color: #e1dede !important;
+  background-color: #e1dede ;
   text-decoration: none;
 }
 
@@ -179,50 +187,41 @@ h1 {
   padding-left: 2rem;
   padding-bottom: .9375rem;
   padding-right: 0rem;
-  font-size: 2.82rem !important;
-  font-weight: 200 !important;
+  font-size: 2.82rem ;
+  font-weight: 200 ;
 
 }
 
 h2 {
-  font-size: 2rem !important;
-  font-weight: 200 !important;
+  font-size: 2rem ;
+  font-weight: 200 ;
 }
 
 h3 {
-  font-size: 1.25rem !important;
-  font-weight: 300 !important;
-  line-height: .9375rem !important;
+  font-size: 1.25rem ;
+  font-weight: 300 ;
+  line-height: .9375rem ;
 }
 
 h6 {
-  font-size: .8rem !important;
-  font-weight: 300 !important;
-  line-height: .9375rem !important;
-  color:  #A334B6 !important;
+  font-size: .8rem ;
+  font-weight: 300 ;
+  line-height: .9375rem ;
+  color:  #A334B6 ;
 
 }
 
 hr {
-    font-weight: 100 !important;
-    /* border-top: .0625rem solid #000000 !important; */
-    margin-top: 1.25rem !important;
-    margin-bottom: 0rem !important;
-    width: 90% !important;
-    height: .3125rem !important;
-    background-color: #000 !important;
-    align-self: center !important;
+    font-weight: 100 ;
+    /* border-top: .0625rem solid #000000 ; */
+    margin-top: 1.25rem ;
+    margin-bottom: 0rem ;
+    width: 90% ;
+    height: .3125rem ;
+    background-color: #000 ;
+    align-self: center ;
   }
 
-  .hr2 {
-    font-weight: 100 !important;
-    margin-top: .625rem !important;
-    margin-bottom: .625rem !important;
-    width: 90% !important;
-    height: .3125rem !important;
-    background-color: #000 !important;
-    align-self: center !important;
-  }
 
   .bullet {
     list-style-type: circle inside none;
@@ -232,12 +231,12 @@ hr {
 
 
 .expimg {
-  width: 18.75rem !important;
-  height: auto !important;
+  width: 18.75rem ;
+  height: auto ;
   margin: 0 auto;
   display: block;
   padding-top: 0rem;
-  align-items: start !important;
+  align-items: start ;
 }
 
 .introImg {
@@ -260,9 +259,9 @@ img {
   padding-bottom: 1.25rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 1.68rem !important;
-  font-weight: 300 !important;
-  line-height: 2.88rem !important;
+  font-size: 1.68rem ;
+  font-weight: 300 ;
+  line-height: 2.88rem ;
   
 }
 
@@ -279,7 +278,6 @@ img {
   padding-right: 0rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: #e1dede;
   box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
   font-size: 1em;
   font-weight: 400;
@@ -287,9 +285,9 @@ img {
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  border-color: #A334B6 !important;
-  border-width: .125rem !important;
-  border-style: solid !important;
+  border-color: #A334B6 ;
+  border-width: .125rem ;
+  border-style: solid ;
 }
 
 .mediumcard {
@@ -303,7 +301,6 @@ img {
   padding-right: 0rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: #e1dede;
   box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
   font-size: 1em;
   font-weight: 400;
@@ -311,16 +308,16 @@ img {
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  border-color: #A334B6 !important;
-  border-width: .125rem !important;
-  border-style: solid !important;
+  border-color: #A334B6 ;
+  border-width: .125rem ;
+  border-style: solid ;
 }
 
 .edutext {
   align-content: center;
   display: flex;
   padding-top: 1.5625rem;
-  padding-left: 5.625rem !important;
+  padding-left: 5.625rem ;
 }
 
 .educationImg {
@@ -338,15 +335,15 @@ img {
 }
 
 .skilltitle {
-  padding-left: 1.5rem !important;
-  padding-top: .5rem !important;
-  text-align: left !important;
-  font-size: 1.5rem !important;
-  font-weight: 200 !important;
+  padding-left: 1.5rem ;
+  padding-top: .5rem ;
+  text-align: left ;
+  font-size: 1.5rem ;
+  font-weight: 200 ;
 }
 
 .badgeimg {
-  width: 6.25rem !important;
+  width: 6.25rem ;
   height: auto;
   margin: .75rem;
   padding: 1rem;
@@ -363,14 +360,13 @@ img {
   width: 18rem;
   height: auto;
   margin: 0 auto;
-  display: block;
+  display: flex;
   padding-top: .625rem;
   padding-bottom: .625rem;
   padding-left: 0rem;
   padding-right: 0rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: #e1dede;
   box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
   font-size: 1em;
   font-weight: 400;
@@ -378,9 +374,9 @@ img {
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  border-color: #A334B6 !important;
-  border-width: .125rem !important;
-  border-style: solid !important;
+  border-color: #A334B6 ;
+  border-width: .125rem ;
+  border-style: solid ;
 
 
 }

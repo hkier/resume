@@ -20,7 +20,8 @@ import Intro from './components/Intro';
 // import Interests from './components/Interests';
 // import Contact from './components/Contact';
 // import Resume from './components/Resume';
-import ScrollSpy from "react-ui-scrollspy";
+// import ScrollSpy from "react-ui-scrollspy";
+import Scrollspy from "react-scrollspy"
 
 
 // const Intro = React.lazy(() => import('./components/Intro'));
@@ -42,7 +43,23 @@ function App() {
           </Col>
 
           <Col className='main' xs={10}>
-            <ScrollSpy>
+            <Scrollspy
+              offset={-300}
+              scrolledPastClassName={"scrolled-past"}
+              items={[
+                "about",
+                "exerience",
+                "projects",
+                "skills",
+                "education",
+                "interests",
+                "contact",
+                "resume"
+              ]}
+              currentClassName={"is-current"}
+              // onUpdate={scrollTargetUpdated}
+            >
+
               <Intro style={{ width: '100vw' }} />
               <Suspense fallback={<div>Loading...</div>}>
                 <About />
@@ -55,7 +72,7 @@ function App() {
 
                 <Resume />
               </Suspense>
-            </ScrollSpy>
+            </Scrollspy>
           </Col>
         </Row>
       </div>

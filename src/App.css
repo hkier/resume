@@ -24,7 +24,6 @@
   width: 100%;
   z-index: 1;
   font-weight: 200;
-  padding: 1.875rem 2.5rem;
   text-transform: uppercase;
 }
 
@@ -40,6 +39,7 @@
   border-width: .125rem;
   border-style: solid;
   min-width: 12.5rem;
+  z-index: 10;
 }
 
 .wrapper>.row {
@@ -54,6 +54,7 @@
   overflow: scroll;
   width: auto;
   flex-shrink: 1;
+  padding: 0rem;
 }
 
 .howardStyle {
@@ -65,6 +66,7 @@
   color: #A334B6;
   text-decoration: none;
   display: inline-block;
+  padding-top: .75rem;
 }
 
 a:hover {
@@ -75,7 +77,7 @@ a:hover {
   background-color: #e1dede;
   text-decoration: none;
   width: -moz-available;
-
+  box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
 }
 
 .aboutStyle {
@@ -348,6 +350,10 @@ hr {
   background-color: #000;
   align-self: center;
 }
+
+ul {
+  padding-left: 0rem;
+} 
 
 
 .bullet {

@@ -28,8 +28,8 @@ const Sidebar = () => {
 
             <div>
                 <h2 className='howardStyle'>
-                    <HashLink smooth to="#home" className='howardStyle'>Howard Kier</HashLink>
-                    <h6 >Developer, Consultant, and Mentor</h6>
+                    <HashLink smooth to="#home" className='howardStyle'>Howard Kier
+                    <h6 >Developer, Consultant, and Mentor</h6></HashLink>
                    </h2>
             </div>
 

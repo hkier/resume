@@ -13,18 +13,8 @@ import Grid from '@mui/material/Grid';
 import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Intro from './components/Intro';
-// import Experience from './components/Experience';
-// import Projects from './components/Projects';
-// import Skills from './components/Skills';
-// import Education from './components/Education';
-// import Interests from './components/Interests';
-// import Contact from './components/Contact';
-// import Resume from './components/Resume';
-// import ScrollSpy from "react-ui-scrollspy";
-import Scrollspy from "react-scrollspy"
 
 
-// const Intro = React.lazy(() => import('./components/Intro'));
 const Experience = React.lazy(() => import('./components/Experience'));
 const Projects = React.lazy(() => import('./components/Projects'));
 const Skills = React.lazy(() => import('./components/Skills'));
@@ -43,36 +33,17 @@ function App() {
           </Col>
 
           <Col className='main' xs={10}>
-            <Scrollspy
-              offset={-300}
-              scrolledPastClassName={"scrolled-past"}
-              items={[
-                "about",
-                "exerience",
-                "projects",
-                "skills",
-                "education",
-                "interests",
-                "contact",
-                "resume"
-              ]}
-              currentClassName={"is-current"}
-              // onUpdate={scrollTargetUpdated}
-            >
-
-              <Intro style={{ width: '100vw' }} />
-              <Suspense fallback={<div>Loading...</div>}>
-                <About />
-                <Experience />
-                <Projects />
-                <Skills />
-                <Education />
-                <Interests />
-                <Contact />
-
-                <Resume />
-              </Suspense>
-            </Scrollspy>
+            <Intro style={{ width: '100vw' }} />
+            <Suspense fallback={<div>Loading...</div>}>
+              <About />
+              <Experience />
+              <Projects />
+              <Skills />
+              <Education />
+              <Interests />
+              <Contact />
+              <Resume />
+            </Suspense>
           </Col>
         </Row>
       </div>

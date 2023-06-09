@@ -4,9 +4,8 @@
 //it is a child of the main.js file
 
 import React from 'react';
-//import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-// import ScrollSpy from "react-ui-scrollspy";
+
 
 
 // using material ui for the icons
@@ -22,78 +21,79 @@ import ResumeIcon from '@mui/icons-material/Description';
 
 
 
-const Sidebar = () => {
+export default function Sidebar({
+    element }) {
     return (
         <div className="navStyle" >
 
             <div>
                 <h2 className='howardStyle'>
                     <HashLink smooth to="#home" className='howardStyle'>Howard Kier
-                    <h6 >Developer, Consultant, and Mentor</h6></HashLink>
-                   </h2>
+                        <h6 >Developer, Consultant, and Mentor</h6></HashLink>
+                </h2>
             </div>
 
             <div className='navStyle'>
                 <h3>
                     <HashLink
-                    data-to-scrollspy-id='about' 
-                    smooth to="#about" className='aboutStyle'><AboutIcon fontSize='medium' /> About</HashLink>
+                        data-to-scrollspy-id='about'
+                        smooth to="#about" className='aboutStyle'><AboutIcon fontSize='medium' /> About</HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
-                    <HashLink 
-                    data-to-scrollspy-id='experience'
-                    smooth to="#experience" className='experienceStyle'><ExperienceIcon fontSize='medium' /> Experience</HashLink>
+                    <HashLink
+                        data-to-scrollspy-id='experience'
+                        smooth to="#experience" className='experienceStyle'><ExperienceIcon fontSize='medium' /> Experience</HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
-                    <HashLink 
-                    data-to-scrollspy-id='projects'
-                    smooth to="#projects" className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects</HashLink>
+                    <HashLink
+                        data-to-scrollspy-id='projects'
+                        smooth to="#projects" className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects</HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
-                    <HashLink 
-                    data-to-scrollspy-id='skills'
-                    smooth to="#skills" className='skillsStyle'> <SkillsIcon fontSize='medium' /> Skills</HashLink>
+                    <HashLink
+                        data-to-scrollspy-id='skills'
+                        smooth to="#skills" className='skillsStyle'> <SkillsIcon fontSize='medium' /> Skills</HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
-                    <HashLink 
-                    data-to-scrollspy-id='education'
-                    smooth to="#education" className='educationStyle'><EducationIcon fontSize='medium' /> Education</HashLink>
+                    <HashLink
+                        data-to-scrollspy-id='education'
+                        smooth to="#education" className='educationStyle'><EducationIcon fontSize='medium' /> Education</HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
-                    <HashLink 
-                    data-to-scrollspy-id='interests'
-                    smooth to="#interests" className='interestsStyle'><InterestsIcon fontSize='medium' /> Interests</HashLink>
+                    <HashLink
+                        data-to-scrollspy-id='interests'
+                        smooth to="#interests" className='interestsStyle'><InterestsIcon fontSize='medium' /> Interests</HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
-                    <HashLink 
-                    data-to-scrollspy-id='contact'
-                    smooth to="#contact" className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact Me</HashLink>
+                    <HashLink
+                        data-to-scrollspy-id='contact'
+                        smooth to="#contact" className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact Me</HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
-                    <HashLink 
-                    data-to-scrollspy-id='resume'
-                    smooth to="#resume" className='resumeStyle'> <ResumeIcon fontSize='medium' /> Resume</HashLink>
+                    <HashLink
+                        data-to-scrollspy-id='resume'
+                        smooth to="#resume" className='resumeStyle'> <ResumeIcon fontSize='medium' /> Resume</HashLink>
                 </h3>
             </div>
 
@@ -106,5 +106,5 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar;
+
 

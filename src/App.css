@@ -398,6 +398,9 @@ img {
 
 }
 
+.project{
+  flex-wrap: wrap;
+}
 
 
 .widecard {

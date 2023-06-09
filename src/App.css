@@ -521,3 +521,15 @@ img {
   background-color: #A334B6;
   color: #FFFFFF;
 }
+
+.comments {
+  border-color: red;
+  border-width: .125rem;
+  border-style: solid;
+  padding-left: .6rem;
+  font-size: .75rem;
+  color:red;
+  font-weight: 300;
+  text-align: left;
+
+}

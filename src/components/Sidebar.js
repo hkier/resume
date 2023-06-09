@@ -17,6 +17,7 @@ import EducationIcon from '@mui/icons-material/School';
 import InterestsIcon from '@mui/icons-material/Interests';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ResumeIcon from '@mui/icons-material/Description';
+import Comments from './comments';
 
 
 
@@ -98,7 +99,7 @@ export default function Sidebar({
             </div>
 
 
-
+<Comments />
 
 
 

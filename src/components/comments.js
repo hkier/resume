@@ -9,8 +9,7 @@ export default function Comments() {
             <br />
             <ul>
                 <li>Make responsive for phones</li>
-                <li>Fix some minor styling issue </li>
-                <li>Word smithing</li>
+                <li>Fix some minor styling issues </li>
             </ul>
             If you have any comments or suggestions, please feel free to conact me.
         </div>

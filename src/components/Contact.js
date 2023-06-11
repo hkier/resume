@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import hk from '../images/Contact/hk.jpg'
-import facebook from '../images/Contact/facebook.webp'
+// import facebook from '../images/Contact/facebook.webp'
 import github from '../images/Contact/github.webp'
 import linkedin from '../images/Contact/linkedin.webp'
 // import email from '../images/Contact/email.png'
@@ -36,7 +36,7 @@ const Contact = () => {
                                     <p>Chicago, Il</p>
                                 </Card.Text>
                             </Col>
-                            <Col>
+                            {/* <Col>
 
 
                                 <Card.Link href="https://www.facebook.com/hkier" target="_blank" rel="noreferrer">
@@ -45,7 +45,7 @@ const Contact = () => {
                                     <Card.Title>Facebook</Card.Title>
                                 </Card.Link>
 
-                            </Col>
+                            </Col> */}
                             <Col>
 
                                 <Card.Link href="https://www.linkedin.com/in/hkier/" target="_blank" rel="noreferrer">

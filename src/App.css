@@ -250,7 +250,7 @@ a:hover {
 
 .experienceStyle {
   padding: .625rem;
-  color: #00ff00 !important;
+  color: #0d6efd !important;
   text-decoration: none;
   display: inline-block;
   border-left: solid;
@@ -272,7 +272,7 @@ a:hover {
   box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
   border-left: solid;
   border-left-width: .25rem;
-  border-left-color: #00ff00;
+  border-left-color: #0d6efd;
 }
 
 .resumeStyle {
@@ -353,12 +353,14 @@ hr {
 
 ul {
   padding-left: 0rem;
+  text-align: left;
 } 
 
 
 .bullet {
   list-style-type: circle inside none;
-  padding-left: 0rem;
+  padding-left: 1rem;
+
 }
 
 

@@ -13,6 +13,7 @@ import LegacyAnalytics from '../images/Experience/LegacyAnalyticsLogo.webp'
 import MMP from '../images/Experience/MMP.webp'
 import EDS from '../images/Experience/eds-logo-png-transparent.webp'
 import Hardesty from '../images/Experience/Hardesty.webp'
+import Freelance from '../images/Experience/freelance.webp'
 
 
 
@@ -32,9 +33,9 @@ const Experience = () => {
                     <Col>
 
                         <Card className='widecard'>
-                            <Card.Img className='expimg' variant='top' src={MMP} alt="Magical Moments Photography" />
-                            <Card.Title>Freelance</Card.Title>
-                            <Card.Text>Web Developer and Consultant</Card.Text>
+                            <Card.Img className='expimg' variant='top' src={Freelance} alt="freelance logo" />
+                            <Card.Title>Web Developer and Consultant</Card.Title>
+                           
 
                             <Card.Body>
                                 <ul className='bullet'>

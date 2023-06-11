@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 
 import steve1 from '../images/Projects/Steve1.webp'
 import wilderness1 from '../images/Projects/Wilderness1.webp'
@@ -20,7 +20,7 @@ const Projects = () => {
             <Navbar className="titlebar" sticky="top">
                 <h1>Projects</h1>
             </Navbar>
-            <container className="project">
+            <Container className="project">
                 <Row>
                     <Col>
                         <Card className='basiccard'>
@@ -151,7 +151,7 @@ const Projects = () => {
                         </Card>
                     </Col>
                 </Row>
-            </container>
+            </Container>
         </div>
     )
 }

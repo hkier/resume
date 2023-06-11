@@ -22,8 +22,7 @@ import Comments from './comments';
 
 
 
-export default function Sidebar({
-    element }) {
+export default function Sidebar() {
     return (
         <div className="navStyle" >
 
@@ -99,7 +98,7 @@ export default function Sidebar({
             </div>
 
 
-<Comments />
+            <Comments />
 
 
 

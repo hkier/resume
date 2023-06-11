@@ -36,10 +36,10 @@ const About = () => {
                                             No matter where life has taken me, from corporate programmer,
                                             to small business owner and even as a substitute teacher, I've shared my
                                             knowledge with others.  I've taught computer classes, business classes even
-                                            photograhy classes. I've tutored
-                                            students, and mentored employees.  My goal
-                                            has been to make the world a better place and sharing knowledge to
-                                            help others, improve products/processes and solve problems.
+                                            photograhy classes. I've tutored students, and mentored employees.  My goal
+                                            has been to make the world a better place by sharing knowledge to
+                                            help others, improving products/processes, solving problems and anticipating problems
+                                            thus avoiding problems before they occur.
                                         </p>
                                     </div>
                                 </Card.Text>

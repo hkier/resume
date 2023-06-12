@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image'
 
 //images for education
 
-import Mustang from '../images/Education/Mustang.webp'
+import Mustang from '../images/Education/SMU.webp'
 import fullstack from '../images/Education/fullstack.webp'
 import Syracuse from '../images/Education/SU.webp'
 

@@ -11,6 +11,6 @@ export default function Header() {
                         <h6 >Developer, Consultant, and Mentor</h6></HashLink>
                 </h2>
             </div>
-            </div>
+        </div>
     )
 }

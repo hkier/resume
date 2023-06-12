@@ -85,7 +85,7 @@ export default function Sidebar() {
                 <h3>
                     <HashLink
                         data-to-scrollspy-id='contact'
-                        smooth to="#contact" className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact Me</HashLink>
+                        smooth to="#contact" className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact</HashLink>
                 </h3>
             </div>
 

@@ -162,6 +162,10 @@ const Experience = () => {
                                 <ul className='bullet'>
                                     <li>Backroom Lead responsible for maintaining inventory and restocking shelves as needed</li>
                                     <li>VoluntEars Representative orgainized and participated in events to benefit various children's charities</li>
+                                    <li>Trained new Cast Members in all facets of store operations and guest service</li>
+                                    <li>Provided guest service in the form of answering questions, locating merchandise, and resolving guest issues</li>
+                                    <li>Assisted in the opening and closing of the store</li>
+                                    <li>Awarded Store Teamwork Award</li>
                                 </ul>
                             </Card.Body>
                         </Card>

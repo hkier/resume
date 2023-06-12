@@ -1,15 +1,13 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
-import hk from '../images/Contact/hk.jpg'
-// import facebook from '../images/Contact/facebook.webp'
 import github from '../images/Contact/github.webp'
 import linkedin from '../images/Contact/linkedin.webp'
-// import email from '../images/Contact/email.png'
-// import phone from '../images/Contact/phone.png'
+import Email from '../images/Contact/email.webp'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
 
 
 
@@ -28,41 +26,28 @@ const Contact = () => {
                     <Card.Body>
                         <Row className='widerow'>
                             <Col>
-                                <Card.Img className='badgeimg' variant="top" src={hk} alt='HK logo'/>
+                                <Card.Link href="mailto:howard@mmpix.com" target="_blank" className='contactlink'>
+                                    
 
-                                <Card.Title>Howard Kier</Card.Title>
-                                <Card.Text>
-                                    <p>Full Stack Web Developer</p>
-                                    <p>Chicago, Il</p>
-                                </Card.Text>
-                            </Col>
-                            {/* <Col>
+                                <Card.Img className='badgeimg' src={Email} alt="email me" />
 
+                                        <Card.Title>howard@mmpix.com</Card.Title>
 
-                                <Card.Link href="https://www.facebook.com/hkier" target="_blank" rel="noreferrer">
-                                    <Card.Img className='badgeimg' variant='top' src={facebook} alt="facebook" />
-
-                                    <Card.Title>Facebook</Card.Title>
                                 </Card.Link>
+                            </Col>
 
-                            </Col> */}
                             <Col>
 
-                                <Card.Link href="https://www.linkedin.com/in/hkier/" target="_blank" rel="noreferrer">
+                                <Card.Link href="https://www.linkedin.com/in/hkier/" target="_blank" rel="noreferrer" className='contactlink'>
                                     <Card.Img className='badgeimg' src={linkedin} alt="LinkedIn" />
+                                    <Card.Title>linkedin.com/in/hkier</Card.Title>
                                 </Card.Link>
-
-                                <Card.Title>LinkedIn</Card.Title>
-
                             </Col>
                             <Col>
-
-                                <Card.Link href="https://github.com/hkier" target="_blank" rel="noreferrer">
+                                <Card.Link href="https://github.com/hkier" target="_blank" rel="noreferrer" className='contactlink'>
                                     <Card.Img className='badgeimg' src={github} alt="Github" />
+                                    <Card.Title>github.com/hkier</Card.Title>
                                 </Card.Link>
-
-                                <Card.Title>Github</Card.Title>
-
 
                             </Col>
                         </Row>

@@ -535,3 +535,8 @@ img {
   text-align: left;
 
 }
+
+.contactlink{
+  text-decoration: none;
+  color:black;
+}

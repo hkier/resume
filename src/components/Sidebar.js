@@ -24,16 +24,9 @@ import Comments from './comments';
 
 export default function Sidebar() {
     return (
-        <div className="navStyle" >
+        <div >
 
-            <div>
-                <h2 className='howardStyle'>
-                    <HashLink smooth to="#home" className='howardStyle'>Howard Kier
-                        <h6 >Developer, Consultant, and Mentor</h6></HashLink>
-                </h2>
-            </div>
-
-            <div className='navStyle'>
+           <div className='navStyle'>
                 <h3>
                     <HashLink
                         data-to-scrollspy-id='about'

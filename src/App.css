@@ -1,3 +1,5 @@
+
+
 /* The asterisk (*) is a wildcard selector. It selects all elements. */
 /* box-shadow: .375rem .375rem .625rem -.125rem rgba(0,0,0,0.5); */
 
@@ -40,6 +42,10 @@
   border-style: solid;
   min-width: 12.5rem;
   z-index: 10;
+  order: 1;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  
 }
 
 .wrapper>.row {
@@ -55,6 +61,7 @@
   width: auto;
   flex-shrink: 1;
   padding: 0rem;
+  order: 2;
 }
 
 .howardStyle {
@@ -539,4 +546,22 @@ img {
 .contactlink{
   text-decoration: none;
   color:black;
+}
+
+@media (max-width: 767px) {
+  /* Media query for narrow screens */
+  .wrapper {
+    flex-wrap: wrap; /* Allowing flex items to wrap on narrow screens */
+  }
+
+  .sidebar {
+    width: 100%; /* Making the sidebar take up the full width */
+    height: 0%;
+    min-width: 0rem;
+   
+  }
+
+  .main {
+    order: 1; /* Placing the main content above the sidebar on narrow screens */
+  }
 }

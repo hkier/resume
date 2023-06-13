@@ -1,8 +1,4 @@
 
-
-/* The asterisk (*) is a wildcard selector. It selects all elements. */
-/* box-shadow: .375rem .375rem .625rem -.125rem rgba(0,0,0,0.5); */
-
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +41,7 @@
   order: 1;
   padding-left: .75rem;
   padding-right: .75rem;
+  flex-direction: column;
   
 }
 
@@ -548,6 +545,10 @@ img {
   color:black;
 }
 
+.menuicon{
+  text-align: left;
+}
+
 @media (max-width: 767px) {
   /* Media query for narrow screens */
   .wrapper {
@@ -556,9 +557,14 @@ img {
 
   .sidebar {
     width: 100%; /* Making the sidebar take up the full width */
-    height: 0%;
+    height: auto;
     min-width: 0rem;
-   
+    position: 0;
+    flex: 0 0 auto; 
+  }
+
+  .menuicon{
+    text-align: right;
   }
 
   .main {

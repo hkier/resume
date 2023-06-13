@@ -2,14 +2,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //import of the components from the react-bootstrap library
-import React, { Suspense,  useState, useEffect } from 'react';
+import React, { Suspense } from 'react';
 import Col from 'react-bootstrap/Col';
 import Grid from '@mui/material/Grid';
-// import Container from 'react-bootstrap/Container';
 
-// const OtherComponent = React.lazy(() => import('./OtherComponent'));
-
-import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Intro from './components/Intro';
 import Header from './components/Header';
@@ -27,34 +23,13 @@ const Resume = React.lazy(() => import('./components/Resume'));
 
 function App() {
 
-  const [isLargeScreen, setIsLargeScreen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsLargeScreen(window.innerWidth > 767);
-    };
-
-    // Initial check on component mount
-    handleResize();
-
-    // Attach event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Clean up event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-
-
   return (
     <Grid fluid >
       <div className='wrapper' style={{ width: '100vw' }}>
 
           <Col className='sidebar' xs={12} sm={2}>
             <Header />
-            {isLargeScreen && <Sidebar />}
+
           </Col>
 
           <Col className='main' xs={12} sm={10}>

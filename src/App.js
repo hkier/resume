@@ -3,16 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //import of the components from the react-bootstrap library
 import React, { Suspense } from 'react';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Grid from '@mui/material/Grid';
-// import Container from 'react-bootstrap/Container';
 
-// const OtherComponent = React.lazy(() => import('./OtherComponent'));
-
-import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Intro from './components/Intro';
+import Header from './components/Header';
 
 
 //import of components using lazy loading to reduce the size of the initial load.
@@ -26,15 +22,17 @@ const Resume = React.lazy(() => import('./components/Resume'));
 
 
 function App() {
+
   return (
     <Grid fluid >
       <div className='wrapper' style={{ width: '100vw' }}>
-        <Row >
-          <Col className='sidebar' xs={2}>
-            <Sidebar />
+
+          <Col className='sidebar' xs={12} sm={2}>
+            <Header />
+
           </Col>
 
-          <Col className='main' xs={10}>
+          <Col className='main' xs={12} sm={10}>
             <Intro style={{ width: '100vw' }} />
             <Suspense fallback={<div>Loading...</div>}>
               <About />
@@ -47,7 +45,7 @@ function App() {
               <Resume />
             </Suspense>
           </Col>
-        </Row>
+
       </div>
     </Grid>
   );

@@ -11,6 +11,20 @@
   border-radius: .9375rem;
 } */
 
+/* Header.css */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: .5rem;
+  height: -moz-available;
+
+}
+
+
+
+
 
 
 .titlebar {
@@ -360,7 +374,23 @@ ul {
   text-align: left;
 } 
 
-
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  margin: 0rem;
+ 
+  border-radius: 0rem;
+ 
+ 
+}
 .bullet {
   list-style-type: circle inside none;
   padding-left: 1rem;
@@ -552,7 +582,11 @@ img {
 @media (max-width: 767px) {
   /* Media query for narrow screens */
   .wrapper {
-    flex-wrap: wrap; /* Allowing flex items to wrap on narrow screens */
+    flex-wrap: nowrap; /* Allowing flex items to wrap on narrow screens */
+    flex-direction: column;
+    position: relative;
+    height: 100vh; /* Set container height to full viewport height */
+    overflow: hidden; /* Hide any content overflowing from container */
   }
 
   .sidebar {
@@ -561,6 +595,7 @@ img {
     min-width: 0rem;
     position: 0;
     flex: 0 0 auto; 
+    text-align: center;
   }
 
   .menuicon{
@@ -569,5 +604,29 @@ img {
 
   .main {
     order: 1; /* Placing the main content above the sidebar on narrow screens */
+    position: absolute;
+    top: 7rem; /* Adjust this value to match the height of your header */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .header {
+    position: fixed; /* Fix the header position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff; /* Example background color */
+    height: 7rem; /* Set header height */
+  }
+
+  .titlebar{
+    top: 7rem;
+  }
+
+  .introImg{
+    padding-top: 7rem; 
   }
 }

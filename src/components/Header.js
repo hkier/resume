@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Sidebar from './Sidebar';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -35,27 +35,29 @@ export default function Header() {
 
     return (
         <div className="navStyle" >
-            <Row>
-            <Col>
-                <div>
+            <Row className='header' xs={12} sm={2}>
+
+                <div > 
                     <h2 className='howardStyle'>
                         <HashLink smooth to="#home" className='howardStyle'>Howard Kier
                             <h6 >Developer, Consultant, and Mentor</h6></HashLink>
+                            
                     </h2>
+
+
+
+                    <div className='menuicon'>
+                        {isSmallScreen ? (
+                            <>
+                                <button onClick={toggleNav} className='button'>{isNavOpen ? <CloseIcon /> : <MenuIcon />}</button>
+                                {isNavOpen && <Sidebar />}
+                            </>
+                        ) : (
+                            <Sidebar />
+                        )}
+                    </div>
                 </div>
-            </Col >
-            <Col>
-                <div className='menuicon'>
-                    {isSmallScreen ? (
-                        <>
-                            <button onClick={toggleNav}>{isNavOpen ? <CloseIcon/> : <MenuIcon />}</button>
-                            {isNavOpen && <Sidebar />}
-                        </>
-                    ) : (
-                        <Sidebar />
-                    )}
-                </div>
-            </Col>
+
             </Row>
         </div>
     )

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import of the components from the react-bootstrap library
 import React, { Suspense } from 'react';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Grid from '@mui/material/Grid';
 
 import About from './components/About';

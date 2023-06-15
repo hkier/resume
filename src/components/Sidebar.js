@@ -29,15 +29,16 @@ export default function Sidebar() {
            <div className='navStyle'>
                 <h3>
                     <HashLink
-                        data-to-scrollspy-id='about'
-                        smooth to="#about" className='aboutStyle'><AboutIcon fontSize='medium' /> About</HashLink>
+                        smooth to="#about" className='aboutStyle'><AboutIcon fontSize='medium' /> About
+                       
+                        
+                        </HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
                     <HashLink
-                        data-to-scrollspy-id='experience'
                         smooth to="#experience" className='experienceStyle'><ExperienceIcon fontSize='medium' /> Experience</HashLink>
                 </h3>
             </div>
@@ -45,15 +46,14 @@ export default function Sidebar() {
             <div className='navStyle'>
                 <h3>
                     <HashLink
-                        data-to-scrollspy-id='projects'
-                        smooth to="#projects" className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects</HashLink>
+                        smooth to="#projects" className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects
+                                               </HashLink>
                 </h3>
             </div>
 
             <div className='navStyle'>
                 <h3>
                     <HashLink
-                        data-to-scrollspy-id='skills'
                         smooth to="#skills" className='skillsStyle'> <SkillsIcon fontSize='medium' /> Skills</HashLink>
                 </h3>
             </div>
@@ -61,7 +61,6 @@ export default function Sidebar() {
             <div className='navStyle'>
                 <h3>
                     <HashLink
-                        data-to-scrollspy-id='education'
                         smooth to="#education" className='educationStyle'><EducationIcon fontSize='medium' /> Education</HashLink>
                 </h3>
             </div>
@@ -69,7 +68,6 @@ export default function Sidebar() {
             <div className='navStyle'>
                 <h3>
                     <HashLink
-                        data-to-scrollspy-id='interests'
                         smooth to="#interests" className='interestsStyle'><InterestsIcon fontSize='medium' /> Interests</HashLink>
                 </h3>
             </div>
@@ -77,7 +75,6 @@ export default function Sidebar() {
             <div className='navStyle'>
                 <h3>
                     <HashLink
-                        data-to-scrollspy-id='contact'
                         smooth to="#contact" className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact</HashLink>
                 </h3>
             </div>
@@ -85,7 +82,6 @@ export default function Sidebar() {
             <div className='navStyle'>
                 <h3>
                     <HashLink
-                        data-to-scrollspy-id='resume'
                         smooth to="#resume" className='resumeStyle'> <ResumeIcon fontSize='medium' /> Resume</HashLink>
                 </h3>
             </div>

@@ -8,7 +8,7 @@ const Intro = () => {
     return (
         <div id='home'>
             <Navbar className="titlebar" sticky="top" >
-                <h1>Howard Kier</h1>
+                <f1>Howard Kier</f1>
             </Navbar>
 
             <Image src={Intropic} className='introImg   ' alt="Howard photo" fluid="true" />

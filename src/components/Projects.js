@@ -18,7 +18,7 @@ const Projects = () => {
     return (
         <div id='projects'>
             <Navbar className="titlebar" sticky="top">
-                <h1>Projects</h1>
+                <f1>Projects</f1>
             </Navbar>
             <Container className="project">
                 <Row>

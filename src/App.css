@@ -76,15 +76,12 @@
 }
 
 .howardStyle {
-  font-size: 2rem;
-  font-family: Roboto;
-  font-weight: 200;
-  font-style: normal;
-  padding: 0rem;
   color: #A334B6;
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
   padding-top: .75rem;
+  flex-direction: column;
+  padding-bottom: .5rem;
 }
 
 a:hover {
@@ -325,11 +322,12 @@ a:hover {
   padding: 0rem;
   font-size: 1.25rem;
   background-color: rgb(255, 255, 255);
+  width: 10rem;
 
 
 }
 
-h1 {
+f1 {
   padding-top: .9375rem;
   padding-left: 2rem;
   padding-bottom: .9375rem;
@@ -339,18 +337,18 @@ h1 {
 
 }
 
-h2 {
+f2 {
   font-size: 2rem;
   font-weight: 200;
 }
 
-h3 {
+f3 {
   font-size: 1.25rem;
   font-weight: 300;
   line-height: .9375rem;
 }
 
-h6 {
+f6 {
   font-size: .8rem;
   font-weight: 300;
   line-height: .9375rem;
@@ -590,16 +588,25 @@ img {
   }
 
   .sidebar {
-    width: 100%; /* Making the sidebar take up the full width */
-    height: auto;
+    width: 10.28rem; /* Making the sidebar take up the full width */
+    height: fit-content;
     min-width: 0rem;
-    position: 0;
+    position: fixed;
+    left: -12.5rem; /* Pushing sidebar off-screen */
+    top: 6rem  ;
     flex: 0 0 auto; 
     text-align: center;
+    transition: left 1s ease-in-out; /* Adding transition for smooth slide */
+    padding: 0rem;
+    box-shadow: none;
   }
 
+.sidebar.open{
+  left: 0rem;
+}
+
   .menuicon{
-    text-align: right;
+    text-align: left;
   }
 
   .main {

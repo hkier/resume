@@ -67,7 +67,7 @@ const Skills = () => {
     return (
         <div id='skills'>
             <Navbar className="titlebar" sticky="top">
-                <h1>Skills</h1>
+                <f1>Skills</f1>
             </Navbar>
             <Container>
                 <Card className="widecard">

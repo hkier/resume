@@ -30,9 +30,13 @@ export default function Sidebar({ toggleNav, isSmallScreen }) {
         toggleNav();
     };
 
+    const nop = () => {}
+
+    toggleNav = (toggleNav)?toggleNav : nop;
+
 
     return (
-        <div className={`sidebar ${isSmallScreen ? 'open' : ''}`}>
+        <div className={` ${isSmallScreen ? 'sidebar open' : ''}`}>
             <div >
 
                 <div className='navStyle'>

@@ -20,7 +20,7 @@ const Interests = () => {
     return (
         <div id='interests'>
             <Navbar className="titlebar" sticky="top">
-                <h1>Interests</h1>
+                <f1>Interests</f1>
             </Navbar>
             <Container >
                 <Row>
@@ -32,7 +32,7 @@ const Interests = () => {
                                     <Image src={shsvip} className='educationImg' alt="shs vip" />
                                 </Col>
                                 <Col xs={10} className='edutext'>
-                                    <h2>Schaumburg High School Very Involved Parents </h2>
+                                    <f2>Schaumburg High School Very Involved Parents </f2>
                                 </Col>
                             </Row>
 
@@ -85,7 +85,7 @@ const Interests = () => {
                                     <Image src={boyScouts} className='educationImg' alt="Boy Scouts" />
                                 </Col>
                                 <Col xs={10} className='edutext'>
-                                    <h2>Boy Scouts of America </h2>
+                                    <f2>Boy Scouts of America </f2>
                                 </Col>
                             </Row>
                             < Card.Body>

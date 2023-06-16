@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div id='about'>
             <Navbar className="titlebar" sticky="top" id="about">
-                <h1>About Me</h1>
+                <f1>About Me</f1>
             </Navbar>
             <Container>
                 <Card className="widecard">

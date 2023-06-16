@@ -3,6 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 // import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Sidebar from './Sidebar';
+import Comments from './Comments';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -38,11 +39,11 @@ export default function Header() {
             <Row className='header' xs={12} sm={2}>
 
                 <div > 
-                    <h2 className='howardStyle'>
-                        <HashLink smooth to="#home" className='howardStyle'>Howard Kier
-                            <h6 >Developer, Consultant, and Mentor</h6></HashLink>
+                    <f2 className='howardStyle'>
+                        <HashLink smooth to="#home" className='howardStyle'><div>Howard Kier</div>
+                            <f6 >Developer, Consultant, and Mentor</f6></HashLink>
                             
-                    </h2>
+                    </f2>
 
 
 
@@ -50,11 +51,13 @@ export default function Header() {
                         {isSmallScreen ? (
                             <>
                                 <button onClick={toggleNav} className='button'>{isNavOpen ? <CloseIcon /> : <MenuIcon />}</button>
-                                {isNavOpen && <Sidebar />}
+                                {isNavOpen && <Sidebar toggleNav={toggleNav} isSmallScreen={isSmallScreen}/>}
                             </>
                         ) : (
                             <Sidebar />
+                            
                         )}
+                        {isSmallScreen ? ("") : (<Comments />)}
                     </div>
                 </div>
 

@@ -18,7 +18,7 @@ const Education = () => {
     return (
         <div id='education'>
             <Navbar className="titlebar" sticky="top">
-                <h1>Education</h1>
+                <f1>Education</f1>
             </Navbar>
             <Container >
                 <Row>
@@ -29,7 +29,7 @@ const Education = () => {
                                     <Image src={Syracuse} className='educationImg' alt="Syracuse University" />
                                 </Col>
                                 <Col xs={11} className='edutext'>
-                                    <h2>Syracuse University</h2>
+                                    <f2>Syracuse University</f2>
                                 </Col>
                             </Row>
                             <Card.Body>
@@ -44,7 +44,7 @@ const Education = () => {
                                     <Image src={Syracuse} className='educationImg' alt="Syracuse University" />
                                 </Col>
                                 <Col xs={11} className='edutext'>
-                                    <h2>Syracuse University</h2>
+                                    <f2>Syracuse University</f2>
                                 </Col>
                             </Row>
                             <Card.Body>
@@ -60,7 +60,7 @@ const Education = () => {
                                     <Image src={Mustang} className='educationImg' alt="Southern Methodist University" />
                                 </Col>
                                 <Col xs={11} className='edutext'>
-                                    <h2>Southern Methodist University</h2>
+                                    <f2>Southern Methodist University</f2>
                                 </Col>
                             </Row>
                             <Card.Body>
@@ -78,7 +78,7 @@ const Education = () => {
                                     <Image src={fullstack} className='educationImg' alt="Fullstack Academ" />
                                 </Col>
                                 <Col xs={11} className='edutext'>
-                                    <h2>Fullstack Academy</h2>
+                                    <f2>Fullstack Academy</f2>
                                 </Col>
                             </Row>
                             <Card.Body>

@@ -154,7 +154,7 @@ const Experience = () => {
                         <Card className='widecard'>
 
                             <Card.Img className='expimg' variant='top' src={Disney} alt="Disney" />
-                            <f2>Consumer Products Division</f2>
+                            <f4>Consumer Products Division</f4>
 
                             <Card.Title>Cast Member (part-time)</Card.Title>
                             9 years of experience

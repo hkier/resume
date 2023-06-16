@@ -32,7 +32,7 @@ const Interests = () => {
                                     <Image src={shsvip} className='educationImg' alt="shs vip" />
                                 </Col>
                                 <Col xs={10} className='edutext'>
-                                    <f2>Schaumburg High School Very Involved Parents </f2>
+                                    <f4>Schaumburg High School Very Involved Parents </f4>
                                 </Col>
                             </Row>
 
@@ -85,7 +85,7 @@ const Interests = () => {
                                     <Image src={boyScouts} className='educationImg' alt="Boy Scouts" />
                                 </Col>
                                 <Col xs={10} className='edutext'>
-                                    <f2>Boy Scouts of America </f2>
+                                    <f4>Boy Scouts of America </f4>
                                 </Col>
                             </Row>
                             < Card.Body>

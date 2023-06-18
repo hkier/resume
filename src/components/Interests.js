@@ -16,12 +16,13 @@ import code4Chicago from '../images/Interests/cfc_logo_2021.svg'
 
 
 
-const Interests = () => {
+const Interests = ({  isSmallScreen }) => {
     return (
         <div id='interests'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Interests</f1>
             </Navbar>
+            {isSmallScreen && <div className='spacer' />}
             <Container >
                 <Row>
 

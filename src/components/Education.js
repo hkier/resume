@@ -14,12 +14,13 @@ import fullstack from '../images/Education/fullstack.webp'
 import Syracuse from '../images/Education/SU.webp'
 
 
-const Education = () => {
+const Education = ({  isSmallScreen }) => {
     return (
         <div id='education'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Education</f1>
             </Navbar>
+            {isSmallScreen && <div className='spacer' />}
             <Container >
                 <Row>
                     <Col>

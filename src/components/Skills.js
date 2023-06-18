@@ -63,12 +63,13 @@ const red = "#d9534f"
 const purple = "#c800ff"
 
 
-const Skills = () => {
+const Skills = ({  isSmallScreen }) => {
     return (
         <div id='skills'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Skills</f1>
             </Navbar>
+            {isSmallScreen && <div className='spacer' />}
             <Container>
                 <Card className="widecard">
                     <div className='skilltitle'>

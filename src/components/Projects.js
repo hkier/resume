@@ -14,12 +14,13 @@ import scams from '../images/Projects/scams.webp'
 import betweenfriends from '../images/Projects/betweenfriends.webp'
 
 
-const Projects = () => {
+const Projects = ({  isSmallScreen }) => {
     return (
         <div id='projects'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Projects</f1>
             </Navbar>
+            {isSmallScreen && <div className='spacer' />}
             <Container className="project">
                 <Row>
                     <Col>

@@ -23,12 +23,13 @@ import D211 from '../images/Experience/D211.webp'
 
 
 
-const Experience = () => {
+const Experience = ({ isSmallScreen }) => {
     return (
         <div id='experience'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Experience </f1>
             </Navbar>
+            {isSmallScreen && <div className='spacer' />}
             <Container >
                 <Row>
                     <Col>
@@ -37,7 +38,7 @@ const Experience = () => {
                             <Card.Img className='expimg' variant='top' src={Freelance} alt="freelance logo" />
                             <Card.Title>Web Developer and Consultant</Card.Title>
                             5 years of experience
-                           
+
 
                             <Card.Body>
                                 <ul className='bullet'>
@@ -53,7 +54,7 @@ const Experience = () => {
                 <Row>
                     <Col>
                         <Card className='widecard'>
-                            <Card.Img className='expimg' variant="top" src={IBM} alt='IBM logo'/>
+                            <Card.Img className='expimg' variant="top" src={IBM} alt='IBM logo' />
                             <Card.Title>Programmer</Card.Title>
                             <Card.Text>Programmer/Technical Support</Card.Text>
                             11 years of experience

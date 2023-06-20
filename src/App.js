@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 // import Container from 'react-bootstrap/Container';
 import Grid from '@mui/material/Grid';
 
+
 import About from './components/About';
 import Intro from './components/Intro';
 import Header from './components/Header';
@@ -54,7 +55,7 @@ function App() {
 
           </Col>
 
-          <Col className='main' xs={12} sm={10}>
+          <Col id='scrollable' className='main' xs={12} sm={10}>
             <Intro style={{ width: '100vw' }} />
             <Suspense fallback={<div>Loading...</div>}>
               <About isSmallScreen={isSmallScreen} />

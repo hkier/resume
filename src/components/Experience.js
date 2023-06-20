@@ -23,13 +23,12 @@ import D211 from '../images/Experience/D211.webp'
 
 
 
-const Experience = ({ isSmallScreen }) => {
+const Experience = () => {
     return (
         <div id='experience'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Experience </f1>
             </Navbar>
-            {isSmallScreen && <div className='spacer' />}
             <Container >
                 <Row>
                     <Col>

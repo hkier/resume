@@ -36,6 +36,14 @@ export default function Sidebar({ toggleNav, isSmallScreen }) {
 
     toggleNav = (toggleNav) ? toggleNav : nop;
 
+    const handleScroll = (targetRef) => {        
+        if (targetRef.id) {
+          const yOffset = targetRef.offsetTop-112;
+          targetRef.scroll({ top: yOffset, left:0, behavior: 'smooth' });
+        
+        console.log('handleScroll', targetRef, targetRef.id, targetRef.offsetTop,yOffset);
+     } };
+
 
     return (
         <div className={` ${isSmallScreen ? 'sidebar open' : ''}`}>
@@ -54,7 +62,7 @@ export default function Sidebar({ toggleNav, isSmallScreen }) {
                 <div className='navStyle'>
                     <li className='f3'>
                         <HashLink
-                            smooth to="#experience" onClick={handleToggleNav} className='experienceStyle'><ExperienceIcon fontSize='medium' /> Experience</HashLink>
+                            smooth to="#experience" onClick={handleToggleNav} scroll={handleScroll} className='experienceStyle'><ExperienceIcon fontSize='medium' /> Experience</HashLink>
                     </li>
                 </div>
 

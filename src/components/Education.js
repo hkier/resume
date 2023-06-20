@@ -14,13 +14,12 @@ import fullstack from '../images/Education/fullstack.webp'
 import Syracuse from '../images/Education/SU.webp'
 
 
-const Education = ({  isSmallScreen }) => {
+const Education = () => {
     return (
         <div id='education'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Education</f1>
             </Navbar>
-            {isSmallScreen && <div className='spacer' />}
             <Container >
                 <Row>
                     <Col>
@@ -30,7 +29,7 @@ const Education = ({  isSmallScreen }) => {
                                     <Image src={Syracuse} className='educationImg' alt="Syracuse University" />
                                 </Col>
                                 <Col xs={11} className='edutext'>
-                                    <f2>Syracuse University</f2>
+                                    <div className='f2'>Syracuse University</div>
                                 </Col>
                             </Row>
                             <Card.Body>
@@ -45,7 +44,7 @@ const Education = ({  isSmallScreen }) => {
                                     <Image src={Syracuse} className='educationImg' alt="Syracuse University" />
                                 </Col>
                                 <Col xs={11} className='edutext'>
-                                    <f2>Syracuse University</f2>
+                                    <div className='f2'>Syracuse University</div>
                                 </Col>
                             </Row>
                             <Card.Body>
@@ -61,7 +60,7 @@ const Education = ({  isSmallScreen }) => {
                                     <Image src={Mustang} className='educationImg' alt="Southern Methodist University" />
                                 </Col>
                                 <Col xs={11} className='edutext'>
-                                    <f2>Southern Methodist University</f2>
+                                    <div className='f2'>Southern Methodist University</div>
                                 </Col>
                             </Row>
                             <Card.Body>
@@ -79,7 +78,7 @@ const Education = ({  isSmallScreen }) => {
                                     <Image src={fullstack} className='educationImg' alt="Fullstack Academ" />
                                 </Col>
                                 <Col xs={11} className='edutext'>
-                                    <f2>Fullstack Academy</f2>
+                                    <div className='f2'>Fullstack Academy</div>
                                 </Col>
                             </Row>
                             <Card.Body>

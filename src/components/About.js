@@ -5,13 +5,12 @@ import { Row, Col } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 
 
-const About = ({ isSmallScreen }) => {
+const About = () => {
     return (
         <div id='about'>
             <Navbar className="titlebar" sticky="top" id="about">
                 <f1>About Me</f1>
             </Navbar>
-            {isSmallScreen && <div className='spacer' />}
             <Container>
                 <Card className="widecard">
                     <Card.Body>

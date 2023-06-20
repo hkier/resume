@@ -34,16 +34,33 @@ export default function Header() {
     };
 
 
+    const [isOpen, setIsOpen] = useState(false);
+    
+    const closeNav = () => {
+        console.log('closeNav', isOpen,  isNavOpen);
+        if (isNavOpen) {
+            setIsOpen(!isOpen);
+            toggleNav();
+        }
+
+    };
+
+ 
+
+
+
+
+
     return (
         <div className="navStyle" >
             <Row className='header' xs={12} sm={2}>
 
                 <div > 
-                    <f2 className='howardStyle'>
-                        <HashLink smooth to="#home" className='howardStyle'><div>Howard Kier</div>
+                    <div className='howardStyle f2'>
+                        <HashLink smooth to="#home" onClick={closeNav} className='howardStyle'><div>Howard Kier</div>
                             <f6 >Developer, Consultant, and Mentor</f6></HashLink>
                             
-                    </f2>
+                    </div>
 
 
 

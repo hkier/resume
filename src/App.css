@@ -101,7 +101,6 @@ a:hover {
   border-left: solid;
   border-left-width: .25rem;
   border-left-color: white;
-
   display: inline-block;
 }
 
@@ -336,8 +335,8 @@ f1 {
 
 }
 
-f2,
-f4 {
+.f2,
+.f4 {
   font-size: 2rem;
   font-weight: 200;
 }
@@ -393,6 +392,11 @@ ul {
 .bullet {
   list-style-type: circle inside none;
   padding-left: 1rem;
+
+}
+
+.nobullet{
+  list-style-type: none;
 
 }
 
@@ -607,6 +611,7 @@ img {
     /* Adding transition for smooth slide */
     padding: 0rem;
     box-shadow: none;
+    background-color: white;
   }
 
   .sidebar.open {
@@ -621,7 +626,7 @@ img {
     order: 1;
     /* Placing the main content above the sidebar on narrow screens */
     position: absolute;
-    top: 7rem;
+    
     /* Adjust this value to match the height of your header */
     left: 0;
     right: 0;

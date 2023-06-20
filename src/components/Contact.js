@@ -15,13 +15,12 @@ import Col from 'react-bootstrap/Col';
 
 
 
-const Contact = ({  isSmallScreen }) => {
+const Contact = () => {
     return (
         <div id='contact'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Contact </f1>
             </Navbar>
-            {isSmallScreen && <div className='spacer' />}
             <Container >
                 <Card className='widecard'>
                     <Card.Body>

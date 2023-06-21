@@ -35,9 +35,9 @@ export default function Header() {
 
 
     const [isOpen, setIsOpen] = useState(false);
-    
+
     const closeNav = () => {
-        console.log('closeNav', isOpen,  isNavOpen);
+        console.log('closeNav', isOpen, isNavOpen);
         if (isNavOpen) {
             setIsOpen(!isOpen);
             toggleNav();
@@ -45,40 +45,33 @@ export default function Header() {
 
     };
 
- 
+
 
 
 
 
 
     return (
-        <div className="navStyle" >
-            <Row className='header' xs={12} sm={2}>
 
-                <div > 
-                    <div className='howardStyle f2'>
-                        <HashLink smooth to="#home" onClick={closeNav} className='howardStyle'><div>Howard Kier</div>
-                            <f6 >Developer, Consultant, and Mentor</f6></HashLink>
-                            
-                    </div>
+        <Row className='header' xs={12} sm={2}>
 
+            <div >
+                <div className='howardStyle f2'>
+                    <HashLink smooth to="#home" onClick={closeNav} className='howardStyle'><div>Howard Kier</div>
+                        <f6 >Developer, Consultant, and Mentor</f6></HashLink>
 
-
-                    <div className='menuicon'>
-                        {isSmallScreen ? (
-                            <>
-                                <button onClick={toggleNav} className='button'>{isNavOpen ? <CloseIcon /> : <MenuIcon />}</button>
-                                {isNavOpen && <Sidebar toggleNav={toggleNav} isSmallScreen={isSmallScreen}/>}
-                            </>
-                        ) : (
-                            <Sidebar />
-                            
-                        )}
-                        {isSmallScreen ? ("") : (<Comments />)}
-                    </div>
                 </div>
+                <div className='menuicon'>
+                    {isSmallScreen ? (
+                        <>
+                            <button onClick={toggleNav} className='button'>{isNavOpen ? <CloseIcon /> : <MenuIcon />}</button>
+                            {isNavOpen && <Sidebar toggleNav={toggleNav} isSmallScreen={isSmallScreen} />}
+                        </>
+                    ) : (<Sidebar />)}
+                    {isSmallScreen ? ("") : (<Comments />)}
+                </div>
+            </div>
 
-            </Row>
-        </div>
+        </Row>
     )
 }

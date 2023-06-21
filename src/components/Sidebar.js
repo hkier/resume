@@ -36,80 +36,83 @@ export default function Sidebar({ toggleNav, isSmallScreen }) {
 
     toggleNav = (toggleNav) ? toggleNav : nop;
 
-    const handleScroll = (targetRef) => {        
-        if (targetRef.id) {
-          const yOffset = targetRef.offsetTop-112;
-          targetRef.scroll({ top: yOffset, left:0, behavior: 'smooth' });
-        
-        console.log('handleScroll', targetRef, targetRef.id, targetRef.offsetTop,yOffset);
-     } };
+    const handleScroll = (targetRef) => {
+        const elementId = targetRef.id;
+        const content = document.getElementById(elementId);
+      content.scrollIntoView({ behavior: 'smooth' });
+        // if (targetRef.id) {
+        //     const yOffset = targetRef.offsetTop - 112;
+        //     window.scroll({ top: yOffset, left: 0, behavior: 'smooth' });
+
+        //     console.log('handleScroll', targetRef, targetRef.id, targetRef.offsetTop, yOffset);
+        // }
+    };
 
 
     return (
-        <div className={` ${isSmallScreen ? 'sidebar open' : ''}`}>
-            <ul className='nobullet'>
-
-                <div className='navStyle'>
-                    <li className='f3'>
-                        <HashLink
-                            smooth to="#about" onClick={handleToggleNav} className='aboutStyle'><AboutIcon fontSize='medium' /> About
+        <ul className={` ${isSmallScreen ? 'nobullet sidebar open' : 'nobullet'}`}>
 
 
-                        </HashLink>
-                    </li>
-                </div>
+            <li className='f3 navStyle'>
+                <HashLink
+                    smooth to="#about" onClick={handleToggleNav} className='aboutStyle'><AboutIcon fontSize='medium' /> About
 
-                <div className='navStyle'>
-                    <li className='f3'>
-                        <HashLink
-                            smooth to="#experience" onClick={handleToggleNav} scroll={handleScroll} className='experienceStyle'><ExperienceIcon fontSize='medium' /> Experience</HashLink>
-                    </li>
-                </div>
 
-                <div className='navStyle'>
-                    <li className='f3'>
-                        <HashLink
-                            smooth to="#projects" onClick={handleToggleNav} className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects
-                        </HashLink>
-                    </li>
-                </div>
+                </HashLink>
+            </li>
 
-                <div className='navStyle'>
-                    <li className='f3'>
-                        <HashLink
-                            smooth to="#skills" onClick={handleToggleNav} className='skillsStyle'> <SkillsIcon fontSize='medium' /> Skills</HashLink>
-                    </li>
-                </div>
 
-                <div className='navStyle'>
-                    <li className='f3'>
-                        <HashLink
-                            smooth to="#education" onClick={handleToggleNav} className='educationStyle'><EducationIcon fontSize='medium' /> Education</HashLink>
-                    </li>
-                </div>
 
-                <div className='navStyle'>
-                    <li className='f3'>
-                        <HashLink
-                            smooth to="#interests" onClick={handleToggleNav} className='interestsStyle'><InterestsIcon fontSize='medium' /> Interests</HashLink>
-                    </li>
-                </div>
+            <li className='f3 navStyle'>
+                <HashLink
+                    smooth to="#experience" onClick={handleToggleNav} scroll={handleScroll} className='experienceStyle'><ExperienceIcon fontSize='medium' /> Experience</HashLink>
+            </li>
 
-                <div className='navStyle'>
-                    <li className='f3'>
-                        <HashLink
-                            smooth to="#contact" onClick={handleToggleNav} className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact</HashLink>
-                    </li>
-                </div>
 
-                <div className='navStyle'>
-                    <li className='f3'>
-                        <HashLink
-                            smooth to="#resume" onClick={handleToggleNav} className='resumeStyle'> <ResumeIcon fontSize='medium' /> Resume</HashLink>
-                    </li>
-                </div>
-            </ul >
-        </div >
+
+            <li className='f3 navStyle'>
+                <HashLink
+                    smooth to="#projects" onClick={handleToggleNav} className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects
+                </HashLink>
+            </li>
+
+
+
+            <li className='f3 navStyle'>
+                <HashLink
+                    smooth to="#skills" onClick={handleToggleNav} className='skillsStyle'> <SkillsIcon fontSize='medium' /> Skills</HashLink>
+            </li>
+
+
+
+            <li className='f3 navStyle'>
+                <HashLink
+                    smooth to="#education" onClick={handleToggleNav} className='educationStyle'><EducationIcon fontSize='medium' /> Education</HashLink>
+            </li>
+
+
+
+            <li className='f3 navStyle'>
+                <HashLink
+                    smooth to="#interests" onClick={handleToggleNav} className='interestsStyle'><InterestsIcon fontSize='medium' /> Interests</HashLink>
+            </li>
+
+
+
+            <li className='f3 navStyle'>
+                <HashLink
+                    smooth to="#contact" onClick={handleToggleNav} className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact</HashLink>
+            </li>
+
+
+
+            <li className='f3 navStyle'>
+                <HashLink
+                    smooth to="#resume" onClick={handleToggleNav} className='resumeStyle'> <ResumeIcon fontSize='medium' /> Resume</HashLink>
+            </li>
+
+        </ul >
+
     )
 }
 

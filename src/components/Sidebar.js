@@ -39,13 +39,12 @@ export default function Sidebar({ toggleNav, isSmallScreen }) {
     const handleScroll = (targetRef) => {
         const elementId = targetRef.id;
         const content = document.getElementById(elementId);
-      content.scrollIntoView({ behavior: 'smooth' });
-        // if (targetRef.id) {
-        //     const yOffset = targetRef.offsetTop - 112;
-        //     window.scroll({ top: yOffset, left: 0, behavior: 'smooth' });
-
-        //     console.log('handleScroll', targetRef, targetRef.id, targetRef.offsetTop, yOffset);
-        // }
+        if (isSmallScreen) {
+            const top = content.offsetTop - 112;
+            document.getElementById('scrollable').scrollTo({ top: top, behavior: 'smooth' });
+        }
+        else
+            content.scrollIntoView({ behavior: 'smooth' });
     };
 
 
@@ -55,7 +54,7 @@ export default function Sidebar({ toggleNav, isSmallScreen }) {
 
             <li className='f3 navStyle'>
                 <HashLink
-                    smooth to="#about" onClick={handleToggleNav} className='aboutStyle'><AboutIcon fontSize='medium' /> About
+                    smooth to="#about" onClick={handleToggleNav} scroll={handleScroll} className='aboutStyle'><AboutIcon fontSize='medium' /> About
 
 
                 </HashLink>
@@ -72,7 +71,7 @@ export default function Sidebar({ toggleNav, isSmallScreen }) {
 
             <li className='f3 navStyle'>
                 <HashLink
-                    smooth to="#projects" onClick={handleToggleNav} className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects
+                    smooth to="#projects" onClick={handleToggleNav} scroll={handleScroll} className='projectsStyle'><ProjectsIcon fontSize='medium' /> Projects
                 </HashLink>
             </li>
 
@@ -80,35 +79,35 @@ export default function Sidebar({ toggleNav, isSmallScreen }) {
 
             <li className='f3 navStyle'>
                 <HashLink
-                    smooth to="#skills" onClick={handleToggleNav} className='skillsStyle'> <SkillsIcon fontSize='medium' /> Skills</HashLink>
+                    smooth to="#skills" onClick={handleToggleNav} scroll={handleScroll} className='skillsStyle'> <SkillsIcon fontSize='medium' /> Skills</HashLink>
             </li>
 
 
 
             <li className='f3 navStyle'>
                 <HashLink
-                    smooth to="#education" onClick={handleToggleNav} className='educationStyle'><EducationIcon fontSize='medium' /> Education</HashLink>
+                    smooth to="#education" onClick={handleToggleNav} scroll={handleScroll} className='educationStyle'><EducationIcon fontSize='medium' /> Education</HashLink>
             </li>
 
 
 
             <li className='f3 navStyle'>
                 <HashLink
-                    smooth to="#interests" onClick={handleToggleNav} className='interestsStyle'><InterestsIcon fontSize='medium' /> Interests</HashLink>
+                    smooth to="#interests" onClick={handleToggleNav} scroll={handleScroll} className='interestsStyle'><InterestsIcon fontSize='medium' /> Interests</HashLink>
             </li>
 
 
 
             <li className='f3 navStyle'>
                 <HashLink
-                    smooth to="#contact" onClick={handleToggleNav} className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact</HashLink>
+                    smooth to="#contact" onClick={handleToggleNav} scroll={handleScroll} className='contactStyle'><ContactMailIcon fontSize='medium' /> Contact</HashLink>
             </li>
 
 
 
             <li className='f3 navStyle'>
                 <HashLink
-                    smooth to="#resume" onClick={handleToggleNav} className='resumeStyle'> <ResumeIcon fontSize='medium' /> Resume</HashLink>
+                    smooth to="#resume" onClick={handleToggleNav} scroll={handleScroll} className='resumeStyle'> <ResumeIcon fontSize='medium' /> Resume</HashLink>
             </li>
 
         </ul >

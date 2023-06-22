@@ -16,7 +16,7 @@ import Syracuse from '../images/Education/SU.webp'
 
 const Education = () => {
     return (
-        <div id='education'>
+        <div id='education' className='section'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Education</f1>
             </Navbar>

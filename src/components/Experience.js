@@ -25,7 +25,7 @@ import D211 from '../images/Experience/D211.webp'
 
 const Experience = () => {
     return (
-        <div id='experience'>
+        <div id='experience' className='section'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Experience </f1>
             </Navbar>

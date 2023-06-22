@@ -17,7 +17,7 @@ import Col from 'react-bootstrap/Col';
 
 const Contact = () => {
     return (
-        <div id='contact'>
+        <div id='contact'  className='section'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Contact </f1>
             </Navbar>

@@ -7,7 +7,7 @@ import { Row, Col } from 'react-bootstrap';
 
 const Resume = () => {
     return (
-        <div id="resume">
+        <div id="resume" className='section'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Resume</f1>
             </Navbar>

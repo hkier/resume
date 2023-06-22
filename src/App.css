@@ -5,10 +5,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* .active-scroll-spy {
-  background-color: yellowgreen;
-  border-radius: .9375rem;
-} */
+
 
 /* Header.css */
 
@@ -112,7 +109,7 @@ a:hover {
 
 }
 
-.aboutStyle:active {
+.aboutStyle:active, .aboutStyleActive {
   background-color: #e1dede !important;
   text-decoration: none;
   width: -moz-available;
@@ -121,6 +118,8 @@ a:hover {
   border-left-width: .25rem;
   border-left-color: #ff0000;
 }
+
+
 
 .skillsStyle {
   padding: .625rem;
@@ -141,7 +140,7 @@ a:hover {
 
 }
 
-.skillsStyle:active {
+.skillsStyle:active, .skillsStyleActive {
   background-color: #e1dede !important;
   text-decoration: none;
   width: -moz-available;
@@ -168,7 +167,7 @@ a:hover {
   width: -moz-available;
 }
 
-.projectsStyle:active {
+.projectsStyle:active, .projectsStyleActive {
   background-color: #e1dede !important;
   text-decoration: none;
   width: -moz-available;
@@ -195,7 +194,7 @@ a:hover {
   width: -moz-available;
 }
 
-.educationStyle:active {
+.educationStyle:active, .educationStyleActive {
   background-color: #e1dede !important;
   text-decoration: none;
   width: -moz-available;
@@ -222,7 +221,7 @@ a:hover {
   width: -moz-available;
 }
 
-.interestsStyle:active {
+.interestsStyle:active, .interestsStyleActive {
   background-color: #e1dede !important;
   text-decoration: none;
   width: -moz-available;
@@ -251,7 +250,7 @@ a:hover {
 
 }
 
-.contactStyle:active {
+.contactStyle:active, .contactStyleActive {
   background-color: #e1dede !important;
   text-decoration: none;
   width: -moz-available;
@@ -278,7 +277,7 @@ a:hover {
   width: -moz-available;
 }
 
-.experienceStyle:active {
+.experienceStyle:active, .experienceStyleActive {
   background-color: #e1dede !important;
   text-decoration: none;
   width: -moz-available;
@@ -305,7 +304,7 @@ a:hover {
   width: -moz-available;
 }
 
-.resumeStyle:active {
+.resumeStyle:active, .resumeStyleActive {
   background-color: #e1dede !important;
   text-decoration: none;
   width: -moz-available;
@@ -341,7 +340,7 @@ f1 {
   font-weight: 200;
 }
 
-f3 {
+.f3 {
   font-size: 1.25rem;
   font-weight: 300;
   line-height: .9375rem;

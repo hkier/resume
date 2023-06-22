@@ -18,7 +18,7 @@ const Education = () => {
     return (
         <div id='education' className='section'>
             <Navbar className="titlebar" sticky="top">
-                <f1>Education</f1>
+                <div className='f1'>Education</div>
             </Navbar>
             <Container >
                 <Row>

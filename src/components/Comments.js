@@ -8,8 +8,8 @@ export default function Comments() {
             <br />
             <br />
             <ul>
-                <li>Make responsive for phones</li>
                 <li>Fix some minor styling issues </li>
+                <li>Testing</li>
             </ul>
             If you have any comments or suggestions, please feel free to conact me.
         </div>

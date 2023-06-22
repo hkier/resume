@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
-import { Row, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 
 
@@ -9,13 +9,13 @@ const About = () => {
     return (
         <div id='about' className='section'>
             <Navbar className="titlebar" sticky="top" id="about">
-                <f1>About Me</f1>
+                <div className='f1'>About Me</div>
             </Navbar>
             <Container>
                 <Card className="widecard">
                     <Card.Body>
-                        <Row className='widerow'>
-                            <Col>
+                       
+                            <Col className='widerow'>
                                 <Card.Text>
                                     <div className='abouttext'>
                                         <p>
@@ -43,8 +43,7 @@ const About = () => {
                                         </p>
                                     </div>
                                 </Card.Text>
-                            </Col>
-                        </Row>
+                            </Col>                   
                     </Card.Body>
                 </Card>
             </Container>

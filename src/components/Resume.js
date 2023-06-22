@@ -9,7 +9,7 @@ const Resume = () => {
     return (
         <div id="resume" className='section'>
             <Navbar className="titlebar" sticky="top">
-                <f1>Resume</f1>
+                <div className='f1'>Resume</div>
             </Navbar>
             <Container>
                 <div>

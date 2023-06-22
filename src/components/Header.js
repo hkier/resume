@@ -58,7 +58,7 @@ export default function Header() {
             <div >
                 <div className='howardStyle f2'>
                     <HashLink smooth to="#home" onClick={closeNav} className='howardStyle'><div>Howard Kier</div>
-                        <f6 >Developer, Consultant, and Mentor</f6></HashLink>
+                        <div className='f6' >Developer, Consultant, and Mentor</div></HashLink>
 
                 </div>
                 <div className='menuicon'>

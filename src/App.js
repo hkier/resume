@@ -34,23 +34,29 @@ function App() {
     };
 
     const handleScroll = () => {
+      if (window.innerWidth < 767) {
+        return
+      };
+
       const sections = document.getElementsByClassName('section')
       let notFound = true;
       for (let i = 0; i < sections.length; i++) {
-        const element = sections[i];
-        const elementPosition = element.getBoundingClientRect();
+        let element = sections[i];
+        let elementPosition = element.getBoundingClientRect();
+        let link = document.getElementById(element.id + 'Link');
 
-        // Check if element is within the viewport
-        if (notFound && elementPosition.top < window.innerHeight && elementPosition.bottom > 0) {
-          // Element is currently visible in the viewport
-          console.log(element.id + ' is in the viewport');
+        // Check if element is within the viewport and use an extra 5 pixels as a buffer for rounding errors
+        if (notFound && elementPosition.top < window.innerHeight && elementPosition.bottom > 5) {
+          link.classList.add(element.id + 'StyleActive')
           notFound = false;
         }
+        else {
+          link.classList.remove(element.id + 'StyleActive')
+        }
       }
-      // element.classList.add('myClass')
-      // element.classList.remove('myClass')
-
     }
+
+
     // Initial check on component mount
     handleResize();
     handleScroll();

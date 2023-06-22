@@ -393,7 +393,7 @@ ul {
 }
 
 .bullet {
-  list-style-type: circle inside ;
+  list-style-type: disc; ;
   padding-left: 1rem;
 
 }
@@ -660,33 +660,47 @@ img {
     padding-top: 7rem;
   }
 
+  #projects .col, #interests .col {
+    flex: none;
+  }
+
+  #skills .col{
+    display: contents;
+
+  } 
 
 
-  .mediumcard, .basiccard {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    padding-top: .625rem;
-    padding-bottom: .625rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
-    font-size: 1em;
-    font-weight: 400;
-    font-family: Roboto;
-    font-style: normal;
-    text-align: center;
-    text-decoration: none;
-    border-color: #A334B6;
-    border-width: .125rem;
-    border-style: solid;
+ .basiccard, .mediumcard{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      padding-top: .625rem;
+      padding-bottom: .625rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
+      font-size: 1em;
+      font-weight: 400;
+      font-family: Roboto;
+      font-style: normal;
+      text-align: center;
+      text-decoration: none;
+      border-color: #A334B6;
+      border-width: .125rem;
+      border-style: solid;
+    
   }
 
   .f1 {
     font-size: 1.8rem;
+  }
+
+  .f2 {
+    font-size: 1.5rem;
+    font-weight: 200;
   }
 
   .abouttext {
@@ -723,6 +737,8 @@ img {
     width: 4rem;
     margin-left: 1rem;
   }
+
+
 
   .spacer {
     padding-top: 7rem;

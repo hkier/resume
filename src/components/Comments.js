@@ -8,8 +8,7 @@ export default function Comments() {
             <br />
             <br />
             <ul>
-                <li>Fix some minor styling issues </li>
-                <li>Testing</li>
+                <li>Final Testing...</li>
             </ul>
             If you have any comments or suggestions, please feel free to conact me.
         </div>

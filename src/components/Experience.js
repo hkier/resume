@@ -27,7 +27,7 @@ const Experience = () => {
     return (
         <div id='experience' className='section'>
             <Navbar className="titlebar" sticky="top">
-                <f1>Experience </f1>
+                <div className='f1'>Experience </div>
             </Navbar>
             <Container >
                 <Row>
@@ -154,7 +154,7 @@ const Experience = () => {
                         <Card className='widecard'>
 
                             <Card.Img className='expimg' variant='top' src={Disney} alt="Disney" />
-                            <f4>Consumer Products Division</f4>
+                            <div className='f4'>Consumer Products Division</div>
 
                             <Card.Title>Cast Member (part-time)</Card.Title>
                             9 years of experience

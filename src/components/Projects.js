@@ -18,9 +18,9 @@ const Projects = () => {
     return (
         <div id='projects' className='section'>
             <Navbar className="titlebar" sticky="top">
-                <f1>Projects</f1>
+                <div className='f1'>Projects</div>
             </Navbar>
-            <Container className="project">
+            <Container className="wrap">
                 <Row>
                     <Col>
                         <Card className='basiccard'>

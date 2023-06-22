@@ -19,7 +19,7 @@ const Contact = () => {
     return (
         <div id='contact'  className='section'>
             <Navbar className="titlebar" sticky="top">
-                <f1>Contact </f1>
+                <div className='f1'>Contact </div>
             </Navbar>
             <Container >
                 <Card className='widecard'>

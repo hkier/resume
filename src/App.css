@@ -324,18 +324,17 @@ a:hover {
 
 }
 
-f1 {
+.f1 {
   padding-top: .9375rem;
   padding-left: 2rem;
   padding-bottom: .9375rem;
   padding-right: 0rem;
-  font-size: 2.82rem;
+  font-size: 2.6rem;
   font-weight: 200;
 
 }
 
-.f2,
-.f4 {
+.f2 {
   font-size: 2rem;
   font-weight: 200;
 }
@@ -346,7 +345,12 @@ f1 {
   line-height: .9375rem;
 }
 
-f6 {
+.f4 {
+  font-size: 1.75rem;
+  font-weight: 200;
+}
+
+.f6 {
   font-size: .8rem;
   font-weight: 300;
   line-height: .9375rem;
@@ -389,7 +393,7 @@ ul {
 }
 
 .bullet {
-  list-style-type: circle inside none;
+  list-style-type: disc; ;
   padding-left: 1rem;
 
 }
@@ -436,8 +440,9 @@ img {
 
 }
 
-.project {
+.wrap {
   flex-wrap: wrap;
+  flex-flow: row wrap
 }
 
 
@@ -655,31 +660,47 @@ img {
     padding-top: 7rem;
   }
 
-  .mediumcard {
-    width: 18rem;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    padding-top: .625rem;
-    padding-bottom: .625rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
-    font-size: 1em;
-    font-weight: 400;
-    font-family: Roboto;
-    font-style: normal;
-    text-align: center;
-    text-decoration: none;
-    border-color: #A334B6;
-    border-width: .125rem;
-    border-style: solid;
+  #projects .col, #interests .col {
+    flex: none;
   }
 
-  f1 {
+  #skills .col{
+    display: contents;
+
+  } 
+
+
+ .basiccard, .mediumcard{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      padding-top: .625rem;
+      padding-bottom: .625rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
+      font-size: 1em;
+      font-weight: 400;
+      font-family: Roboto;
+      font-style: normal;
+      text-align: center;
+      text-decoration: none;
+      border-color: #A334B6;
+      border-width: .125rem;
+      border-style: solid;
+    
+  }
+
+  .f1 {
     font-size: 1.8rem;
+  }
+
+  .f2 {
+    font-size: 1.5rem;
+    font-weight: 200;
   }
 
   .abouttext {
@@ -707,7 +728,7 @@ img {
     width: 5.3rem;
   }
 
-  f4 {
+  .f4 {
     font-size: 1.5rem;
     font-weight: 200;
   }
@@ -716,6 +737,8 @@ img {
     width: 4rem;
     margin-left: 1rem;
   }
+
+
 
   .spacer {
     padding-top: 7rem;

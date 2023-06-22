@@ -47,7 +47,8 @@ function App() {
           notFound = false;
         }
       }
-
+      // element.classList.add('myClass')
+      // element.classList.remove('myClass')
 
     }
     // Initial check on component mount

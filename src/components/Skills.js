@@ -65,7 +65,7 @@ const purple = "#c800ff"
 
 const Skills = () => {
     return (
-        <div id='skills'>
+        <div id='skills' className='section'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Skills</f1>
             </Navbar>

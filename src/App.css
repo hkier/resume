@@ -112,15 +112,7 @@ a:hover {
 
 }
 
-.aboutStyle:active {
-  background-color: #e1dede !important;
-  text-decoration: none;
-  width: -moz-available;
-  box-shadow: .375rem .375rem .625rem -.125rem rgba(0, 0, 0, 0.5);
-  border-left: solid;
-  border-left-width: .25rem;
-  border-left-color: #ff0000;
-}
+
 
 .skillsStyle {
   padding: .625rem;

@@ -25,24 +25,49 @@ const Resume = React.lazy(() => import('./components/Resume'));
 
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
+  // const [scrollPosition, setScrollPosition] = useState(0);
 
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsSmallScreen(window.innerWidth < 767);
-        };
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 767);
+    };
 
-        // Initial check on component mount
-        handleResize();
+    const handleScroll = () => {
+      const sections = document.getElementsByClassName('section')
+      let notFound = true;
+      for (let i = 0; i < sections.length; i++) {
+        const element = sections[i];
+        const elementPosition = element.getBoundingClientRect();
 
-        // Attach event listener for window resize
-        window.addEventListener('resize', handleResize);
+        // Check if element is within the viewport
+        if (notFound && elementPosition.top < window.innerHeight && elementPosition.bottom > 0) {
+          // Element is currently visible in the viewport
+          console.log(element.id + ' is in the viewport');
+          notFound = false;
+        }
+      }
 
-        // Clean up event listener on component unmount
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
+
+    }
+    // Initial check on component mount
+    handleResize();
+    handleScroll();
+
+
+    // Attach event listener for scroll
+    document.getElementById('scrollable').addEventListener('scroll', handleScroll);
+
+    // Attach event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      document.getElementById('scrollable').removeEventListener('scroll', handleScroll);
+    };
+
+  }, []);
 
 
 
@@ -50,24 +75,24 @@ function App() {
     <Grid fluid >
       <div className='wrapper' style={{ width: '100vw' }}>
 
-          <Col className='sidebar' xs={12} sm={2}>
-            <Header />
+        <Col className='sidebar' xs={12} sm={2}>
+          <Header />
 
-          </Col>
+        </Col>
 
-          <Col id='scrollable' className='main' xs={12} sm={10}>
-            <Intro style={{ width: '100vw' }} />
-            <Suspense fallback={<div>Loading...</div>}>
-              <About isSmallScreen={isSmallScreen} />
-              <Experience isSmallScreen={isSmallScreen}/>
-              <Projects isSmallScreen={isSmallScreen} />
-              <Skills isSmallScreen={isSmallScreen}/>
-              <Education isSmallScreen={isSmallScreen}/>
-              <Interests isSmallScreen={isSmallScreen}/>
-              <Contact isSmallScreen={isSmallScreen}/>
-              <Resume isSmallScreen={isSmallScreen}/>
-            </Suspense >
-          </Col>
+        <Col id='scrollable' className='main' xs={12} sm={10}>
+          <Intro style={{ width: '100vw' }} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <About isSmallScreen={isSmallScreen} />
+            <Experience isSmallScreen={isSmallScreen} />
+            <Projects isSmallScreen={isSmallScreen} />
+            <Skills isSmallScreen={isSmallScreen} />
+            <Education isSmallScreen={isSmallScreen} />
+            <Interests isSmallScreen={isSmallScreen} />
+            <Contact isSmallScreen={isSmallScreen} />
+            <Resume isSmallScreen={isSmallScreen} />
+          </Suspense >
+        </Col>
 
       </div>
     </Grid>

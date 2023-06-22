@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap';
 
 const About = () => {
     return (
-        <div id='about'>
+        <div id='about' className='section'>
             <Navbar className="titlebar" sticky="top" id="about">
                 <f1>About Me</f1>
             </Navbar>

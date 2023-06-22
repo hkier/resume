@@ -18,7 +18,7 @@ import code4Chicago from '../images/Interests/cfc_logo_2021.svg'
 
 const Interests = () => {
     return (
-        <div id='interests'>
+        <div id='interests' className='section'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Interests</f1>
             </Navbar>           

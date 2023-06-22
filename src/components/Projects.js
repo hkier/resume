@@ -16,7 +16,7 @@ import betweenfriends from '../images/Projects/betweenfriends.webp'
 
 const Projects = () => {
     return (
-        <div id='projects'>
+        <div id='projects' className='section'>
             <Navbar className="titlebar" sticky="top">
                 <f1>Projects</f1>
             </Navbar>

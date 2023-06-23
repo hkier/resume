@@ -1,3 +1,9 @@
+//This is the About Me section of the portfolio.  It is a functional component.
+
+
+
+
+
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';

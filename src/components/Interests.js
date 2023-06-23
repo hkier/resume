@@ -1,5 +1,8 @@
+// Desc: This is the Interests section of the website
+// It is a functional component.
+//
+
 import React from 'react'
-//import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -84,6 +87,7 @@ const Interests = () => {
                                 <Col xs={2}>
                                     <Image src={boyScouts} className='educationImg' alt="Boy Scouts" />
                                 </Col>
+
                                 <Col xs={10} className='edutext'>
                                     <div className='f4'>Boy Scouts of America </div>
                                 </Col>
@@ -102,7 +106,6 @@ const Interests = () => {
                     </Col>
                 </Row>
             </Container>
-
         </div >
     )
 }

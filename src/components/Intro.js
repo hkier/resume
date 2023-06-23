@@ -1,3 +1,9 @@
+// Desc: This is the intro section for the website
+// It is a functional component.
+
+
+
+
 import React from 'react'
 import Intropic from '../images/howard1.webp'
 import Navbar from 'react-bootstrap/Navbar';

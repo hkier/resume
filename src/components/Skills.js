@@ -1,8 +1,14 @@
+// Desc: This is the skills section of the portfolio
+// It is a functional component.
+//
+
+// Getting react and bootstrap components
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import { Row, Col, Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
+//images for skills
 import APL from '../images/Skills/APL.webp'
 import bootstrap from '../images/Skills/bootstrap.webp'
 import css3 from '../images/Skills/css3.webp'
@@ -55,6 +61,7 @@ import RetailIcon from '@mui/icons-material/Storefront';
 import TelecommunicationsIcon from '@mui/icons-material/SatelliteAltSharp';
 import TransportationIcon from '@mui/icons-material/FlightTakeoff';
 
+//Colors for the various industry experience icons
 const blue = '#3c99d4'
 const green = "#24a148"
 const orange = "#ec971f"

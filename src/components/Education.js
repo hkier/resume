@@ -1,5 +1,10 @@
+//  This component is used to display the education section of the portfolio
+//  It is a child of the App.js component.
+//  It uses React Bootstrap to create a card with a titlebar and a body.
+
+
+
 import React from 'react'
-//import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';

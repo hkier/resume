@@ -1,17 +1,24 @@
+// This component provides the header on a small screen and the sidebar
+// on a large screen.  The sidebar is always present on a large screen
+// and is only present on a small screen when the menu icon is clicked.
+// The sidebar is a separate component that is imported here.
+
+
+// Import dependencies
 import React, { useState, useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link';
 // import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Sidebar from './Sidebar';
-import Comments from './Comments';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 export default function Header() {
-
+    // State variables for small screen and nav open
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     const [isNavOpen, setIsNavOpen] = useState(false);
 
+    // Use effect hook to set small screen state variable
     useEffect(() => {
         const handleResize = () => {
             setIsSmallScreen(window.innerWidth < 767);
@@ -33,11 +40,11 @@ export default function Header() {
         setIsNavOpen(!isNavOpen);
     };
 
-
+    // State variable for sidebar open
     const [isOpen, setIsOpen] = useState(false);
 
+    // Function to close sidebar when a link is clicked
     const closeNav = () => {
-        console.log('closeNav', isOpen, isNavOpen);
         if (isNavOpen) {
             setIsOpen(!isOpen);
             toggleNav();
@@ -45,15 +52,9 @@ export default function Header() {
 
     };
 
-
-
-
-
-
-
     return (
 
-        <Row className='header' xs={12} sm={2}>
+        <Row className='header' xs={12} >
 
             <div >
                 <div className='howardStyle f2'>
@@ -68,7 +69,6 @@ export default function Header() {
                             {isNavOpen && <Sidebar toggleNav={toggleNav} isSmallScreen={isSmallScreen} />}
                         </>
                     ) : (<Sidebar />)}
-                    {isSmallScreen ? ("") : (<Comments />)}
                 </div>
             </div>
 

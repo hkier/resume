@@ -1,8 +1,14 @@
+// This is the code for the Projects section of the portfolio:
+//
+
+//import React and Bootstrap components
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
 import { Row, Col, Container } from 'react-bootstrap';
 
+
+//import images for projects
 import steve1 from '../images/Projects/Steve1.webp'
 import wilderness1 from '../images/Projects/Wilderness1.webp'
 import howard from '../images/Projects/howard.webp'

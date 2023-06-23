@@ -1,3 +1,8 @@
+// Desc: This is the Resume page of the portfolio
+// It is a functional component.
+// The actual resume is a pdf file which is displayed in an object tag.
+//
+
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import resumePdf from '../files/kier.pdf'

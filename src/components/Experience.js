@@ -1,3 +1,7 @@
+// Desc: This is the Experience section.
+// It is a child of the App.js component.
+// It uses React Bootstrap to create a card with a titlebar and a body.
+
 import React from 'react'
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -17,12 +21,6 @@ import Freelance from '../images/Experience/freelance.webp'
 import D211 from '../images/Experience/D211.webp'
 
 
-
-
-
-
-
-
 const Experience = () => {
     return (
         <div id='experience' className='section'>
@@ -32,14 +30,12 @@ const Experience = () => {
             <Container >
                 <Row>
                     <Col>
-
                         <Card className='widecard'>
                             <Card.Img className='expimg' variant='top' src={Freelance} alt="freelance logo" />
                             <Card.Title>Web Developer and Consultant</Card.Title>
                             5 years of experience
 
-
-                            <Card.Body>
+                           <Card.Body>
                                 <ul className='bullet'>
                                     <li>Partnered with clients to determine project requirements and delivered high-quality results on-time and within budget</li>
                                     <li>Developed stevenrosenblum.com to support a local candidate’s campaign for local Board of Education</li>
@@ -66,17 +62,13 @@ const Experience = () => {
                                 </ul>
                             </Card.Body>
                         </Card>
-
-
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <Card className='widecard'>
                             <Card.Img className='expimg' variant='top' src={EDS} alt="EDS" />
-
                             <Card.Title>Programmer/Analyst</Card.Title>
-
                             <Card.Text>Business Analyst/Consultant/Programmer</Card.Text>
                             10 years of experience
                             <Card.Body>
@@ -89,13 +81,10 @@ const Experience = () => {
                                 </ul>
                             </Card.Body>
                         </Card>
-
-
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-
                         <Card className='widecard'>
                             <Card.Img className='expimg' variant='top' src={MMP} alt="Magical Moments Photography" />
                             <Card.Title>Owner, CEO, CFO and CIO</Card.Title>
@@ -145,7 +134,6 @@ const Experience = () => {
                                     <li>Prepared written and oral feedback, presentation materials, critiques, systems documentation, process descriptions, proposals, standard operating procedures, evaluations, data summaries and reports</li>
                                 </ul>
                             </Card.Body>
-
                         </Card>
                     </Col>
                 </Row>
@@ -155,7 +143,6 @@ const Experience = () => {
 
                             <Card.Img className='expimg' variant='top' src={Disney} alt="Disney" />
                             <div className='f4'>Consumer Products Division</div>
-
                             <Card.Title>Cast Member (part-time)</Card.Title>
                             9 years of experience
                             <Card.Body>

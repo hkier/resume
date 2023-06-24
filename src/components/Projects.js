@@ -69,7 +69,7 @@ const Projects = () => {
                                 <Card.Title>Between Friends</Card.Title>
                                 <Card.Text>
                                     Working as a Code For Chicago volunteer, I assisted Between Friends, a Chicago area domestic violence agency, to update their website.
-                                    I worked with 3-5 other Code For Chicago to research the existing site, interview the client, and design and implement a new site.
+                                    I worked with 3-5 other Code For Chicago volunteers to research the existing site, interview the client, and design and implement a new site.
                                 </Card.Text>
                                 <Card.Link href="https://betweenfriendschicago.org/" target="_blank">Live Site</Card.Link> <br />
                             </Card.Body>

@@ -1,4 +1,4 @@
-// Desc: This is the Contact page component. It is a child of the App.js component.
+// Desc: This is the Contact page component. It is a child of the App.jsx component.
 
 
 

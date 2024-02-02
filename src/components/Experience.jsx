@@ -1,5 +1,5 @@
 // Desc: This is the Experience section.
-// It is a child of the App.js component.
+// It is a child of the App.jsx component.
 // It uses React Bootstrap to create a card with a titlebar and a body.
 
 import React from 'react'

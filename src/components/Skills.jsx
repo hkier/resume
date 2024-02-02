@@ -147,7 +147,7 @@ const Skills = () => {
                             <Col>
                                 <div>
                                     <Card.Img className='badgeimg' src={node} alt='node'/>
-                                    <Card.Text>Node.js</Card.Text>
+                                    <Card.Text>Node.jsx</Card.Text>
                                 </div>
                             </Col>
                             <Col>

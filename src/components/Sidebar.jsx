@@ -1,7 +1,7 @@
 //this is the component for the navigation column on the left side of the page
 //it is a stateless component
-//it is imported into the main.js file
-//it is a child of the main.js file
+//it is imported into the main.jsx file
+//it is a child of the main.jsx file
 
 import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';

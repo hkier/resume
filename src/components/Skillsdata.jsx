@@ -66,7 +66,7 @@ const Skillsdata = [
         class: 'Development',
         source: 'nodejs',
         alt: 'nodejs',
-        title: 'Node.js'
+        title: 'Node.jsx'
     },
     {
         class: 'Development',

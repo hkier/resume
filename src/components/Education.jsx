@@ -1,5 +1,5 @@
 //  This component is used to display the education section of the portfolio
-//  It is a child of the App.js component.
+//  It is a child of the App.jsx component.
 //  It uses React Bootstrap to create a card with a titlebar and a body.
 
 
@@ -88,7 +88,7 @@ const Education = () => {
                             </Row>
                             <Card.Body>
                                 <Card.Title>Software Engineering Immersive</Card.Title>
-                                <Card.Text>JavaScript, React, Redux, Node.js, Express, PostgreSQL</Card.Text>
+                                <Card.Text>JavaScript, React, Redux, Node.jsx, Express, PostgreSQL</Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>

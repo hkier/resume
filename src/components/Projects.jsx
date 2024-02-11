@@ -33,10 +33,10 @@ const Projects = () => {
                     <Card.Link href={project.archivedSiteLink} target="_blank">Archived Site</Card.Link>
                   )}
                   {project.liveSiteLinkAccess && (
-                    <Card.Link href={project.liveSiteLinkVolume2} target="_blank">Access Book</Card.Link>
+                    <Card.Link href={project.liveSiteLinkAccess} target="_blank">Access Book</Card.Link>
                   )}
                   {project.liveSiteLinkVolume1 && (
-                    <Card.Link href={project.liveSiteLinkVolume2} target="_blank">Read Volume 1</Card.Link>
+                    <Card.Link href={project.liveSiteLinkVolume1} target="_blank">Read Volume 1</Card.Link>
                   )}
                   {project.liveSiteLinkVolume2 && (
                     <Card.Link href={project.liveSiteLinkVolume2} target="_blank">Read Volume 2</Card.Link>

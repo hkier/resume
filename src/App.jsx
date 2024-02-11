@@ -86,11 +86,16 @@ function App() {
     // Attach event listener for window resize
     window.addEventListener('resize', handleResize);
 
-    // Clean up event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-      document.getElementById('scrollable').removeEventListener('scroll', handleScroll);
-    };
+// Clean up event listener on component unmount
+return () => {
+  window.removeEventListener('resize', handleResize);
+
+  const scrollableElement = document.getElementById('scrollable');
+  if (scrollableElement) {
+    scrollableElement.removeEventListener('scroll', handleScroll);
+  }
+};
+
 
   }, []);
 

@@ -427,8 +427,8 @@ img {
 .skillicon {
   width: auto;
   height: auto;
-  margin: .75rem;
-  padding: .1rem;
+  margin: .75rem .75rem 0rem .75rem;
+  padding: 1.3rem 1.3rem 0rem 1.3rem;
 }
 
 .menuicon {

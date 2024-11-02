@@ -8,9 +8,17 @@ import chem from '../images/Projects/chem.webp';
 import cash from '../images/Projects/cash.webp';
 import scams from '../images/Projects/scams.webp';
 import betweenfriends from '../images/Projects/betweenfriends.webp';
+import pentest from '../images/Projects/pentest.png';
 
 
   export const projectData = [
+    {
+      title: 'Pentest+ Training',
+      imageSrc: pentest,
+      description:
+        'A simple, easy-to-use penetration testing training website built for CompTia Pentest+ certification. The site is built with Express, React, PostgreSQL, and Vite.',
+      liveSiteLink: '',
+      repoLink: ''},
     {
       title: 'Decarbonize My State',
       imageSrc: decarb,

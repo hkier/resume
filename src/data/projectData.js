@@ -17,7 +17,7 @@ import pentest from '../images/Projects/pentest.png';
       imageSrc: pentest,
       description:
         'A simple, easy-to-use penetration testing training website built for CompTia Pentest+ certification. The site is built with Express, React, PostgreSQL, and Vite. The site intentionally contains XSS, SQL Injection, and other vulnerabilities to help students learn how to identify and exploit these vulnerabilities. ',
-      liveSiteLink: '',
+      liveSiteLink: ' ',
       repoLink: ''},
     {
       title: 'Decarbonize My State',

@@ -27,6 +27,7 @@ import people from '../images/Skills/people.webp'
 import testing from '../images/Skills/testing.webp'
 import speaking from '../images/Skills/speaking.webp'
 import writing from '../images/Skills/writing.webp'
+import vite from '../images/Skills/vite.png'
 
 
 
@@ -58,6 +59,7 @@ export const skillData = [
         { name: 'Node.js', image: node },
         { name: 'Express', image: express },
         { name: 'PostgreSQL', image: postgresql },
+        { name: 'Vite', image: vite },
       ],
     },
     {

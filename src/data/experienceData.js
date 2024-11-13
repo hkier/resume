@@ -7,8 +7,28 @@ import EDSImage from '../images/Experience/eds-logo-png-transparent.webp';
 import HardestyImage from '../images/Experience/Hardesty.webp';
 import FreelanceImage from '../images/Experience/freelance.webp';
 import D211Image from '../images/Experience/D211.webp';
+import comptia from '../images/Projects/comptia.png';
 
 export const experiences = [
+  {
+    image: comptia,
+    title: 'Pentest+ Website',
+    duration: '10 month project',
+    responsibilities: [
+      'Designed, created and implimented a simple, easy-to-use penetration testing training website built for CompTia Pentest+ certification',
+      'Built with Express, React, PostgreSQL, and Vite',
+      'The site intentionally contains XSS, SQL Injection, File Inclusion and other vulnerabilities to help students learn how to identify and exploit these vulnerabilities',
+    ],
+  },
+  {
+    image: comptia,
+    title: 'CompTia Web Development',
+    duration: '5 month project',
+    responsibilities: [
+      'Developed course material for CompTia\'s Web Development class. These materials included texts, videos, labs, demonstration, instructor notes and quizzes',
+      'Provided recommendations to the sylibus to improve content delivery',
+    ],
+  },
     {
       image: FreelanceImage,
       title: 'Web Developer and Consultant',

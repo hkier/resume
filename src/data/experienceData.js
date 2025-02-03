@@ -116,7 +116,7 @@ export const experiences = [
     {
       image: D211Image,
       title: 'Substitute Teacher',
-      duration: '1 year of experience',
+      duration: '3 years of experience',
       responsibilities: [
         'Substitute teacher for grades 9-12',
         'Provided instruction and tutoring in Math, Science, English, Social Studies, and Physical Education',

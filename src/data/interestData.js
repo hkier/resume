@@ -9,7 +9,7 @@ export const interestsData = [
       image: shsvip,
       title: 'Schaumburg High School Very Involved Parents',
       role: 'Board Member',
-      years: '8',
+      years: '9',
       details: [
         'Webmaster responsible for updating website using Blackboard',
         'Organized and ran events',
@@ -39,14 +39,15 @@ export const interestsData = [
     },
     {
       image: boyScouts,
-      title: 'Boy Scouts of America',
-      role: 'Unit Leadership',
-      years: '10',
+      title: 'Scouts BSA',
+      role: 'District Commissioner',
+      years: '15',
       details: [
         'Den Leader - Planned and led activities for 3-10 scouts',
         'Committee Member who helped plan and run pack events',
         'Troop Committee Chairman who led the Troop\'s adult committee supporting a troop of Boy Scouts',
         'Merit Badge Counselor - Helped scouts earn merit badges',
+        'District Commissioner - Supported Cub Scout Packs and Troops in the district, by providing resources and support to the unit leaders',
       ],
     },
   ];

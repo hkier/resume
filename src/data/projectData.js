@@ -13,14 +13,13 @@ import comptia from "../images/Projects/comptia.png";
 
 export const projectData = [
   {
-    title: "Pentest+ Training",
+    title: "CompTia Pentest+ Training Website",
     imageSrc: pentest,
     description:
-      "A simple, easy-to-use penetration testing training website built for CompTia Pentest+ certification. The site is built with Express, React, PostgreSQL, and Vite. The site intentionally contains XSS, SQL Injection, File Inclusion and other vulnerabilities to help students learn how to identify and exploit these vulnerabilities. ",
+      "A simple, easy-to-use penetration testing training website based upon Darn Vulnerable Web Application (DVWA) as a model built for CompTia's Pentest+ certification. The site is built using Express, React, PostgreSQL, and Vite. The site intentionally contains XSS, SQL Injection, File Inclusion and other vulnerabilities to help students learn how to identify these vulnerabilitiesfor white hat security assessments. ",
     liveSiteLink: "",
     repoLink: "",
   },
-
   {
     title: "CompTia Web Development",
     imageSrc: comptia,

@@ -28,7 +28,7 @@ import testing from '../images/Skills/testing.webp'
 import speaking from '../images/Skills/speaking.webp'
 import writing from '../images/Skills/writing.webp'
 import vite from '../images/Skills/vite.png'
-import typescript from '../images/Skills/typescript.webp';
+import typescript from '../images/Skills/typescript.png';
 
 
 

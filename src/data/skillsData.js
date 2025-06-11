@@ -28,6 +28,7 @@ import testing from '../images/Skills/testing.webp'
 import speaking from '../images/Skills/speaking.webp'
 import writing from '../images/Skills/writing.webp'
 import vite from '../images/Skills/vite.png'
+import typescript from '../images/Skills/typescript.png';
 
 
 
@@ -49,6 +50,12 @@ export const skillData = [
         { name: 'HTML5', image: html5 },
         { name: 'CSS3', image: css3 },
         { name: 'JavaScript', image: javascript },
+        { name: 'TypeScript', image: typescript },
+        { name: 'jQuery', image: jquery },
+        { name: 'React', image: reactlogo },
+        { name: 'Bootstrap', image: bootstrap },
+        { name: 'Webpack', image: webpack },
+        { name: 'Vite', image: vite },
         { name: 'jQuery', image: jquery },
         { name: 'React', image: reactlogo },
         { name: 'Bootstrap', image: bootstrap },
@@ -62,17 +69,17 @@ export const skillData = [
         { name: 'Vite', image: vite },
       ],
     },
-    {
-      title: 'Legacy Systems',
-      skills: [
-        { name: 'JCL', image: JCL },
-        { name: 'RPG', image: rpg },
-        { name: 'APL', image: APL },
-        { name: 'SDLC', image: sdlc },
-        { name: 'SQL', image: sql },
-        { name: 'JDE', image: jde },
-      ],
-    },
+    // {
+    //   title: 'Legacy Systems',
+    //   skills: [
+    //     { name: 'JCL', image: JCL },
+    //     { name: 'RPG', image: rpg },
+    //     { name: 'APL', image: APL },
+    //     { name: 'SDLC', image: sdlc },
+    //     { name: 'SQL', image: sql },
+    //     { name: 'JDE', image: jde },
+    //   ],
+    // },
     {
       title: 'Other',
       skills: [
